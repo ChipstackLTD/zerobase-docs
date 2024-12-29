@@ -5,8 +5,8 @@
 
 ## Chọn ngôn ngữ: 
 
-[Tiếng Việt](vi/)
-[English](en/) **Comming soon**
+- [Tiếng Việt](vi/)
+- [English](en/) **Comming soon**
 
 
 
