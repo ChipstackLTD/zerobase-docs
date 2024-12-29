@@ -1,7 +1,12 @@
-- Section A
+- Zerobase là gì
+  - [Giới thiệu]()
+  - [Thông số kỹ thuật]()
+  - [Phần mềm]()
+  - [Đóng góp vào dự án]()
+  - [Group thảo luận Discord]()
 
-  - [Post 1](vi/Section_A/post1.md)
-  - [Post 2](vi/Section_A/post2.md)
-  - Sub Section B
-	- [Post 3](vi/Section_A/SubSection_B/post3.md)
-	- [Post 4](vi/Section_A/SubSection_B/post4.md)
+- Zerobase
+  - [Hướng dẫn nhanh]()
+  - Các ví dụ
+    - [Nháy led]()
+  - [Các lỗi thường gặp]()

@@ -1,12 +1,12 @@
 <br>
 <br>
 
-# STEAMO PROJECT
+# ZEROBASE PROJECT
 
-## Select your language
+## Chọn ngôn ngữ: 
 
-[Tieng Viet](vi/)
-[English](en/)
+[Tiếng Việt](vi/)
+[English](en/) **Comming soon**
 
-![3D_Brain_Board](/_media/3D_Brain_Board.png "Steamo Brain board")
+
 

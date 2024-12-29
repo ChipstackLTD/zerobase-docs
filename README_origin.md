@@ -6,6 +6,8 @@ Select your language
 
 ![Image example](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.pnghttps://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png "an example image")
 
+![3D_Brain_Board](/_media/3D_Brain_Board.png "Steamo Brain board")
+
 :fas fa-home fa-fw blue:
 
 <!-- tabs:start -->
