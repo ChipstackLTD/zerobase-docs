@@ -1,7 +1,7 @@
 <br>
 <br>
 
-# ZEROBASE PROJECT
+# DỰ ÁN ZEROBASE
 
 ## Chọn ngôn ngữ: 
 
