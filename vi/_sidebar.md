@@ -1,12 +1,48 @@
 - Zerobase là gì
   - [Giới thiệu]()
-  - [Thông số kỹ thuật]()
+  - [Các phiên bản]()
   - [Phần mềm]()
   - [Đóng góp vào dự án]()
-  - [Group thảo luận Discord]()
+  - [Hỗ trợ và thảo luận]()
 
 - Zerobase
+  - [Thông số kỹ thuật]()
+  - [Sơ đồ chân]()
+  - [Sơ đồ nguyên lý]()
+  - [Các lưu ý]()
   - [Hướng dẫn nhanh]()
   - Các ví dụ
     - [Nháy led]()
+    - [Nút bâms]()
+    - [Giao tiếp I2C]()
+    - [Giao tiếp SPI]()
+    - [Giao tiếp UART]()
+  - [Các lỗi thường gặp]()
+
+- Zerobase Core
+  - [Thông số kỹ thuật]()
+  - [Sơ đồ chân]()
+  - [Sơ đồ nguyên lý]()
+  - [Các lưu ý]()
+  - [Hướng dẫn nhanh]()
+  - Các ví dụ
+    - [Nháy led]()
+    - [Nút bâms]()
+    - [Giao tiếp I2C]()
+    - [Giao tiếp SPI]()
+    - [Giao tiếp UART]()
+  - [Các lỗi thường gặp]()
+
+- Zerobase 2
+  - [Thông số kỹ thuật]()
+  - [Sơ đồ chân]()
+  - [Sơ đồ nguyên lý]()
+  - [Các lưu ý]()
+  - [Hướng dẫn nhanh]()
+  - Các ví dụ
+    - [Nháy led]()
+    - [Nút bâms]()
+    - [Giao tiếp I2C]()
+    - [Giao tiếp SPI]()
+    - [Giao tiếp UART]()
   - [Các lỗi thường gặp]()
