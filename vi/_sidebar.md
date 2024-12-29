@@ -2,6 +2,7 @@
   - [Giới thiệu]()
   - [Các phiên bản]()
   - [Phần mềm]()
+  - [Roadmap]()
   - [Đóng góp vào dự án]()
   - [Hỗ trợ và thảo luận]()
 
