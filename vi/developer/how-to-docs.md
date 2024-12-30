@@ -89,4 +89,5 @@ Viết command line trên terminal
     >|info|npm run start
     >|error|npm run start
     >|success|npm run start
+    $ normal command line
 ```
