@@ -35,8 +35,15 @@ Gắn hyperlink vào text
 Chèn `inline code`
 
 Block code được viết như sau:
+
 ```cpp
 print("Hello, Markdown!")
+```
+
+```js
+// Simple JavaScript code to greet the user
+let userName = prompt("What is your name?");
+alert("Hello, " + userName + "! Welcome to JavaScript!");
 ```
 
 Tạo bảng
