@@ -33,6 +33,7 @@ Chèn `inline code`
 Block code được viết như sau:
 ```cpp
 print("Hello, Markdown!")
+```
 
 Tạo bảng
 | Tiêu đề 1 | Tiêu đề 2 |
@@ -45,6 +46,8 @@ Danh sách kiểm tra
 - [x] Công việc 2 (đã hoàn thành)
 
 Chèn emoji :smile: :heart: :rocket:
+
+Chèn font-awesome :fas fa-home fa-fw blue: Xem thêm tại [đây](https://fontawesome.com/) 
 
 Chèn hình ảnh
 ![Arduino Nano](/_media/arduino-nano.jpg "Arduino Nano")
