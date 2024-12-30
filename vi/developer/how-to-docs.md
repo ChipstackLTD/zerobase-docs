@@ -62,7 +62,7 @@ Chèn emoji :smile: :heart: :rocket:
 Chèn font-awesome :fas fa-home fa-fw blue: Xem thêm tại [đây](https://fontawesome.com/) 
 
 Chèn hình ảnh
-![Arduino Nano](../_media/arduino-nano.jpg "Arduino Nano")
+![Arduino Nano](../../_media/arduino-nano.jpg "Arduino Nano")
 
 Viết Tabs
 
