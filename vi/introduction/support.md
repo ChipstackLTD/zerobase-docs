@@ -7,4 +7,4 @@
 
 Xin vui lòng quét mã sau để tham gia cộng đồng **Chipstack Community** để được hỗ trợ ngay nhé
 
-![Chipstack Community on Discord](../../_media/chipstack-community-discord.png =100x100 "Chipstack Community on Discord")
+![Chipstack Community on Discord](../../_media/chipstack-community-discord.png "Chipstack Community on Discord")
