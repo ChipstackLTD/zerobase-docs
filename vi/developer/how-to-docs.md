@@ -36,6 +36,7 @@ print("Hello, Markdown!")
 ```
 
 Tạo bảng
+
 | Tiêu đề 1 | Tiêu đề 2 |
 |-----------|-----------|
 | Hàng 1    | Dữ liệu 1 |
@@ -50,5 +51,5 @@ Chèn emoji :smile: :heart: :rocket:
 Chèn font-awesome :fas fa-home fa-fw blue: Xem thêm tại [đây](https://fontawesome.com/) 
 
 Chèn hình ảnh
-![Arduino Nano](/_media/arduino-nano.jpg "Arduino Nano")
+![Arduino Nano](../_media/arduino-nano.jpg "Arduino Nano")
 
