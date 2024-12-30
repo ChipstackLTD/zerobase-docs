@@ -5,8 +5,11 @@
 > A line/quote start with a pipe
 
 **Chữ in đậm**
+
 *Chữ in nghiêng*
+
 ***Chữ vừa in đậm vừa in nghiêng***
+
 ~~Gạch bỏ chữ~~
 
 Danh sách không thứ tự
@@ -20,7 +23,7 @@ Danh sách có thứ tự
    1. Mục con
 
 Vẽ đường ngang (separator)
----
+***
 
 Gắn hyperlink vào text
 [Đi đến website Chipstack](https://chipstack.vn)
@@ -28,6 +31,21 @@ Gắn hyperlink vào text
 Chèn `inline code`
 
 Block code được viết như sau:
-```python
+```cpp
 print("Hello, Markdown!")
+
+Tạo bảng
+| Tiêu đề 1 | Tiêu đề 2 |
+|-----------|-----------|
+| Hàng 1    | Dữ liệu 1 |
+| Hàng 2    | Dữ liệu 2 |
+
+Danh sách kiểm tra
+- [ ] Công việc 1
+- [x] Công việc 2 (đã hoàn thành)
+
+Chèn emoji :smile: :heart: :rocket:
+
+Chèn hình ảnh
+![Arduino Nano](/_media/arduino-nano.jpg "Arduino Nano")
 
