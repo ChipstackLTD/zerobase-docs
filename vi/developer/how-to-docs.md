@@ -2,7 +2,11 @@
 ## title level 2
 ### title level 3
 
-> A line/quote start with a pipe
+> Dòng trích dẫn
+
+?> Note có background màu xanh
+
+!> Note có background màu đỏ
 
 **Chữ in đậm**
 
@@ -53,3 +57,29 @@ Chèn font-awesome :fas fa-home fa-fw blue: Xem thêm tại [đây](https://font
 Chèn hình ảnh
 ![Arduino Nano](../_media/arduino-nano.jpg "Arduino Nano")
 
+Viết Tabs
+
+<!-- tabs:start -->
+
+#### **Tab 1**
+
+Nội dung tab 1
+
+#### **Tab 2**
+
+Nội dung tab 2
+
+#### **Tab 3**
+
+Nội dung tab 3
+
+<!-- tabs:end -->
+
+Viết command line trên terminal
+
+```terminal
+    $|warning|npm run build
+    >|info|npm run start
+    >|error|npm run start
+    >|success|npm run start
+```
