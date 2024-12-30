@@ -6,7 +6,7 @@
 ## Chọn ngôn ngữ: 
 
 - [Tiếng Việt](vi/)
-- [English](en/) **Comming soon**
+- [English](en/) **Comming soon** :heart:
 
 
 
