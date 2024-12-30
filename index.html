@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
     <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
     <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-breadcrumb@latest/dist/breadcrumb.min.css">
   </head>
   <body>
     <style>
@@ -69,6 +70,14 @@
               position: "top",
               color: "var(--theme-color,#42b983)",
               height: "3px",
+          },
+          breadcrumb: {
+            showHome: true,
+            homeText: 'Home',
+            separator: ' &rsaquo; ',
+            casing: 'capitalize',
+            linkColor: 'var(--theme-color, #42b983)',
+            size: 'small'
           }
       }
     </script>
@@ -89,5 +98,6 @@
     <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-terminal-block@1.0.3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-breadcrumb@latest/dist/index.min.js"></script>
   </body>
 </html>
