@@ -53,8 +53,8 @@ var css = `
 }
 button[onclick="docsifyDarkSwitcher()"] {
     position: absolute;
-    left: 10px;
-    top: 15px;
+    left: 35px;
+    top: 30px;
     border: none;
     cursor: pointer;
     width: var(--dark-icon-size);
@@ -63,6 +63,9 @@ button[onclick="docsifyDarkSwitcher()"] {
     mask-image: var(--dark-moon-icon);
     mask-size: var(--dark-icon-size) var(--dark-icon-size);
     transition: var(--dark-icon-transition);
+    mask-position: center;
+    padding: 10px;
+    -webkit-mask-position: center; /* For Safari */
 }
 .docsify-dark-mode button[onclick="docsifyDarkSwitcher()"] {
     background: var(--dark-sun-color);
@@ -110,7 +113,7 @@ button[onclick="docsifyDarkSwitcher()"] {
 }
 @media screen and (min-width:769px) {
     .docsify-dark-mode .sidebar-toggle {
-        background: rgb(0 0 0 / .6);
+        background: var(--dark-base-background);
     }
 }
 `;
