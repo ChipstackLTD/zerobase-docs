@@ -11,3 +11,5 @@ Xin vui lòng quét mã QR sau để tham gia cộng đồng **Chipstack Communi
 <p align="center">
   <img src="../../_media/chipstack-community-discord.png" width="200">
 </p>
+
+Nếu không quét được mã QR, xin vui lòng click vào URL của máy chủ Discord [sau](https://discord.gg/Ua8zkYJYCJ) 
