@@ -22,6 +22,8 @@ Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu c�
 | Nguồn cấp | Qua USB, Vin (5V) | Qua USB, Vin (5V) | Qua USB, Vin (5V) |
 | Điện áp IO | 5V | 5V | 3.3V |
 | Tương thích Arduino Pin | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
+| Kiểu chân | Through hole | Half hole | Through hole |
+| Tổng số chân | 30 | 16 | 30 |
 | Số chân Digital | 15 | 13 | 22 |
 | Số chân Analog | 4 | 4 | 6 | 
 | Số chân PWM | TBD | TBD | TBD | 
@@ -31,3 +33,7 @@ Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu c�
 | USB | 0 | 0 | 2 |
 | LDO | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: |
 | Arduino IDE | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
+| Bootloader | Soft | Soft | Hard |
+| Nút Boot | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
+| Nút Reset | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
+| Giá thành | Siêu rẻ | Siêu rẻ | Rẻ |
