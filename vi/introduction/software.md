@@ -10,6 +10,7 @@ Các phần mềm được sử dụng khi lập trình Zerobase bao gồm
 - [Arduino IDE](https://www.arduino.cc/en/software). Hiện Zerobase đang hỗ trợ lập trình bằng Arduino IDE trên Windows. Các hệ điều hành khác sẽ được hỗ trợ trong thời gian đến. Xem thêm lộ trình phát triển ([roadmap](vi/introduction/roadmap.md)) của Zerobase.
 
 | Windows | Linux | MacOS |
+|---------|-------|-------|
 | :fas fa-square-check fa-fw blue: | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: |
 
 - Driver USBSER: là USB driver dành cho Zerobase và Zerobase Core.
