@@ -21,6 +21,7 @@ Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu c�
 | Flash | 16 KB | 16 KB | 64 KB |
 | Nguồn cấp | Qua USB, Vin (5V) | Qua USB, Vin (5V) | Qua USB, Vin (5V) |
 | Điện áp IO | 5V | 5V | 3.3V |
+| Dải nhiệt độ | -40C to 85C | -40C to 85C | -40C to 85C |
 | Tương thích chân Arduino | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Kiểu chân | Through hole | Half hole | Through hole |
 | Tổng số chân | 30 | 16 | 30 |
