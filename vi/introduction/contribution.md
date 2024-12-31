@@ -15,6 +15,10 @@ Những lý do bạn nên tham gia:
 
 - *Cải thiện dự án*: Mỗi cá nhân có một góc nhìn và kỹ năng khác nhau, và sự đóng góp của bạn sẽ giúp dự án ngày càng trở nên mạnh mẽ, linh hoạt và dễ tiếp cận hơn. Bạn có thể giúp cải tiến mã nguồn, viết tài liệu, hay báo cáo lỗi.
 
+## Làm thế nào để báo cáo lỗi
+
+Khi xuất hiện lỗi, vui lòng báo cáo tại mục [Issues](https://github.com/ChipstackLTD/Zerobase/issues) của dự án. Bạn có thể báo lỗi qua nhóm **Chipstack Community**. Xem thêm tại [đây](./support.md)
+
 ## Làm thế nào để tham gia phát triển mã nguồn
 
 **1. Tìm hiểu về dự án**
@@ -64,3 +68,6 @@ Mỗi dự án mã nguồn mở thường có một quy trình đóng góp riên
 
 ## Tài liệu tham khảo
 - [Hướng dẫn viết tài liệu Zerobase bằng markdown](vi/developer/how-to-docs.md)
+
+## Liên hệ
+Mọi thắc mắc xin vui lòng gửi đến **support@chipstack.vn**. Chúng tôi sẽ phản hồi nhanh nhất có thể.
