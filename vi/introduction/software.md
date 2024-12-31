@@ -27,6 +27,6 @@ Các phần mềm được sử dụng khi lập trình Zerobase bao gồm
 
 ## Mã nguồn đóng
 
-Vì `CH32V003F4P6` không hỗ trợ phần cứng USB nên Chipstack đang phát triển **USB Bootloader** riêng cho Zerobase để giúp nạp binary từ Arduino IDE. Mã nguồn cho USB Bootloader của Zerobase đang là mã nguồn đóng sở hữu bởi [Chipstack Co., Ltd](https://chipstack.vn). Mọi phần cứng Zerobase và Zerobase Core đều được nạp USB Bootloader trước khi bán ra.
+Vì `CH32V003F4P6` không hỗ trợ phần cứng USB nên Chipstack phát triển **USB Bootloader** riêng cho Zerobase để giúp nạp binary từ Arduino IDE. Mã nguồn cho USB Bootloader của Zerobase đang là mã nguồn đóng sở hữu bởi [Chipstack Co., Ltd](https://chipstack.vn). Mọi phần cứng Zerobase và Zerobase Core đều được nạp USB Bootloader trước khi bán ra.
 
 !> Nếu không được nạp USB Bootloader thích hợp, Zerobase hoặc Zerobase Core sẽ không nạp được binary từ Arduino IDE

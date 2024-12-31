@@ -17,7 +17,7 @@ Những lý do bạn nên tham gia:
 
 ## Làm thế nào để báo cáo lỗi
 
-Khi xuất hiện lỗi, vui lòng báo cáo tại mục [Issues](https://github.com/ChipstackLTD/Zerobase/issues) của dự án. Bạn có thể báo lỗi qua nhóm **Chipstack Community**. Xem thêm tại [đây](./support.md)
+Khi xuất hiện lỗi, vui lòng báo cáo tại mục [Issues](https://github.com/ChipstackLTD/Zerobase/issues) của dự án. Bạn có thể báo lỗi qua nhóm **Chipstack Community**. Xem thêm tại [đây](vi/introduction/support.md)
 
 ## Làm thế nào để tham gia phát triển mã nguồn
 
