@@ -31,6 +31,7 @@ Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu c�
 | SPI | 1 | 1 | 2 | 
 | UART | 1 | 1 | 3 |
 | USB | 0 | 0 | 2 |
+| CAN | 0 | 0 | 1 |
 | LDO | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: |
 | Arduino IDE | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Bootloader | Soft | Soft | Hard |
