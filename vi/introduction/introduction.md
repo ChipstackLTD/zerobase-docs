@@ -6,7 +6,7 @@
 
 ## Dự án Zerobase
 
-**Zerobase** là một mạch vi điều khiển được nghiên cứu, phát triển bởi Công ty TNHH [Chipstack](https://chipstack.vn), nhằm mang công nghệ mạnh mẽ và giá cả phải chăng đến cộng đồng makers. Lấy cảm hứng từ [Arduino Nano](https://docs.arduino.cc/hardware/nano/), Zerobase mang lại hiệu suất nâng cao, khả năng cải tiến và mức giá hợp lý, là sự lựa chọn hoàn hảo cho những người đam mê Arduino và những người học có ngân sách hạn chế.
+**Zerobase** là một mạch vi điều khiển được nghiên cứu, phát triển bởi Công ty TNHH [Chipstack](https://chipstack.vn), nhằm mang công nghệ mạnh mẽ và giá cả phải chăng đến cộng đồng makers. Lấy cảm hứng từ [Arduino Nano](https://docs.arduino.cc/hardware/nano/), Zerobase mang lại hiệu suất nâng cao, khả năng cải tiến và mức giá hợp lý, là sự lựa chọn hoàn hảo cho những người **đam mê Arduino** và những người học có **ngân sách hạn chế**.
 
 Các tính năng nổi bật của Zerobase:
 
