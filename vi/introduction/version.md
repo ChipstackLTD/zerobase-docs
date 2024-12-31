@@ -19,7 +19,7 @@ Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu c�
 | Xung nhịp | 48 MHz | 48 MHz | 144 MHz |
 | Bộ nhớ | 2 KB | 2 KB | 20 KB |
 | Flash | 16 KB | 16 KB | 64 KB |
-| Nguồn cấp | Qua USB, Vin (5V) | Qua USB, Vin (5V) | Qua USB, Vin (5V) |
+| Nguồn cấp | Qua USB, chân 5V | Qua USB, chân 5V | Qua USB, chân 5V |
 | Điện áp IO | 5V | 5V | 3.3V |
 | Dải nhiệt độ | -40C to 85C | -40C to 85C | -40C to 85C |
 | Tương thích chân Arduino | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
