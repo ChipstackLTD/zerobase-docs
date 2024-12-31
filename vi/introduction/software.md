@@ -11,7 +11,7 @@ Các phần mềm được sử dụng khi lập trình Zerobase bao gồm
 
 | Windows | Linux | MacOS |
 |---------|-------|-------|
-| :fas fa-square-check fa-fw blue: | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: |
+| :fas fa-square-check fa-fw blue: | :fas fa-times-square fa-fw red: untested | :fas fa-times-square fa-fw red: untested |
 
 - Driver USBSER: là USB driver dành cho Zerobase và Zerobase Core.
 - Các driver UART-to-USB: có thể là các driver PL2303HX/CH340/CP2102/TFDI UART-to-USB converter từ Zerobase đến máy tính.
