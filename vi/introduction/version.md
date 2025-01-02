@@ -7,8 +7,8 @@
 Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu cầu đa dạng của cộng đồng maker và học viên, với các tính năng phong phú và mức giá linh hoạt. Mỗi phiên bản được thiết kế để phục vụ các mục đích khác nhau, từ người mới bắt đầu cho đến những người đam mê công nghệ chuyên sâu.
 
 - **Zerobase**: Dành cho những người mới bắt đầu, yêu cầu một giải pháp vi điều khiển dễ sử dụng và giá thành thấp. Phiên bản này cung cấp tất cả các tính năng cơ bản của Zerobase, giúp người dùng nhanh chóng làm quen với việc lập trình và thực hiện các dự án đầu tiên.
-- **Zerobase Core**: Với hình thức SMD, bạn có thể hàn Zerobase Core lên các mạch DIY của bạn. Zerobase Core có kích thước siêu nhỏ phù hợp với những thiết bị có kích thước bé.
-- **Zerobase 2**: Được tối ưu hóa với khả năng xử lý mạnh mẽ hơn, bộ nhớ mở rộng và nhiều tính năng bổ sung, phù hợp với những người yêu thích sáng tạo và cần hiệu suất cao hơn. Phiên bản này mang lại khả năng mở rộng linh hoạt, đáp ứng tốt hơn cho các dự án phức tạp.
+- **Zerobase Core**: Với hình thức SMD (hàn dán), bạn có thể hàn Zerobase Core lên các mạch DIY của bạn. Zerobase Core có kích thước siêu nhỏ phù hợp với những thiết bị có kích thước bé.
+- **Zerobase 2**: Được tối ưu hóa với khả năng xử lý mạnh mẽ hơn, bộ nhớ mở rộng và nhiều tính năng bổ sung, phù hợp với những người yêu thích sáng tạo và cần hiệu suất cao hơn. Phiên bản này mang lại khả năng mở rộng linh hoạt, đáp ứng tốt hơn cho các dự án phức tạp. Zerobase 2 có tính tương thích cao với Arduino Nano.
 
 ## So sánh giữa các phiên bản
 |           | Zerobase  | Zerobase Core | Zerobase 2 |
