@@ -25,6 +25,7 @@ Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu c�
 | Điện áp IO | 5V | 5V | 3.3V |
 | Dải nhiệt độ | -40C to 85C | -40C to 85C | -40C to 85C |
 | Tương thích chân Arduino | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
+| Kích thước | 43.18 mm x 17.78 mm | 24 mm x 14 mm | 43.18 mm x 17.78 mm |
 | Kiểu chân | Through hole | Half hole | Through hole |
 | Tổng số chân | 30 | 16 | 30 |
 | Số chân Digital | 15 | 13 | 22 |
