@@ -10,7 +10,7 @@ Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu c�
 - **Zerobase Core**: Với hình thức SMD (hàn dán), bạn có thể hàn Zerobase Core lên các mạch DIY của bạn. Zerobase Core có kích thước siêu nhỏ phù hợp với những thiết bị có kích thước bé.
 - **Zerobase 2**: Được tối ưu hóa với khả năng xử lý mạnh mẽ hơn, bộ nhớ mở rộng và nhiều tính năng bổ sung, phù hợp với những người yêu thích sáng tạo và cần hiệu suất cao hơn. Phiên bản này mang lại khả năng mở rộng linh hoạt, đáp ứng tốt hơn cho các dự án phức tạp. Zerobase 2 có tính tương thích cao với Arduino Nano.
 
-![Các phiên bản Zerobase](_media/Zerobase_versions.png)
+![Các phiên bản Zerobase](../../_media/Zerobase_versions.png)
 
 ## So sánh giữa các phiên bản
 |           | Zerobase  | Zerobase Core | Zerobase 2 |
