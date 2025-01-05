@@ -11,7 +11,7 @@ Những lý do bạn nên tham gia:
 
 - *Đóng góp cho cộng đồng*: Đây là cơ hội để bạn làm việc trong một môi trường hợp tác, nơi mỗi đóng góp của bạn sẽ giúp dự án phát triển và phục vụ nhiều người dùng hơn.
 
-- *Mở rộng mạng lưới*: Tham gia vào cộng đồng mã nguồn mở giúp bạn kết nối với những người có cùng sở thích và đam mê. Bạn sẽ có cơ hội làm việc với các nhà phát triển từ khắp nơi trên thế giới, mở rộng mối quan hệ và tăng cường cơ hội nghề nghiệp.
+- *Mở rộng mạng lưới*: Tham gia vào cộng đồng mã nguồn mở giúp bạn kết nối với những người có cùng sở thích và đam mê. Bạn sẽ có cơ hội mở rộng mối quan hệ và tăng cường cơ hội nghề nghiệp.
 
 - *Cải thiện dự án*: Mỗi cá nhân có một góc nhìn và kỹ năng khác nhau, và sự đóng góp của bạn sẽ giúp dự án ngày càng trở nên mạnh mẽ, linh hoạt và dễ tiếp cận hơn. Bạn có thể giúp cải tiến mã nguồn, viết tài liệu, hay báo cáo lỗi.
 
