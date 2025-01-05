@@ -33,6 +33,13 @@
 | Bootloader | Soft |
 | Nút Boot | :fas fa-square-check fa-fw blue: |
 | Nút Reset | :fas fa-square-check fa-fw blue: |
+| LED On-board | :fas fa-square-check fa-fw blue: |
 | Chân nối WCH-LinkE | :fas fa-square-check fa-fw blue: |
+
+## Các thành phần trên board
+
+![Kích thước Zerobase](../../_media/zerobase_parts.png)
+
+## Kích thước
 
 ![Kích thước Zerobase](../../_media/zerobase_dimension.png)
