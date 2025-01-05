@@ -41,6 +41,6 @@ Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu c�
 | Arduino IDE | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Bootloader | Soft | Soft | Hard |
 | Nút Boot | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
-| Nút Reset | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
+| Nút Reset | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |board | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Chân nối WCH-LinkE | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Giá thành | Siêu rẻ | Siêu rẻ | Rẻ |
