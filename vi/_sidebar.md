@@ -6,6 +6,7 @@
   - [Đóng góp vào dự án](vi/introduction/contribution.md)
   - [Hỗ trợ và thảo luận](vi/introduction/support.md)
   - [Dịch vụ đề xuất](vi/introduction/service.md)
+  - [Tài liệu tham khảo](vi/introduction/reference.md)
 
 - Tài liệu Zerobase
   - [Thông số kỹ thuật](vi/zerobase/specs.md)
