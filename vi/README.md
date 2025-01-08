@@ -4,4 +4,4 @@
 
 # TÀI LIỆU ZEROBASE
 
-> Vui lòng chọn các mục cần xem ở menu bên trái 
+?> [Giới thiệu Zerobase](vi/introduction/introduction.md)
