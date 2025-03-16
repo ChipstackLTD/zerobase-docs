@@ -51,7 +51,7 @@
 4. Nhấn nút **RESET** để chạy code mới.
 
 ## 5. Sơ Đồ Kết nối
-![blink-zerobase](../../_media/blinkZerobase.png "blink-zerobase]")
+![blink-zerobase](../../../_media/blinkZerobase.png "blink-zerobase]")
 
 ## 6. Code Nháy LED Mẫu
 
