@@ -17,7 +17,7 @@
 1. Truy cập [GitHub DS3231 Library](https://github.com/NorthernWidget/DS3231).
 2. Tải về và giải nén thư viện.
 3. Mở **Arduino IDE**, vào **Sketch > Include Library > Add .ZIP Library...**.
-4. Chọn thư mục vừa giải nén để thêm thư viện vào Arduino IDE.
+4. Chọn file .zip vừa tải về để cài đặt thư viện.
 
 ## 4. Sơ Đồ Kết Nối
 
