@@ -79,5 +79,5 @@ void receiveEvent(int howMany) {
 2. Quan sát dữ liệu gửi từ Zerobase (**Master**) đến Arduino Uno (**Slave**).
 3. Nếu không nhận được dữ liệu, kiểm tra lại dây kết nối hoặc địa chỉ I2C.
 
-:rocket: **Chúc bạn thành công!**
+**Chúc bạn thành công!**
 
