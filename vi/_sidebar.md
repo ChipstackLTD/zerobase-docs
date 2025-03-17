@@ -17,6 +17,7 @@
   - Các ví dụ
     - [Nháy led](vi/zerobase/examples/blink.md)
     - [Điều khiển đèn LED bằng nút bấm](vi/zerobase/examples/button.md)
+    - [Sử dụng cảm biến siêu âm điều khiển LED RGB](vi/zerobase/examples/ultrasonicSensor.md)
     - [Giao tiếp I2C](vi/zerobase/examples/i2c.md)
     - [Giao tiếp SPI](vi/zerobase/examples/spi.md)
     - [Giao tiếp UART](vi/zerobase/examples/uart.md)
