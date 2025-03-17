@@ -18,9 +18,9 @@
     - [Nháy led](vi/zerobase/examples/blink.md)
     - [Cảm biến chuyển động (PIR) điều khiển LED RGB](vi/zerobase/examples/pir.md)
     - [Điều khiển đèn LED bằng nút bấm](vi/zerobase/examples/button.md)
-    - [Giao tiếp I2C](vi/zerobase/examples/i2c.md)
-    - [Giao tiếp SPI](vi/zerobase/examples/spi.md)
-    - [Giao tiếp UART](vi/zerobase/examples/uart.md)
+    - [Giao tiếp I2C giữa Zerobase và Arduino UNO](vi/zerobase/examples/i2c.md)
+    - [Giao tiếp SPI giữa Zerobase và Arduino UNO](vi/zerobase/examples/spi.md)
+    - [Giao tiếp UART giữa Zerobase và Arduino UNO](vi/zerobase/examples/uart.md)
     - [Sử dụng cảm biến siêu âm điều khiển LED RGB](vi/zerobase/examples/ultrasonicSensor.md)
   - [Các lỗi thường gặp](vi/zerobase/examples/troubleshooting.md)
 
