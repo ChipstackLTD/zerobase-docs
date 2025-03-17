@@ -1,3 +1,7 @@
+<br>
+<br>
+<br>
+
 # Sử Dụng Cảm Biến Siêu Âm HC-SR04 Với Zerobase
 
 ## 1. Giới Thiệu
@@ -27,7 +31,9 @@
 
 ## 4. Ảnh chụp mạch hoàn chỉnh
 ![ultrasonic](../../../_media/ultrasonic-1.jpg "ultrasonic")
+
 <br>
+
 ![ultrasonic](../../../_media/ultrasonic-2.jpg "ultrasonic")
 
 ## 5. Code Điều Khiển Cảm Biến Siêu Âm
