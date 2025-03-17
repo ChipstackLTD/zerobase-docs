@@ -21,6 +21,7 @@
     - [Giao tiếp I2C giữa Zerobase và Arduino UNO](vi/zerobase/examples/i2c.md)
     - [Giao tiếp SPI giữa Zerobase và Arduino UNO](vi/zerobase/examples/spi.md)
     - [Giao tiếp UART giữa Zerobase và Arduino UNO](vi/zerobase/examples/uart.md)
+    - [Sử dụng module thời gian thực RTC DS3231](vi/zerobase/examples/rtc.md)
     - [Sử dụng cảm biến siêu âm điều khiển LED RGB](vi/zerobase/examples/ultrasonicSensor.md)
   - [Các lỗi thường gặp](vi/zerobase/examples/troubleshooting.md)
 
