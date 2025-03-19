@@ -13,7 +13,7 @@
   - [Sơ đồ chân](vi/zerobase/pinout.md)
   - [Sơ đồ nguyên lý](vi/zerobase/schematic.md)
   - [Các lưu ý](vi/zerobase/notes.md)
-  - [Hướng dẫn nhanh](vi/zerobase/quickstart.md)
+  - [Bắt đầu sử dụng](vi/zerobase/quickstart.md)
   - Các ví dụ
     - [Nháy led](vi/zerobase/examples/blink.md)
     - [Cảm biến chuyển động (PIR) điều khiển LED RGB](vi/zerobase/examples/pir.md)
@@ -30,7 +30,7 @@
   - [Sơ đồ chân](vi/zerobase-core/pinout.md)
   - [Sơ đồ nguyên lý](vi/zerobase-core/schematic.md)
   - [Các lưu ý](vi/zerobase-core/notes.md)
-  - [Hướng dẫn nhanh](vi/zerobase-core/quickstart.md)
+  - [Bắt đầu sử dụng](vi/zerobase-core/quickstart.md)
   - Các ví dụ
     - [Nháy led](vi/zerobase-core/examples/blink.md)
     - [Nút bấm](vi/zerobase-core/examples/button.md)
@@ -44,7 +44,7 @@
   - [Sơ đồ chân](vi/zerobase-2/pinout.md)
   - [Sơ đồ nguyên lý](vi/zerobase-2/schematic.md)
   - [Các lưu ý](vi/zerobase-2/notes.md)
-  - [Hướng dẫn nhanh](vi/zerobase-2/quickstart.md)
+  - [Bắt đầu sử dụng](vi/zerobase-2/quickstart.md)
   - Các ví dụ
     - [Nháy led](vi/zerobase-2/examples/blink.md)
     - [Nút bấm](vi/zerobase-2/examples/button.md)
