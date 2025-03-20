@@ -173,7 +173,7 @@ Bài viết đã hướng dẫn cách sử dụng cảm biến PIR để phát h
 - **Điều khiển cảm biến PIR bằng nút nhấn:** Sử dụng nút nhấn để bật/tắt cảm biến PIR hoặc thay đổi cách phát hiện chuyển động.
 - **Điều khiển LED RGB bằng cảm biến PIR:** Sử dụng cảm biến PIR để điều khiển đổi màu LED RGB.
 - **Gửi thông báo qua Telegram khi có chuyển động:** Sử dụng cảm biến PIR để phát hiện chuyển động và gửi thông báo qua Telegram.
-- ** Sử dụng còi báo khi có chuyển động:** Sử dụng cảm biến PIR để phát hiện chuyển động và kích hoạt còi báo.
+- **Sử dụng còi báo khi có chuyển động:** Sử dụng cảm biến PIR để phát hiện chuyển động và kích hoạt còi báo.
 
 Với những ý tưởng trên, bạn sẽ có cơ hội thực hành và nâng cao kỹ năng lập trình vi điều khiển.
 
