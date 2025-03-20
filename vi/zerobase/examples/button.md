@@ -133,7 +133,7 @@ Nếu nút được nhấn (mức LOW), đèn LED sẽ bật.
 
 ## Thực hiện nạp code
 
-Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.io/vi/quickstart).
+Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
 
 Nếu muốn thay đổi chân kết nối, bạn chỉ cần sửa lại giá trị biến `btn` hoặc `led` trong code sau đó kết nối nút bấm và đèn LED với chân tương ứng.
 
