@@ -117,7 +117,7 @@ Arduino IDE sẽ mở ra một cửa sổ mới chứa code mẫu nháy LED.
 
 Nếu không thể mở code mẫu, bạn có thể sử dụng đoạn code sau:
 
-```cpp
+```c
 void setup() {
   // Khởi tạo chân LED_BUILTIN làm đầu ra (OUTPUT)
   pinMode(LED_BUILTIN, OUTPUT);
