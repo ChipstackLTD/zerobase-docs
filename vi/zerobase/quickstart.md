@@ -26,14 +26,15 @@ Zerobase được trang bị đầy đủ các tính năng mạnh mẽ của vi 
 
 ### Chân GPIO
 ![chan-gpio-zerobase.png](../../_media/chan-gpio-zerobase.png "chan-gpio-zerobase.png]")
+
 !> Mức logic: 5V.
-<br>
+
 !> Toàn bộ chân GPIO đều hỗ trợ PWM.
-<br>
+
 !> Toàn bộ chân GPIO đều hỗ trợ ngắt ngoại vi.
-<br>
+
 !> Toàn bộ chân GPIO đều hỗ trợ INPUT/OUTPUT.
-<br>
+
 - **D0**: GPIO0, có thể dùng làm chân nhận dữ liệu (RX) cho Serial1 (UART1).
 - **D1**: GPIO1, có thể dùng làm chân gửi dữ liệu (TX) cho Serial1 (UART1).
 - **D2**: GPIO2.
@@ -156,7 +157,9 @@ Nhấn nút **RESET** để Zenobase chạy đoạn code bạn vừa nạp.
 
 Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase nháy theo chu kỳ 1 giây.
 
-![blink-zerobase](../../_media/blink-zerobase.gif "blink-zerobase]")
+<p align="center">
+  <img src="../../_media/blink-zerobase.gif" alt="blink-zerobase">
+</p>
 
 ## Kết luận
 
