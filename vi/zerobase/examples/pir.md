@@ -76,14 +76,14 @@ Sử dụng chân 5V để kết nối với chân VCC cảm biến PIR, GND đ�
 
 ![pir-sensor-zerobase-schematic](../../../_media/pir-sensor-zerobase-schematic.png "pir-sensor-zerobase-schematic")
 
-## 4. Ảnh chụp mạch hoàn chỉnh
+## Ảnh chụp mạch hoàn chỉnh
 
 ![pir-mat-truoc](../../../_media/pir-mat-truoc.png "pir-mat-truoc")
 
 ![pir](../../../_media/pir.png "pir")
 
 
-## 5. Code Điều Khiển LED bằng PIR
+## Code Điều Khiển LED bằng PIR
 
 ```cpp
 // Khai báo chân LED được kết nối tại chân số 3
