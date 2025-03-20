@@ -14,6 +14,10 @@ Bài viết này hướng dẫn cách nạp code cho Zerobase của bạn trên 
 
 ![zerobase](../../../_media/zerobase-image.png "zerobase]")
 
+> Breadboard
+
+![breadboard](../../../_media/breadboard.png "breadboard]")
+
 > Điện trở 330Ω
 
 ![dien-tro-330-ohm](../../../_media/dien-tro-330-ohm.png "dien-tro-330-ohm]")
