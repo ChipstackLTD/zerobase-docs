@@ -3,7 +3,9 @@
 <br>
 
 # Nháy LED
+
 ![blink-zerobase-image](../../../_media/blink-led-external-zerobase.png "blink-zerobase-image]")
+
 ## Tổng quan
 
 ?>  Bài viết này hướng dẫn thực hiện nháy LED sử dụng board Zerobase trên Arduino IDE.
