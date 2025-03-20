@@ -127,6 +127,14 @@ Bạn có thể thay đổi giá trị của hàm `delay()` để thay đổi t�
 delay(500); // thay đổi giá trị 500 thành giá trị khác
 ```
 
+## Kết quả
+
+Nếu bạn đã thực hiện đúng các bước, bạn sẽ thấy LED nháy theo chu kỳ 500ms.
+
+<p align="center">
+  <img src="../../../_media/result-led-blink-external-zerobase.gif" alt="result-led-blink-external-zerobase">
+</p>
+
 ## Kết luận và Hướng phát triển
 Bài viết đã hướng dẫn cách nháy LED đơn giản trên board Zerobase bằng Arduino IDE. Đây là bước khởi đầu giúp bạn làm quen với lập trình vi điều khiển và cách điều khiển thiết bị ngoại vi.
 
