@@ -49,7 +49,6 @@ Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp v
 
 Sử dụng chân D2 để thực hiện nháy LED có sẵn trên board.
 
-
 ## Sơ Đồ Kết nối
 ![blink-zerobase-schematic](../../../_media/blink-zerobase-schematic.png "blink-zerobase-schematic]")
 

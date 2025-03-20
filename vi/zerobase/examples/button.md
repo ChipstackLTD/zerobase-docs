@@ -48,6 +48,10 @@ Nút này thường dùng trong vi điều khiển và mạch điện tử để
 
 LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng. Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
 
+### Toàn Mạch
+
+Khi nút bấm được nhấn, đèn LED sẽ bật. Khi nút được thả ra, đèn LED sẽ tắt.
+
 ## Các Chân Kết Nối
 
 ![btn-zerboase-pins](../../../_media/btn-zerobase-pins.png "btn-zerboase-pins")
