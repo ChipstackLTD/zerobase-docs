@@ -10,7 +10,7 @@
 
 ## Chuẩn bị
 
-> Zerobase
+> Board Zerobase
 
 ![zerobase](../../../_media/zerobase-image.png "zerobase]")
 
