@@ -2,84 +2,142 @@
 <br>
 <br>
 
-# Nạp Code và nháy LED
+# Nháy LED
+![blink-zerobase-image](../../../_media/blink-led-external-zerobase.png "blink-zerobase-image]")
+## Tổng quan
 
-## 1. Giới Thiệu
+Bài viết này hướng dẫn cách nạp code cho Zerobase của bạn trên Arduino IDE và thực hiện nháy LED đơn giản.
 
-> Bài viết này hướng dẫn cách nạp code cho Zerobase của bạn trên Arduino IDE và thực hiện nháy LED đơn giản.
+## Chuẩn bị
 
-## 2. Chuẩn Bị
+> Zerobase
 
-- Zerobase
-- Dây USB kết nối với máy tính
-- Arduino IDE
-- Driver và core phù hợp với vi điều khiển trên board
-- Điện trở 330Ω
-- LED
+![zerobase](../../../_media/zerobase-image.png "zerobase]")
 
-## 3. Cài Đặt Board Trên Arduino IDE
+> Điện trở 330Ω
 
-1. Mở **Arduino IDE**.
-2. Vào **File > Preferences**.
-3. Trong mục **Additional Board Manager URLs**, thêm đường dẫn sau:
+![dien-tro-330-ohm](../../../_media/dien-tro-330-ohm.png "dien-tro-330-ohm]")
 
-   ```link
-   https://raw.githubusercontent.com/ChipstackLTD/zerobase-board-manager/refs/heads/master/zerobase.json
-   ```
+> LED
 
-4. Nhấn **OK**, sau đó mở **Boards Manager** (*Tools > Board > Boards Manager*).
-5. Tìm kiếm tên board: `ZB` và nhấn **Install**.
+![led-do](../../../_media/led-do.png "led-do]")
 
-## 4. Quy Trình Nạp Code
+> Dây nối
 
-1. Kết nối board với máy tính bằng cáp USB.
-2. Vào chế độ nạp code bằng cách:
+![jumper-wire](../../../_media/jumper-wire.png "jumper-wire]")
 
-   - Nhấn giữ nút **BOOT**.
-   - Nhấn nút **RESET** rồi thả ra.
-   - Sau đó, thả nút **BOOT**. Board sẽ vào chế độ nạp code.
+## Các chân kết nối
+![zerobase-pins-blink](../../../_media/zerobase-pins-blink.png "zerobase-pins-blink]")
 
-3. Nạp code từ Arduino IDE:
+Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp với chân anode **(chân dài hơn là +)** của LED và GND để kết nối với chân cathode **( chân ngắn hơn là -)** của LED.
 
-   - Mở **Arduino IDE**.
-   - Vào **Tools > Board**, chọn đúng tên board của bạn.
-   - Vào **Tools > Port**, chọn đúng cổng COM.
-   - Viết hoặc mở code cần nạp.
-   - Nhấn **Upload** (**Ctrl+U**) để nạp code.
-   - Nếu lỗi chưa có driver, cài đặt lại driver phù hợp.
+Sử dụng chân D2 để thực hiện nháy LED có sẵn trên board.
 
-4. Nhấn nút **RESET** để chạy code mới.
 
-## 5. Sơ Đồ Kết nối
-![blink-zerobase](../../../_media/blinkZerobase.png "blink-zerobase]")
+## Sơ Đồ Kết nối
+![blink-zerobase-schematic](../../../_media/blink-zerobase-schematic.png "blink-zerobase-schematic]")
 
-## 6. Code Nháy LED Mẫu
+## Ảnh chụp mạch hoàn chỉnh
 
-Dưới đây là đoạn code đơn giản để nháy LED trên board:
+![blink-zerobase-image](../../../_media/blink-led-external-zerobase.png "blink-zerobase-image]")
+
+## Code Nháy LED Mẫu
+
+Dưới đây là đoạn code đơn giản để nháy LED:
+
+```cpp
+const int ledPin = 3; // Khai báo biến hằng số cho chân 3
+
+// Hàm setup() chạy một lần khi vi điều khiển khởi động
+void setup() {
+    pinMode(LED_BUILTIN, OUTPUT); // Thiết lập LED của board làm đầu ra
+    pinMode(ledPin, OUTPUT);      // Thiết lập chân 3 làm đầu ra
+}
+
+// Hàm loop() chạy lặp lại liên tục
+void loop() {
+    digitalWrite(LED_BUILTIN, HIGH); // Bật LED trên board ZeroBase
+    digitalWrite(ledPin, HIGH);      // Bật LED được kết nối với chân 3
+    delay(500);                      // Giữ trạng thái HIGH trong 500ms
+
+    digitalWrite(LED_BUILTIN, LOW);  // Tắt LED trên board ZeroBase
+    digitalWrite(ledPin, LOW);       // Tắt LED được kết nối với chân 3
+    delay(500);                      // Giữ trạng thái LOW trong 500ms
+}
+
+
+```
+
+Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
+
+![blink-zerobase-code](../../../_media/blink-zerobase-code.png "blink-zerobase-code]")
+
+## Giải thích code
+
+```cpp
+const int ledPin = 3; // Khai báo biến hằng số cho chân 3
+```
+Khai báo biến hằng số `ledPin` với giá trị là 3, chính là chân D3 trên board Zerobase.
 
 ```cpp
 void setup() {
-    pinMode(LED_BUILTIN, OUTPUT);
-    pinMode(3, OUTPUT);
-}
-
-void loop() {
-    digitalWrite(LED_BUILTIN, HIGH);
-    digitalWrite(3, HIGH);
-    delay(500);
-    digitalWrite(LED_BUILTIN, LOW);
-    digitalWrite(3, LOW);
-    delay(500);
+    pinMode(LED_BUILTIN, OUTPUT); // Thiết lập LED của board làm đầu ra
+    pinMode(ledPin, OUTPUT);      // Thiết lập chân 3 làm đầu ra
 }
 ```
+Trong hàm `setup()`, chúng ta sẽ thiết lập chân `LED_BUILTIN` và chân `ledPin` làm chân đầu ra.
 
-## 7. Lưu Ý
+```cpp
+    digitalWrite(LED_BUILTIN, HIGH); // Bật LED trên board ZeroBase
+    digitalWrite(ledPin, HIGH);      // Bật LED được kết nối với chân 3
+```
+Trong hàm loop, sử dụng hàm `digitalWrite()` và HIGH để bật LED trên board Zerobase và LED được kết nối với chân 3.
 
-!> Nếu không nhận board trên Arduino IDE, kiểm tra lại driver.
+```cpp
+    delay(500);                      // Giữ trạng thái HIGH trong 500ms
+```
+Sử dụng hàm `delay()` để bật LED trong 500ms.
 
-!> Đảm bảo chọn đúng board và cổng COM.
+```cpp
+    digitalWrite(LED_BUILTIN, LOW);  // Tắt LED trên board ZeroBase
+    digitalWrite(ledPin, LOW);       // Tắt LED được kết nối với chân 3
+```
 
-!> Nếu nạp code thất bại, thử lại quy trình vào chế độ nạp code.
+Sử dụng hàm `digitalWrite()` và LOW để tắt LED trên board Zerobase và LED được kết nối với chân 3.
+
+```cpp
+    delay(500);                      // Giữ trạng thái LOW trong 500ms
+```
+
+Sử dụng hàm `delay()` để tắt LED trong 500ms.
+
+
+## Thực hiện nạp code
+Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.io/vi/quickstart).
+
+Nếu muốn nháy LED ở chân khác, bạn có thể thay đổi giá trị của biến `ledPin` thành chân bạn muốn nháy sau đó kết nối LED với chân đó.
+
+```cpp
+const int ledPin = 3; // thay đổi giá trị 3 thành chân khác
+```
+
+Bạn có thể thay đổi giá trị của hàm `delay()` để thay đổi tốc độ nháy LED.
+
+```cpp
+delay(500); // thay đổi giá trị 500 thành giá trị khác
+```
+
+## Kết luận và Hướng phát triển
+Bài viết đã hướng dẫn cách nháy LED đơn giản trên board Zerobase bằng Arduino IDE. Đây là bước khởi đầu giúp bạn làm quen với lập trình vi điều khiển và cách điều khiển thiết bị ngoại vi.
+
+Để phát triển thêm từ bài học này, bạn có thể thử các ý tưởng sau:
+
+- **Điều khiển LED bằng nút nhấn:** Sử dụng nút nhấn để bật/tắt LED hoặc thay đổi tốc độ nháy.
+- **Nháy LED theo tín hiệu cảm biến:** Kết hợp với cảm biến ánh sáng, nhiệt độ hoặc cảm biến chuyển động để điều khiển LED một cách thông minh.
+- **Sử dụng PWM để điều chỉnh độ sáng LED:** Thay vì chỉ bật/tắt LED, bạn có thể sử dụng PWM để thay đổi độ sáng của LED một cách mượt mà.
+- **Điều khiển LED từ xa:** Kết hợp với Bluetooth, Wi-Fi hoặc RF để điều khiển LED từ xa bằng điện thoại hoặc máy tính.
+
+Những ý tưởng này sẽ giúp bạn mở rộng hiểu biết về lập trình vi điều khiển và ứng dụng thực tế trong các dự án IoT. Hãy thử nghiệm và sáng tạo với Zerobase!
 
 **Chúc bạn thành công!**
 
