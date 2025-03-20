@@ -102,7 +102,7 @@ void setup() {
 
 void loop() {
   // Kiểm tra xem cảm biến PIR có phát hiện chuyển động không
-  if (digitalRead(pir) == 1) {
+  if (digitalRead(pir) == HIGH) {
     digitalWrite(led, HIGH);  // Bật đèn LED nếu có chuyển động
   }
 
@@ -132,7 +132,7 @@ Khai báo biến `led` là chân số 3 kết nối với đèn LED và biến `
 Cấu hình chân `pir` là INPUT để nhận tín hiệu phát hiện chuyển động và chân `led` là OUTPUT để điều khiển đèn LED.
 
 ```cpp
-  if (digitalRead(pir) == 1) {
+  if (digitalRead(pir) == HIGH) {
     digitalWrite(led, HIGH);
   }
 ```
