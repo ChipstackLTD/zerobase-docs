@@ -30,6 +30,14 @@ Bài viết này hướng dẫn cách nạp code cho Zerobase của bạn trên 
 
 ![jumper-wire](../../../_media/jumper-wire.png "jumper-wire]")
 
+## Nguyên lý hoạt động
+
+### LED
+
+![led-schematic](../../../_media/led-schematic.png "led-schematic")
+
+LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng. Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
+
 ## Các chân kết nối
 ![zerobase-pins-blink](../../../_media/zerobase-pins-blink.png "zerobase-pins-blink]")
 
