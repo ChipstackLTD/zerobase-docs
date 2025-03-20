@@ -167,13 +167,9 @@ Bài viết đã hướng dẫn chi tiết cách sử dụng nút bấm để đ
 Để phát triển thêm từ bài học này, bạn có thể thử các ý tưởng sau:
 
 - **Mở rộng chức năng:** Thay vì chỉ bật/tắt LED, bạn có thể lập trình để LED nhấp nháy theo số lần nhấn hoặc chuyển đổi trạng thái mỗi lần nhấn.
-
 - **Sử dụng ngắt ngoài (Interrupt):** Thay vì kiểm tra nút bấm liên tục trong loop(), bạn có thể sử dụng ngắt ngoài để phản hồi nhanh hơn khi nút được nhấn.
-
 - **Điều khiển nhiều thiết bị:** Áp dụng cơ chế điều khiển này để bật/tắt nhiều thiết bị khác nhau như còi báo động, động cơ hoặc màn hình LCD.
-
 - **Cải thiện chống dội phím (Debounce):** Thêm cơ chế debounce bằng phần mềm hoặc sử dụng mạch RC để tránh trạng thái không ổn định khi nhấn nút.
-
 - **Kết nối với IoT:** Kết hợp với WiFi hoặc Bluetooth để điều khiển LED từ xa qua ứng dụng di động hoặc giao diện web.
 
 Với những gợi ý trên, bạn có thể tiếp tục mở rộng dự án để tạo ra nhiều ứng dụng thực tế hơn.
