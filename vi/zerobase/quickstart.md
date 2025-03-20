@@ -6,7 +6,7 @@
 
 ## Tổng quan
 
-![zerobase](../../_media/zerobase-overview.png "zerobase]")
+![zerobase](../../_media/zerobase-image.png "zerobase]")
 
 Zerobase là một board phát triển dựa trên vi điều khiển CH32. Board hỗ trợ nhiều giao tiếp như I2C, SPI, UART, GPIO, ADC, PWM, và nhiều chức năng khác. 
 <br>
