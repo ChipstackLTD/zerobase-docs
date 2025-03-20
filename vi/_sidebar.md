@@ -16,8 +16,8 @@
   - [Bắt đầu sử dụng](vi/zerobase/quickstart.md)
   - Các ví dụ
     - [Nháy led](vi/zerobase/examples/blink.md)
-    - [Cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md)
     - [Bật/tắt LED bằng nút bấm](vi/zerobase/examples/button.md)
+    - [Cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md)
     - [Giao tiếp I2C Zerobase & UNO](vi/zerobase/examples/i2c.md)
     - [Giao tiếp SPI Zerobase & UNO](vi/zerobase/examples/spi.md)
     - [Giao tiếp UART Zerobase & UNO](vi/zerobase/examples/uart.md)
