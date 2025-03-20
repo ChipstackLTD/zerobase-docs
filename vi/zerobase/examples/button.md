@@ -12,23 +12,23 @@ Bài viết này hướng dẫn cách sử dụng nút bấm với Zerobase đ�
 
 ## Chuẩn Bị
 
-Zerobase
+> Zerobase
 
 ![zerobase](../../../_media/zerobase-image.png "zerobase]")
 
-Nút bấm
+> Nút bấm
 
 ![push-button](../../../_media/push-button.png "push-button")
 
-Dây nối
+> Dây nối
 
 ![jumper-wire](../../../_media/jumper-wire.png "jumper-wire")
 
-Điện trở 330Ω
+> Điện trở 330Ω
 
 ![dien-tro-330-ohm](../../../_media/dien-tro-330-ohm.png "dien-tro-330-ohm")
 
-LED
+> LED
 
 ![led-do](../../../_media/led-do.png "led-do")
 
