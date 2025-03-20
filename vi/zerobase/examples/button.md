@@ -8,7 +8,7 @@
 
 ## Tổng quan
 
-Bài viết này hướng dẫn cách sử dụng nút bấm với Zerobase để điều khiển LED.
+?> Bài viết này hướng dẫn cách sử dụng nút bấm với Zerobase để điều khiển LED.
 
 ## Chuẩn Bị
 
@@ -150,7 +150,7 @@ pinMode(btn, INPUT_PULLDOWN); // Thay đổi thành chế độ PULLDOWN
 
 ## Kết Quả
 
-Khi nút bấm được nhấn, đèn LED sẽ bật. Khi nút bấm được thả ra, đèn LED sẽ tắt.
+?> Khi nút bấm được nhấn, đèn LED sẽ bật. Khi nút bấm được thả ra, đèn LED sẽ tắt.
 
 <p align="center">
   <img src="../../../_media/btn-zerobase-result.gif" alt="btn-zerobase-result.gif">

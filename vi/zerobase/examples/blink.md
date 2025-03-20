@@ -6,7 +6,7 @@
 ![blink-zerobase-image](../../../_media/blink-led-external-zerobase.png "blink-zerobase-image]")
 ## Tổng quan
 
-Bài viết này hướng dẫn cách nạp code cho Zerobase của bạn trên Arduino IDE và thực hiện nháy LED đơn giản.
+?>  Bài viết này hướng dẫn thực hiện nháy LED sử dụng board Zerobase trên Arduino IDE.
 
 ## Chuẩn bị
 
@@ -141,7 +141,7 @@ delay(500); // thay đổi giá trị 500 thành giá trị khác
 
 ## Kết quả
 
-Nếu bạn đã thực hiện đúng các bước, bạn sẽ thấy LED nháy theo chu kỳ 500ms.
+?> Nếu bạn đã thực hiện đúng các bước, bạn sẽ thấy LED nháy theo chu kỳ 500ms.
 
 <p align="center">
   <img src="../../../_media/result-led-blink-external-zerobase.gif" alt="result-led-blink-external-zerobase">
