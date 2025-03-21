@@ -17,6 +17,7 @@
   - Các ví dụ
     - [Nháy led](vi/zerobase/examples/blink.md)
     - [Bật/tắt LED bằng nút bấm](vi/zerobase/examples/button.md)
+    - [Biến trở & Zerobase](vi/zerobase/examples/potentiometer.md)
     - [Cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md)
     - [Cảm biến siêu âm (Ultrasonic)](vi/zerobase/examples/ultrasonicSensor.md)
     - [Giao tiếp I2C Zerobase & UNO](vi/zerobase/examples/i2c.md)
