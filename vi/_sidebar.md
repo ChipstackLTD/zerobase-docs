@@ -18,7 +18,7 @@
     - [Nháy led](vi/zerobase/examples/blink.md)
     - [Bật/tắt LED bằng nút bấm](vi/zerobase/examples/button.md)
     - [Cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md)
-    - [Cảm biến siêu âm (Ultrasonic Sensor)](vi/zerobase/examples/ultrasonicSensor.md)
+    - [Cảm biến siêu âm (Ultrasonic)](vi/zerobase/examples/ultrasonicSensor.md)
     - [Giao tiếp I2C Zerobase & UNO](vi/zerobase/examples/i2c.md)
     - [Giao tiếp SPI Zerobase & UNO](vi/zerobase/examples/spi.md)
     - [Giao tiếp UART Zerobase & UNO](vi/zerobase/examples/uart.md)
