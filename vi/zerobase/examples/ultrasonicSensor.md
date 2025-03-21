@@ -6,7 +6,7 @@
 
 ![ultrasonic-sensor-zerobase](../../../_media/ultrasonic-sensor-zerobase.jpg "ultrasonic-sensor-zerobase")
 
-## Giới Thiệu
+## Tổng quan
 
 ?> Bài viết này hướng dẫn sử dụng cảm biến siêu âm với Zerobase để đo khoảng cách và hiển thị kết quả bằng cách bật/tắt dãy LED. 
 
