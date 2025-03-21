@@ -161,7 +161,7 @@ const int pir = 14; // Thay đổi chân cảm biến PIR
 ?> Khi có chuyển động, đèn LED sẽ bật. Nếu không có chuyển động, đèn LED sẽ tắt.
 
 <p align="center">
-  <img src="../../../_media/pir-zerobase-result.gif" alt="pir-zerobase-result.gif">
+  <img src="../../../_media/pir-zerobase-result.gif" alt="pir-zerobase-result">
 </p>
 
 ## Kết luận và Hướng phát triển
