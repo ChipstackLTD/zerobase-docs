@@ -18,11 +18,11 @@
     - [Nháy led](vi/zerobase/examples/blink.md)
     - [Bật/tắt LED bằng nút bấm](vi/zerobase/examples/button.md)
     - [Cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md)
+    - [Cảm biến siêu âm (Ultrasonic Sensor)](vi/zerobase/examples/ultrasonicSensor.md)
     - [Giao tiếp I2C Zerobase & UNO](vi/zerobase/examples/i2c.md)
     - [Giao tiếp SPI Zerobase & UNO](vi/zerobase/examples/spi.md)
     - [Giao tiếp UART Zerobase & UNO](vi/zerobase/examples/uart.md)
     - [Module thời gian thực RTC DS3231](vi/zerobase/examples/rtc.md)
-    - [Điều khiển LED RGB bằng cảm biến siêu âm](vi/zerobase/examples/ultrasonicSensor.md)
   - [Các lỗi thường gặp](vi/zerobase/examples/troubleshooting.md)
 
 - Tài liệu Zerobase Core
