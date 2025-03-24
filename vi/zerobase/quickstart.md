@@ -13,19 +13,9 @@ Zerobase là một board phát triển dựa trên vi điều khiển CH32. Boar
 <br>
 Hướng dẫn này trình bày chi tiết cách cài đặt bo mạch, nạp code và nháy LED với Zerobase trên Arduino IDE.
 
-## Pinouts
-![blink-zerobase](../../_media/zerobase_pinout.png "blink-zerobase]")
-<br>
-<br>
-Zerobase được trang bị đầy đủ các tính năng mạnh mẽ của vi điều khiển. Ngoài ra, bo mạch còn cung cấp nhiều chân và cổng giao tiếp. Hãy cùng khám phá chi tiết ngay sau đây!
+## Sơ đồ chân
 
-### Chân cấp nguồn
-![chan-cap-nguon-zerobase](../../_media/chan-cap-nguon-zerobase.png "chan-cap-nguon-zerobase.png]")
-- **5V**: Chân này có thể nhận nguồn 5VDC (input) hoặc cấp nguồn cho thiết bị khác (output).
-- **USB**: Zerobase cũng hỗ trợ cấp nguồn qua cổng USB.
-
-### Chân GPIO
-![chan-gpio-zerobase.png](../../_media/chan-gpio-zerobase.png "chan-gpio-zerobase.png]")
+Một số lưu ý khi sử dụng Zerobase:
 
 !> Mức logic: 5V.
 
@@ -35,30 +25,28 @@ Zerobase được trang bị đầy đủ các tính năng mạnh mẽ của vi 
 
 !> Toàn bộ chân GPIO đều hỗ trợ INPUT/OUTPUT.
 
-- **D0**: GPIO0, có thể dùng làm chân nhận dữ liệu (RX) cho Serial1 (UART1).
-- **D1**: GPIO1, có thể dùng làm chân gửi dữ liệu (TX) cho Serial1 (UART1).
-- **D2**: GPIO2.
-- **D3**: GPIO3.
-- **D10**: GPIO10, có thể dùng làm chân Select Slave (NSS) cho SPI.
-- **D11**: GPIO11, có thể dùng làm chân Master Out Slave In (MOSI) cho SPI.
-- **D12**: GPIO12, có thể dùng làm chân Master In Slave Out (MISO) cho SPI.
-- **D13**: GPIO13, có thể dùng làm chân Clock (SCK) cho SPI.
-- **D14**: GPIO14, có thể dùng làm chân Analog Input (A0).
-- **D15**: GPIO15, có thể dùng làm chân Analog Input (A1).
-- **D16**: GPIO16, có thể dùng làm chân Analog Input (A2).
-- **D17**: GPIO17, có thể dùng làm chân Analog Input (A3).
-- **D18**: GPIO18, có thể dùng làm chân Serial Data (SDA) cho I2C.
-- **D19**: GPIO19, có thể dùng làm chân Serial Clock (SCL) cho I2C.
+Bạn có tham khảo thêm sơ đồ chân trong bài viết [này](https://zerobase.chipstack.vn/#/vi/zerobase/pinout).
 
-### Các chân khác
+### Nguồn cấp
+![chan-cap-nguon-zerobase](../../_media/chan-cap-nguon-zerobase.png "chan-cap-nguon-zerobase.png]")
+- **5V**: Chân này có thể nhận nguồn 5VDC (input) hoặc cấp nguồn cho thiết bị khác (output).
+- **USB**: Zerobase hỗ trợ cấp nguồn qua cổng USB.
+
+### Nút nhấn
 **BOOT**: Chân này dùng để đưa vi điều khiển vào chế độ nạp code.
 
 ![boot-zerobase](../../_media/boot-zerobase.png "boot-zerobase]")
-<br>
-<br>
+
 **RESET**: Chân này dùng để khởi động lại vi điều khiển.
 
 ![chan-reset-zerobase](../../_media/chan-reset-zerobase.png "chan-reset-zerobase]")
+
+### Chế độ hoạt động
+
+| Chế độ hoạt động |  Cách chuyển chế độ |
+|------------------|------------------|
+| Chế độ nạp code      | Nhấn giữ nút Boot và nhấn nút Reset, sau đó thả nút Reset ra, cuối cùng thả nút Boot ra. |
+| Chế độ chạy code      | Khi đang ở chế độ nạp code, nhấn nút Reset để chuyển sang chế độ chạy code. |
 
 ## Cài đặt Arduino IDE và board Zerobase
 Để có thể lập trình cho Zerobase, đầu tiên bạn cần tải và cài đặt Arduino IDE phiên bản mới nhất theo đường link sau: [Arduino IDE](https://www.arduino.cc/en/software).
