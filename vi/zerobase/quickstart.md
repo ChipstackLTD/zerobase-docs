@@ -27,12 +27,12 @@ Một số lưu ý khi sử dụng Zerobase:
 
 Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zerobase.chipstack.vn/#/vi/zerobase/pinout).
 
-### Nguồn cấp
+## Nguồn cấp
 ![chan-cap-nguon-zerobase](../../_media/chan-cap-nguon-zerobase.png "chan-cap-nguon-zerobase.png]")
 - **5V**: Chân này có thể nhận nguồn 5VDC (input) hoặc cấp nguồn cho thiết bị khác (output).
 - **USB**: Zerobase hỗ trợ cấp nguồn qua cổng USB.
 
-### Nút nhấn
+## Nút nhấn
 **BOOT**: Chân này dùng để đưa vi điều khiển vào chế độ nạp code.
 
 ![boot-zerobase](../../_media/boot-zerobase.png "boot-zerobase]")
@@ -41,7 +41,7 @@ Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zer
 
 ![chan-reset-zerobase](../../_media/chan-reset-zerobase.png "chan-reset-zerobase]")
 
-### Chế độ hoạt động
+## Chế độ hoạt động
 
 | Chế độ hoạt động |  Cách chuyển chế độ |
 |------------------|------------------|
