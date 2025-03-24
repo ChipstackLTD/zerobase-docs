@@ -25,7 +25,7 @@ Một số lưu ý khi sử dụng Zerobase:
 
 !> Toàn bộ chân GPIO đều hỗ trợ INPUT/OUTPUT.
 
-Bạn có tham khảo thêm sơ đồ chân trong bài viết [này](https://zerobase.chipstack.vn/#/vi/zerobase/pinout).
+Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zerobase.chipstack.vn/#/vi/zerobase/pinout).
 
 ### Nguồn cấp
 ![chan-cap-nguon-zerobase](../../_media/chan-cap-nguon-zerobase.png "chan-cap-nguon-zerobase.png]")
