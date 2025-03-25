@@ -6,7 +6,7 @@
 
 ## Tổng quan
 
-![zerobase](../../_media/zerobase-image.png "zerobase]")
+![zerobase](https://cdn.chipstack.vn/zerobase-overview-sau-khi-han.png "zerobase]")
 
 Zerobase là một board phát triển dựa trên vi điều khiển CH32. Board hỗ trợ nhiều giao tiếp như I2C, SPI, UART, GPIO, ADC, PWM, và nhiều chức năng khác. 
 <br>
@@ -28,18 +28,21 @@ Một số lưu ý khi sử dụng Zerobase:
 Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zerobase.chipstack.vn/#/vi/zerobase/pinout).
 
 ## Nguồn cấp
-![chan-cap-nguon-zerobase](../../_media/chan-cap-nguon-zerobase.png "chan-cap-nguon-zerobase.png]")
+![chan-cap-nguon-zerobase](https://cdn.chipstack.vn/chan-cap-nguon-zerobase.png "chan-cap-nguon-zerobase.png]")
 - **5V**: Chân này có thể nhận nguồn 5VDC (input) hoặc cấp nguồn cho thiết bị khác (output).
 - **USB**: Zerobase hỗ trợ cấp nguồn qua cổng USB.
 
 ## Nút nhấn
-**BOOT**: Chân này dùng để đưa vi điều khiển vào chế độ nạp code.
+<div align="center">
+    <img src="https://cdn.chipstack.vn/boot-zerobase.png" alt="chan-boot-zerobase">
+    <p><strong>BOOT</strong>: Chân này dùng để đưa vi điều khiển vào chế độ nạp code.
+</div>
 
-![boot-zerobase](../../_media/boot-zerobase.png "boot-zerobase]")
+<div align="center">
+    <img src="https://cdn.chipstack.vn/reset-zerobase.png" alt="chan-reset-zerobase">
+    <p><strong>RESET</strong>: Chân này dùng để khởi động lại vi điều khiển.</p>
+</div>
 
-**RESET**: Chân này dùng để khởi động lại vi điều khiển.
-
-![chan-reset-zerobase](../../_media/chan-reset-zerobase.png "chan-reset-zerobase]")
 
 ## Chế độ hoạt động
 
@@ -47,6 +50,9 @@ Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zer
 |------------------|------------------|
 | Chế độ nạp code      | Nhấn giữ nút Boot và nhấn nút Reset, sau đó thả nút Reset ra, cuối cùng thả nút Boot ra. |
 | Chế độ chạy code      | Khi đang ở chế độ nạp code, nhấn nút Reset để chuyển sang chế độ chạy code. |
+
+## Hàn chân
+
 
 ## Cài đặt Arduino IDE và board Zerobase
 Để có thể lập trình cho Zerobase, đầu tiên bạn cần tải và cài đặt Arduino IDE phiên bản mới nhất theo đường link sau: [Arduino IDE](https://www.arduino.cc/en/software).
@@ -90,6 +96,8 @@ Sau khi nhấn **Install**, quá trình cài đặt board Zerobase sẽ bắt đ
 Thoát khỏi Arduino IDE và mở lại để sử dụng board Zerobase.
 
 ## Nạp Code và nháy LED
+
+####################### NẾU BAN ĐẦU NẠP CODE, NHẤN GIỮ BOOT TRƯỚC RỒI CẮM DÂY USB TYPE C
 
 Để chọn board Zerobase, bạn vào **Tools > Board**, chọn Zerobase.
 

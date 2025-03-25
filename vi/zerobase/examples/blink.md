@@ -12,25 +12,49 @@
 
 ## Chuẩn bị
 
-> Board Zerobase
+| Linh kiện |  Link mua |
+| --- | --- |
+| Board Zerobase |[Mua ngay](https://chipstack.vn/san-pham/zerobase/) |
+| Breadboard |[Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
+| Điện trở 330Ω |[Mua ngay](https://chipstack.vn/san-pham/dien-tro-1-4w-1/) |
+| LED |[Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
+| Dây jumper Đực – Đực | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
+| Dây USB Type C |[Mua ngay](https://chipstack.vn/san-pham/day-usb-type-c-1m/) |
 
-![zerobase](../../../_media/zerobase-image.png "zerobase]")
+<br>
 
-> Breadboard
+<div align="center">
+    <img src="../../../_media/zerobase-image.png" alt="zerobase">
+    <p><em>Board Zerobase</em></p>
+</div>
 
-![breadboard](../../../_media/breadboard.png "breadboard]")
+<br>
 
-> Điện trở 330Ω
+<div align="center">
+    <img src="../../../_media/breadboard.png" alt="breadboard">
+    <p><em>Breadboard</em></p>
+</div>
 
-![dien-tro-330-ohm](../../../_media/dien-tro-330-ohm.png "dien-tro-330-ohm]")
+<br>
 
-> LED
+<div align="center">
+    <img src="../../../_media/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
+    <p><em>Điện trở 330Ω</em></p>
+</div>
 
-![led-do](../../../_media/led-do.png "led-do]")
+<br>
 
-> Dây nối
+<div align="center">
+    <img src="../../../_media/led-do.png" alt="led-do">
+    <p><em>LED</em></p>
+</div>
 
-![jumper-wire](../../../_media/jumper-wire.png "jumper-wire]")
+<br>
+
+<div align="center">
+    <img src="../../../_media/jumper-wire.png" alt="jumper-wire">
+    <p><em>Dây nối</em></p>
+</div>
 
 ## Nguyên lý hoạt động
 
@@ -39,6 +63,8 @@
 ![led-schematic](../../../_media/led-schematic.png "led-schematic")
 
 LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng. Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
+
+> Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
 ### Toàn mạch
 
@@ -54,11 +80,9 @@ Sử dụng chân D2 để thực hiện nháy LED có sẵn trên board.
 ## Sơ Đồ Kết nối
 ![blink-zerobase-schematic](../../../_media/blink-zerobase-schematic.png "blink-zerobase-schematic]")
 
-## Ảnh chụp mạch hoàn chỉnh
-
 ![blink-zerobase-image](../../../_media/blink-led-external-zerobase.png "blink-zerobase-image]")
 
-## Code Nháy LED Mẫu
+## Code
 
 Dưới đây là đoạn code đơn giản để nháy LED:
 
@@ -81,13 +105,22 @@ void loop() {
     digitalWrite(ledPin, LOW);       // Tắt LED được kết nối với chân 3
     delay(500);                      // Giữ trạng thái LOW trong 500ms
 }
-
-
 ```
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
 ![blink-zerobase-code](../../../_media/blink-zerobase-code.png "blink-zerobase-code]")
+
+### Biên dịch
+
+Nhấn vào biểu tượng **Verify** để biên dịch code.
+
+![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
+
+### Thực hiện nạp code
+Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
+
+Nếu muốn nháy LED ở chân khác, bạn có thể thay đổi giá trị của biến `ledPin` thành chân bạn muốn nháy sau đó kết nối LED với chân đó.
 
 ## Giải thích code
 
@@ -127,12 +160,6 @@ Sử dụng hàm `digitalWrite()` và LOW để tắt LED trên board Zerobase v
 ```
 
 Sử dụng hàm `delay()` để tắt LED trong 500ms.
-
-
-## Thực hiện nạp code
-Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
-
-Nếu muốn nháy LED ở chân khác, bạn có thể thay đổi giá trị của biến `ledPin` thành chân bạn muốn nháy sau đó kết nối LED với chân đó.
 
 ```cpp
 const int ledPin = 3; // thay đổi giá trị 3 thành chân khác
