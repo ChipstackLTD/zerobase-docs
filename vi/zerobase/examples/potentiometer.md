@@ -147,7 +147,7 @@ Nhấn vào biểu tượng Verify để biên dịch code.
 
 ![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
 
-## Thực hiện nạp code
+### Thực hiện nạp code
 
 Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
 
