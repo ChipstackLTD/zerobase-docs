@@ -113,7 +113,7 @@ Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được nh�
 
 ### Biên dịch
 
-Nhấn vào biểu tượng **Verify** để biên dịch code.
+Nhấn vào biểu tượng Verify để biên dịch code.
 
 ![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
 
