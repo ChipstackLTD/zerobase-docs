@@ -12,25 +12,49 @@
 
 ## Chuẩn Bị
 
-> Board Zerobase
+| Linh kiện |  Link mua |
+| --- | --- |
+| Board Zerobase | [Mua ngay](https://chipstack.vn/san-pham/zerobase/) |
+| Cảm biến siêu âm | [Mua ngay](https://chipstack.vn/san-pham/cam-bien-sieu-am/) |
+| Điện trở 330Ω | [Mua ngay](https://chipstack.vn/san-pham/dien-tro-1-4w-1/) |
+| LED | [Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
+| Dây nối | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
 
-![zerobase](../../../_media/zerobase-image.png "zerobase]")
+<br>
 
-> Cảm biến siêu âm
+<div align="center">
+    <img src="../../../_media/zerobase-image.png" alt="zerobase">
+    <p><em>Board Zerobase</em></p>
+</div>
 
-![ultrasonic-sensor](../../../_media/ultrasonic-sensor.png "ultrasonic-sensor]")
+<br>
 
-> Điện trở 330Ω
+<div align="center">
+    <img src="../../../_media/ultrasonic-sensor.png" alt="ultrasonic-sensor">
+    <p><em>Cảm biến siêu âm</em></p>
+</div>
 
-![dien-tro-330-ohm](../../../_media/dien-tro-330-ohm.png "dien-tro-330-ohm]")
+<br>
 
-> LED
+<div align="center">
+    <img src="../../../_media/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
+    <p><em>Điện trở 330Ω</em></p>
+</div>
 
-![led-do](../../../_media/led-do.png "led-do]")
+<br>
 
-> Dây nối
+<div align="center">
+    <img src="../../../_media/led-do.png" alt="led-do">
+    <p><em>LED</em></p>
+</div>
 
-![jumper-wire](../../../_media/jumper-wire.png "jumper-wire]")
+<br>
+
+<div align="center">
+    <img src="../../../_media/jumper-wire.png" alt="jumper-wire">
+    <p><em>Dây nối</em></p>
+</div>
+
 
 ## Nguyên Lý Hoạt Động
 
@@ -52,6 +76,8 @@ LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng đi
 
 Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
 
+> Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
+
 ### Toàn Mạch
 
 Khi có vật ở gần, nhiều LED sáng hơn, và khi vật ở xa, ít LED sáng hơn.
@@ -70,15 +96,13 @@ Sử dụng chân GND và 5V để cấp nguồn cho cảm biến siêu âm.
 
 ![ultrasonic-sensor-zerobase-schematic](../../../_media/ultrasonic-sensor-zerobase-schematic.png "ultrasonic-sensor-zerobase-schematic")
 
-## Ảnh chụp mạch hoàn chỉnh
-
 ![ultrasonic-sensor-zerobase](../../../_media/ultrasonic-sensor-zerobase.jpg "ultrasonic-sensor-zerobase")
 
 ![ultrasonic-sensor-zerobase-mat-sau](../../../_media/ultrasonic-sensor-zerobase-mat-sau.jpg "ultrasonic-sensor-zerobase-mat-sau")
 
 ![ultrasonic-sensor-zerobase-mat-tren](../../../_media/ultrasonic-sensor-zerobase-mat-tren.jpg "ultrasonic-sensor-zerobase-mat-tren")
 
-## Code Điều Khiển Cảm Biến Siêu Âm
+## Code
 
 ```cpp
 const int ledPins[] = { 3, 18, 17, 16, 15, 14 };  // Mảng chứa các chân kết nối LED
@@ -134,6 +158,29 @@ Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được nh�
 
 ![ultrasonic-zerobase-code](../../../_media/ultrasonic-zerobase-code.png "ultrasonic-zerobase-code]")
 
+### Biên dịch
+
+Nhấn vào biểu tượng Verify để biên dịch code.
+
+![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
+
+### Thực Hiện Nạp Code
+
+Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
+
+Nếu muốn thay đổi chân kết nối, bạn chỉ cần sửa lại giá trị biến `ledPins`, `trigPin` hoặc `echoPin` trong code sau đó kết nối LED và cảm biến siêu âm với chân tương ứng.
+
+```cpp
+const int ledPins[] = { 3, 18, 17, 16, 15, 14 };  // Thay đổi chân kết nối LED
+const int trigPin = 11;  // Thay đổi chân kết nối Trig
+const int echoPin = 10;  // Thay đổi chân kết nối Echo
+```
+
+Nếu muốn thay đổi ngưỡng khoảng cách để bật LED, bạn chỉ cần sửa giá trị biến `distanceThreshold`.
+
+```cpp
+const int distanceThreshold = 20;  // Thay đổi ngưỡng khoảng cách để bật LED
+```
 
 ## Giải Thích Code
 
@@ -223,24 +270,6 @@ Tắt tất cả LED khi không có vật trong phạm vi 20 cm.
   for (int i = 0; i < numLeds; i++) {
     digitalWrite(ledPins[i], LOW);
   }
-```
-
-## Thực Hiện Nạp Code
-
-Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
-
-Nếu muốn thay đổi chân kết nối, bạn chỉ cần sửa lại giá trị biến `ledPins`, `trigPin` hoặc `echoPin` trong code sau đó kết nối LED và cảm biến siêu âm với chân tương ứng.
-
-```cpp
-const int ledPins[] = { 3, 18, 17, 16, 15, 14 };  // Thay đổi chân kết nối LED
-const int trigPin = 11;  // Thay đổi chân kết nối Trig
-const int echoPin = 10;  // Thay đổi chân kết nối Echo
-```
-
-Nếu muốn thay đổi ngưỡng khoảng cách để bật LED, bạn chỉ cần sửa giá trị biến `distanceThreshold`.
-
-```cpp
-const int distanceThreshold = 20;  // Thay đổi ngưỡng khoảng cách để bật LED
 ```
 
 ## Kết quả
