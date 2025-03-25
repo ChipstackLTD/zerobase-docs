@@ -12,25 +12,49 @@
 
 ## Chuẩn Bị
 
-> Board Zerobase
+| Linh kiện |  Link mua |
+| --- | --- |
+| Board Zerobase | [Mua ngay](https://chipstack.vn/san-pham/zerobase/) |
+| Cảm biến PIR | [Mua ngay](https://chipstack.vn/san-pham/cam-bien-pir/) |
+| Điện trở 330Ω | [Mua ngay](https://chipstack.vn/san-pham/dien-tro-1-4w-1/) |
+| LED | [Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
+| Dây nối | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
 
-![zerobase](../../../_media/zerobase-image.png "zerobase]")
+<br>
 
-> Cảm biến PIR 
+<div align="center">
+    <img src="../../../_media/zerobase-image.png" alt="zerobase">
+    <p><em>Board Zerobase</em></p>
+</div>
 
-![pir-image](../../../_media/pir-image.png "pir-image]")
+<br>
 
-> Điện trở 330Ω
+<div align="center">
+    <img src="../../../_media/pir-image.png" alt="pir-image">
+    <p><em>Cảm biến PIR</em></p>
+</div>
 
-![dien-tro-330-ohm](../../../_media/dien-tro-330-ohm.png "dien-tro-330-ohm]")
+<br>
 
-> LED
+<div align="center">
+    <img src="../../../_media/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
+    <p><em>Điện trở 330Ω</em></p>
+</div>
 
-![led-do](../../../_media/led-do.png "led-do]")
+<br>
 
-> Dây nối
+<div align="center">
+    <img src="../../../_media/led-do.png" alt="led-do">
+    <p><em>LED</em></p>
+</div>
 
-![jumper-wire](../../../_media/jumper-wire.png "jumper-wire]")
+<br>
+
+<div align="center">
+    <img src="../../../_media/jumper-wire.png" alt="jumper-wire">
+    <p><em>Dây nối</em></p>
+</div>
+
 
 ## Nguyên Lý Hoạt Động
 
@@ -56,6 +80,8 @@ Khi có chuyển động, cảm biến sẽ phát ra tín hiệu điện. Tín h
 
 LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng. Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
 
+> Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
+
 ### Toàn mạch
 
 Hướng dẫn này kết nối jumper của cảm biến PIR để tín hiệu ở mức cao khi có chuyển động.
@@ -76,14 +102,12 @@ Sử dụng chân 5V để kết nối với chân VCC cảm biến PIR, GND đ�
 
 ![pir-sensor-zerobase-schematic](../../../_media/pir-sensor-zerobase-schematic.png "pir-sensor-zerobase-schematic")
 
-## Ảnh chụp mạch hoàn chỉnh
-
 ![pir-mat-truoc](../../../_media/pir-mat-truoc.png "pir-mat-truoc")
 
 ![pir](../../../_media/pir.png "pir")
 
 
-## Code Điều Khiển LED bằng PIR
+## Code
 
 ```cpp
 // Khai báo chân LED được kết nối tại chân số 3
@@ -115,6 +139,24 @@ Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được nh�
 
 ![pir-zerobase-code](../../../_media/pir-zerobase-code.png "pir-zerobase-code]")
 
+### Biên dịch
+
+Nhấn vào biểu tượng **Verify** để biên dịch code.
+
+![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
+
+### Thực hiện nạp code
+
+Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
+
+Nếu muốn thay đổi chân kết nối, bạn chỉ cần sửa lại giá trị biến `led` hoặc `pir` trong code sau đó kết nối đèn LED và cảm biến PIR với chân tương ứng.
+
+```cpp
+const int led = 3; // Thay đổi chân đèn LED
+const int pir = 14; // Thay đổi chân cảm biến PIR
+```
+
+
 ## Giải Thích Code
 
 ```cpp
@@ -144,17 +186,6 @@ Trong hàm `loop()`, chúng ta kiểm tra xem cảm biến PIR có phát hiện 
 ```
 
 Ngay lập tức tắt LED, khiến LED nháy nhanh thay vì duy trì sáng chỉ khi có chuyển động.
-
-## Thực hiện nạp code
-
-Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
-
-Nếu muốn thay đổi chân kết nối, bạn chỉ cần sửa lại giá trị biến `led` hoặc `pir` trong code sau đó kết nối đèn LED và cảm biến PIR với chân tương ứng.
-
-```cpp
-const int led = 3; // Thay đổi chân đèn LED
-const int pir = 14; // Thay đổi chân cảm biến PIR
-```
 
 ## Kết quả
 
