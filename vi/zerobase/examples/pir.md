@@ -178,5 +178,4 @@ Bài viết đã hướng dẫn cách sử dụng cảm biến PIR để phát h
 
 Với những ý tưởng trên, bạn sẽ có cơ hội thực hành và nâng cao kỹ năng lập trình vi điều khiển.
 
-**Chúc bạn thành công!**
-
+**Chúc bạn thành công!** <span style="float: right;">[🔗 Các ví dụ khác](vi/zerobase/examples.md)</span>
