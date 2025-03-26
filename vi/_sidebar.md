@@ -14,16 +14,7 @@
   - [Sơ đồ nguyên lý](vi/zerobase/schematic.md)
   - [Các lưu ý](vi/zerobase/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase/quickstart.md)
-  - Các ví dụ
-    - [Nháy led](vi/zerobase/examples/blink.md)
-    - [Bật/tắt LED bằng nút bấm](vi/zerobase/examples/button.md)
-    - [Biến trở & Zerobase](vi/zerobase/examples/potentiometer.md)
-    - [Cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md)
-    - [Cảm biến siêu âm (Ultrasonic)](vi/zerobase/examples/ultrasonicSensor.md)
-    - [Giao tiếp I2C Zerobase & UNO](vi/zerobase/examples/i2c.md)
-    - [Giao tiếp SPI Zerobase & UNO](vi/zerobase/examples/spi.md)
-    - [Giao tiếp UART Zerobase & UNO](vi/zerobase/examples/uart.md)
-    - [Module thời gian thực RTC DS3231](vi/zerobase/examples/rtc.md)
+  - [Các ví dụ](vi/zerobase/examples.md)
   - [Các lỗi thường gặp](vi/zerobase/examples/troubleshooting.md)
 
 - Tài liệu Zerobase Core
