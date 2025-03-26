@@ -61,7 +61,7 @@
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
-## Các Chân Kết Nối
+## Sơ đồ kết nối
 
 ![btn-zerboase-pins](../../../_media/btn-zerobase-pins.png "btn-zerboase-pins")
 
