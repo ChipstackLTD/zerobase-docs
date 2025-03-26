@@ -60,15 +60,9 @@
 
 ### LED
 
-![led-schematic](../../../_media/led-schematic.png "led-schematic")
-
-LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng. Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
+?> Zerobase sẽ bật LED bằng cách cho chân GPIO nối với cực + của LED lên mức cao và tắt LED bằng cách cho chân đấy xuống mức thấp.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
-
-### Toàn mạch
-
-Board Zerobase sẽ bật/tắt đèn LED theo chu kỳ 500ms.
 
 ## Các chân kết nối
 ![zerobase-pins-blink](../../../_media/zerobase-pins-blink.png "zerobase-pins-blink]")
