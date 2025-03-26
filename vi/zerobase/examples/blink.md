@@ -186,5 +186,4 @@ Bài viết đã hướng dẫn cách nháy LED đơn giản trên board Zerobas
 
 Những ý tưởng này sẽ giúp bạn mở rộng hiểu biết về lập trình vi điều khiển và ứng dụng thực tế trong các dự án IoT. Hãy thử nghiệm và sáng tạo với Zerobase!
 
-
-**Chúc bạn thành công!** <span style="float: right;">[Các ví dụ khác](vi/zerobase/examples.md)</span>
+**Chúc bạn thành công!** <span style="float: right;">[Các ví dụ khác khác](vi/zerobase/examples.md)</span>
