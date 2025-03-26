@@ -15,7 +15,7 @@
   - [Các lưu ý](vi/zerobase/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase/quickstart.md)
   - [Các ví dụ](vi/zerobase/examples.md)
-  - [Các lỗi thường gặp](vi/zerobase/examples/troubleshooting.md)
+  - [Các lỗi thường gặp](vi/zerobase/troubleshooting.md)
 
 - Tài liệu Zerobase Core
   - [Thông số kỹ thuật](vi/zerobase-core/specs.md)
@@ -24,7 +24,7 @@
   - [Các lưu ý](vi/zerobase-core/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase-core/quickstart.md)
   - [Các ví dụ](vi/zerobase-core/examples.md)
-  - [Các lỗi thường gặp](vi/zerobase-core/examples/troubleshooting.md)
+  - [Các lỗi thường gặp](vi/zerobase-core/troubleshooting.md)
 
 - Tài liệu Zerobase 2
   - [Thông số kỹ thuật](vi/zerobase-2/specs.md)
@@ -33,4 +33,4 @@
   - [Các lưu ý](vi/zerobase-2/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase-2/quickstart.md)
   - [Các ví dụ](vi/zerobase-2/examples.md)
-  - [Các lỗi thường gặp](vi/zerobase-2/examples/troubleshooting.md)
+  - [Các lỗi thường gặp](vi/zerobase-2/troubleshooting.md)
