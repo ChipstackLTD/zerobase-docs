@@ -23,12 +23,7 @@
   - [Sơ đồ nguyên lý](vi/zerobase-core/schematic.md)
   - [Các lưu ý](vi/zerobase-core/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase-core/quickstart.md)
-  - Các ví dụ
-    - [Nháy led](vi/zerobase-core/examples/blink.md)
-    - [Nút bấm](vi/zerobase-core/examples/button.md)
-    - [Giao tiếp I2C](vi/zerobase-core/examples/i2c.md)
-    - [Giao tiếp SPI](vi/zerobase-core/examples/spi.md)
-    - [Giao tiếp UART](vi/zerobase-core/examples/uart.md)
+  - [Các ví dụ](vi/zerobase-core/examples.md)
   - [Các lỗi thường gặp](vi/zerobase-core/examples/troubleshooting.md)
 
 - Tài liệu Zerobase 2
@@ -37,10 +32,5 @@
   - [Sơ đồ nguyên lý](vi/zerobase-2/schematic.md)
   - [Các lưu ý](vi/zerobase-2/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase-2/quickstart.md)
-  - Các ví dụ
-    - [Nháy led](vi/zerobase-2/examples/blink.md)
-    - [Nút bấm](vi/zerobase-2/examples/button.md)
-    - [Giao tiếp I2C](vi/zerobase-2/examples/i2c.md)
-    - [Giao tiếp SPI](vi/zerobase-2/examples/spi.md)
-    - [Giao tiếp UART](vi/zerobase-2/examples/uart.md)
+  - [Các ví dụ](vi/zerobase-2/examples.md)
   - [Các lỗi thường gặp](vi/zerobase-2/examples/troubleshooting.md)
