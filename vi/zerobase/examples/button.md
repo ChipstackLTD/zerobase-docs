@@ -185,4 +185,4 @@ Bài viết đã hướng dẫn chi tiết cách sử dụng nút nhấn để �
 
 Với những gợi ý trên, bạn có thể tiếp tục mở rộng dự án để tạo ra nhiều ứng dụng thực tế hơn.
 
-**Chúc bạn thành công!** <span style="float: right;">[🔗 Các ví dụ khác](vi/zerobase/examples.md)</span>
+**Chúc bạn thành công!** <span style="float: right;">[Các ví dụ khác](vi/zerobase/examples.md)</span>

@@ -185,5 +185,5 @@ Bài viết đã hướng dẫn cách sử dụng biến trở để điều ch�
 - Sử dụng biến trở để điều chỉnh độ nhạy của một cảm biến: Trong một số ứng dụng, bạn có thể dùng biến trở để tinh chỉnh độ nhạy của cảm biến ánh sáng (LDR), cảm biến nhiệt độ hoặc cảm biến siêu âm bằng cách thay đổi điện áp tham chiếu.
 - Kết nối biến trở với màn hình LCD để hiển thị giá trị điện áp hoặc thông số điều chỉnh.
 
-**Chúc bạn thành công!** <span style="float: right;">[🔗 Các ví dụ khác](vi/zerobase/examples.md)</span>
+**Chúc bạn thành công!** <span style="float: right;">[Các ví dụ khác](vi/zerobase/examples.md)</span>
 

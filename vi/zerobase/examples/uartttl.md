@@ -260,7 +260,7 @@ Bài viết đã hướng dẫn cách giao tiếp với board Zerobase thông qu
 
 Những ý tưởng này sẽ giúp bạn mở rộng hiểu biết về lập trình vi điều khiển và ứng dụng thực tế trong các dự án IoT. Hãy thử nghiệm và sáng tạo với Zerobase!
 
-**Chúc bạn thành công!** <span style="float: right;">[🔗 Các ví dụ khác](vi/zerobase/examples.md)</span>
+**Chúc bạn thành công!** <span style="float: right;">[Các ví dụ khác](vi/zerobase/examples.md)</span>
 
 
 
