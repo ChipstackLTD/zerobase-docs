@@ -268,4 +268,6 @@ Bài viết đã hướng dẫn cách sử dụng cảm biến siêu âm với Z
 - Điều khiển động cơ: Ứng dụng vào robot tránh vật cản bằng cách sử dụng khoảng cách đo được để thay đổi hướng di chuyển.
 - Kết nối với IoT: Gửi dữ liệu khoảng cách lên một hệ thống IoT để giám sát từ xa.
 
-**Chúc bạn thành công!** <span style="float: right;">[Các ví dụ khác](vi/zerobase/examples.md)</span>
+**Chúc bạn thành công!** 
+
+[🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase/examples.md)</span>
