@@ -58,20 +58,17 @@
 
 ## Nguyên lý hoạt động
 
-### LED
-
 ?> Zerobase sẽ bật LED bằng cách cho chân GPIO nối với cực + của LED lên mức cao và tắt LED bằng cách cho chân đấy xuống mức thấp.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
-## Các chân kết nối
+## Sơ đồ kết nối
 ![zerobase-pins-blink](../../../_media/zerobase-pins-blink.png "zerobase-pins-blink]")
 
 Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp với chân anode **(chân dài hơn là +)** của LED và GND để kết nối với chân cathode **( chân ngắn hơn là -)** của LED.
 
 Sử dụng chân D2 để thực hiện nháy LED có sẵn trên board.
 
-## Sơ Đồ Kết nối
 ![blink-zerobase-schematic](../../../_media/blink-zerobase-schematic.png "blink-zerobase-schematic]")
 
 ![blink-zerobase-image](../../../_media/blink-led-external-zerobase.png "blink-zerobase-image]")
@@ -116,12 +113,15 @@ Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa bi�
 
 Nếu muốn nháy LED ở chân khác, bạn có thể thay đổi giá trị của biến `ledPin` thành chân bạn muốn nháy sau đó kết nối LED với chân đó.
 
-## Giải thích code
+### Giải thích code
+
+Khai báo biến hằng số `ledPin` với giá trị là 3, chính là chân D3 trên board Zerobase.
 
 ```cpp
 const int ledPin = 3; // Khai báo biến hằng số cho chân 3
 ```
-Khai báo biến hằng số `ledPin` với giá trị là 3, chính là chân D3 trên board Zerobase.
+Trong hàm `setup()`, chúng ta sẽ thiết lập chân `LED_BUILTIN` và chân `ledPin` làm chân đầu ra.
+
 
 ```cpp
 void setup() {
@@ -129,31 +129,32 @@ void setup() {
     pinMode(ledPin, OUTPUT);      // Thiết lập chân 3 làm đầu ra
 }
 ```
-Trong hàm `setup()`, chúng ta sẽ thiết lập chân `LED_BUILTIN` và chân `ledPin` làm chân đầu ra.
+Trong hàm loop, sử dụng hàm `digitalWrite()` và HIGH để bật LED trên board Zerobase và LED được kết nối với chân 3.
 
 ```cpp
     digitalWrite(LED_BUILTIN, HIGH); // Bật LED trên board ZeroBase
     digitalWrite(ledPin, HIGH);      // Bật LED được kết nối với chân 3
 ```
-Trong hàm loop, sử dụng hàm `digitalWrite()` và HIGH để bật LED trên board Zerobase và LED được kết nối với chân 3.
+Sử dụng hàm `delay()` để bật LED trong 500ms.
 
 ```cpp
     delay(500);                      // Giữ trạng thái HIGH trong 500ms
 ```
-Sử dụng hàm `delay()` để bật LED trong 500ms.
+
+Sử dụng hàm `digitalWrite()` và LOW để tắt LED trên board Zerobase và LED được kết nối với chân 3.
 
 ```cpp
     digitalWrite(LED_BUILTIN, LOW);  // Tắt LED trên board ZeroBase
     digitalWrite(ledPin, LOW);       // Tắt LED được kết nối với chân 3
 ```
 
-Sử dụng hàm `digitalWrite()` và LOW để tắt LED trên board Zerobase và LED được kết nối với chân 3.
+Sử dụng hàm `delay()` để tắt LED trong 500ms.
 
 ```cpp
     delay(500);                      // Giữ trạng thái LOW trong 500ms
 ```
 
-Sử dụng hàm `delay()` để tắt LED trong 500ms.
+Bạn có thể thay đổi chân kết nối LED bằng cách thay đổi giá trị của biến `ledPin`.
 
 ```cpp
 const int ledPin = 3; // thay đổi giá trị 3 thành chân khác

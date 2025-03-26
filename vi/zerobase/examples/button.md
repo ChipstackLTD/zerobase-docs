@@ -57,25 +57,9 @@
 
 ## Nguyên Lý Hoạt Động
 
-### Nút nhấn
-
-![push-button-schematic](../../../_media/push-button-schematic.png "push-button-schematic")
-
-Nút nhấn 4 chân có hai cặp chân (A-D và B-C), trong đó A nối với B, D nối với C. Khi không nhấn, A-D không kết nối với B-C vì bị hở mạch. Khi nhấn nút, A-D nối với B-C tạo thành đường dẫn điện.
-
-Nút này thường dùng trong vi điều khiển và mạch điện tử để tạo tín hiệu điều khiển. Khi kết hợp với điện trở kéo (pull-up hoặc pull-down), nó giúp xác định rõ trạng thái bật/tắt trong mạch.
-
-### LED
-
-![led-schematic](../../../_media/led-schematic.png "led-schematic")
-
-LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng. Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
+?> Khi nút nhấn được nhấn, đèn LED sẽ bật. Khi nút được thả ra, đèn LED sẽ tắt.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
-
-### Toàn Mạch
-
-Khi nút nhấn được nhấn, đèn LED sẽ bật. Khi nút được thả ra, đèn LED sẽ tắt.
 
 ## Các Chân Kết Nối
 
@@ -84,8 +68,6 @@ Khi nút nhấn được nhấn, đèn LED sẽ bật. Khi nút được thả r
 Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp với cực Anode (+) của LED và GND để kết nối với cực Cathode (-) của LED.
 
 Sử dụng chân A0 (D14) để kết nối với nút nhấn và GND để kết nối với chân còn lại của nút nhấn.
-
-## Sơ Đồ Kết Nối
 
 ![btn-zerboase-schmatic](../../../_media/btn-zerboase-schmatic.png "btn-zerboase-schmatic")
 
@@ -149,7 +131,7 @@ Nếu muốn thay đổi `INPUT_PULLUP` thành `INPUT_PULLDOWN`, bạn chỉ c�
 pinMode(btn, INPUT_PULLDOWN); // Thay đổi thành chế độ PULLDOWN
 ```
 
-## Giải Thích Code
+### Giải Thích Code
 
 ```cpp
 const int btn = 14;

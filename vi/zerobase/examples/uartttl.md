@@ -53,17 +53,15 @@
 
 ## Nguyên lý hoạt động
 
-Khi kết nối Zerobase với máy tính bằng USB UART TTL, bạn có thể xem dữ liệu từ board trên Serial Monitor và gửi lệnh từ máy tính để điều khiển Zerobase.
+?> Khi kết nối Zerobase với máy tính bằng USB UART TTL, bạn có thể xem dữ liệu từ board trên Serial Monitor và gửi lệnh từ máy tính để điều khiển Zerobase.
 
-## Các chân kết nối
+## Sơ đồ kết nối
 
 Sử dụng chân D1 (TX) kết nối với chân RX (màu trắng) của USB UART TTL và chân D0 (RX) kết nối với chân TX (màu xanh lá) của USB UART TTL.
 
 Sử dụng chân GND của Zerobase kết nối với chân GND (màu đen) của USB UART TTL.
 
 Sử dụng chân 5V của Zerobase kết nối với chân VCC (màu đỏ) của USB UART TTL.
-
-## Sơ đồ kết nối
 
 ![uartttl-zerobase-connection](https://cdn.chipstack.vn/uart/uart-ttl/uartttl-connection-zerobase.png "uartttl-zerobase-connection")
 
@@ -188,7 +186,7 @@ Nếu muốn thay đổi tốc độ baudrate, bạn chỉ cần sửa giá tr�
 Serial1.begin(9600);  // Thay đổi 9600 thành giá trị khác để thay đổi tốc độ baudrate
 ```
 
-## Giải Thích Code
+### Giải Thích Code
 
 Khai báo cổng Serial1 với baudrate 9600.
 

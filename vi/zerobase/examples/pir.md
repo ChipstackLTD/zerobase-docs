@@ -58,47 +58,17 @@
 
 ## Nguyên Lý Hoạt Động
 
-### Cảm Biến PIR
-
-![pir-pinout](../../../_media/pir-pinout.png "pir-pinout")
-
-Cảm biến PIR (Passive Infrared Sensor) là cảm biến hồng ngoại không tiếp xúc, dùng để phát hiện chuyển động.
-
-Khi có chuyển động, cảm biến sẽ phát ra tín hiệu điện. Tín hiệu này có thể ở mức cao (1) hoặc thấp (0) tùy thuộc vào cách kết nối jumper trên cảm biến.
-
-?> Cách kết nối jumper để tín hiệu ở mức cao (1) khi có chuyển động
-
-![pir-jumper-high](../../../_media/pir-jumper-high.jpg "pir-jumper-high")
-
-?> Cách kết nối jumper để tín hiệu ở mức thấp (0) khi có chuyển động
-
-![pir-jumper-low](../../../_media/pir-jumper-low.jpg "pir-jumper-low")
-
-### LED
-
-![led-schematic](../../../_media/led-schematic.png "led-schematic")
-
-LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng. Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
+?> Hướng dẫn này kết nối jumper của cảm biến PIR để tín hiệu ở mức cao khi có chuyển động. Khi có chuyển động, cảm biến sẽ phát ra tín hiệu ở mức cao (1), điều này sẽ bật LED. Nếu không có chuyển động, cảm biến sẽ phát ra tín hiệu ở mức thấp (0), LED sẽ tắt.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
-### Toàn mạch
-
-Hướng dẫn này kết nối jumper của cảm biến PIR để tín hiệu ở mức cao khi có chuyển động.
-
-Khi có chuyển động, cảm biến sẽ phát ra tín hiệu ở mức cao (1), điều này sẽ bật LED. 
-
-Nếu không có chuyển động, cảm biến sẽ phát ra tín hiệu ở mức thấp (0), LED sẽ tắt.
-
-## Các Chân Kết Nối
+## Sơ Đồ Kết Nối
 
 ![pir-zerboase-pins](../../../_media/pir-zerobase-pins.png "pir-zerboase-pins")
 
 Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp với cực Anode (+) của LED và GND để kết nối với cực Cathode (-) của LED.
 
 Sử dụng chân 5V để kết nối với chân VCC cảm biến PIR, GND để kết nối với chân GND của cảm biến, chân A0 (D14) để kết nối với chân OUT cảm biến PIR
-
-## Sơ Đồ Kết Nối
 
 ![pir-sensor-zerobase-schematic](../../../_media/pir-sensor-zerobase-schematic.png "pir-sensor-zerobase-schematic")
 
@@ -157,7 +127,7 @@ const int pir = 14; // Thay đổi chân cảm biến PIR
 ```
 
 
-## Giải Thích Code
+### Giải Thích Code
 
 ```cpp
 const int led = 3;

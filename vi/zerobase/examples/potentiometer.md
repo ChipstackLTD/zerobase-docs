@@ -58,44 +58,19 @@
 
 ## Nguyên lý hoạt động
 
-### Biến trở
-
-![potentiometer-pinout](../../../_media/potentiometer-pinout.png "potentiometer-pinout]")
-
-Biến trở là một loại linh kiện điện tử có thể thay đổi giá trị điện trở của mình.
-
-Biến trở có ba chân:
-
-- Chân 1 (Bên trái): Được nối với VCC (nguồn dương) hoặc GND (nguồn âm).
-- Chân 2: Là chân giữa, có giá trị điện áp thay đổi tùy theo vị trí của trục xoay. Đây là chân được sử dụng để lấy tín hiệu đầu ra.
-- Chân 3 (Bên phải): Được nối với VCC hoặc GND, ngược lại với chân 1.
+?> Khi xoay biến trở, độ sáng của LED sẽ thay đổi tùy theo giá trị điện áp tại chân giữa của biến trở.
 
 > Xem thêm về biến trở [tại đây](https://chipstack.vn/kien-thuc/dien-tu-co-ban/cau-tao-va-cach-mac-bien-tro-3-chan-chi-tiet-de-hieu/).
 
-
-### LED
-
-![led-schematic](../../../_media/led-schematic.png "led-schematic")
-
-LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng.
-
-Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
-
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
-### Toàn mạch
-
-Khi xoay biến trở, độ sáng của LED sẽ thay đổi tùy theo giá trị điện áp tại chân giữa của biến trở.
-
-## Các chân kết nối
+## Sơ đồ kết nối
 
 ![potentiometer-zerboase-pins](../../../_media/potentiometer-zerboase-pins.png "potentiometer-zerboase-pins")
 
 Sử dụng chân A1 của Zerobase để kết nối với chân 2 của biến trở. Chân 1 được nối với GND, chân 3 được nối với VCC.
 
 Sử dụng chân D3 của Zerobase để kết nối với cực anode (+) của LED. Cực cathode (-) của LED được nối với GND của Zerobase.
-
-## Sơ đồ kết nối
 
 ![potentiometer-zerobase-schematic](../../../_media/potentiometer-zerobase-schematic.png "potentiometer-zerobase-schematic")
 
@@ -158,7 +133,7 @@ const int led = 3; // Thay đổi chân kết nối LED
 const int potPin = A1; // Thay đổi chân kết nối biến trở
 ```
 
-## Giải thích code
+### Giải thích code
 
 Khai báo chân kết nối LED và biến trở.
 

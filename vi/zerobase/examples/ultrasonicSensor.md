@@ -58,31 +58,11 @@
 
 ## Nguyên Lý Hoạt Động
 
-### Cảm Biến Siêu Âm
-
-![ultrasonic-sensor-working](../../../_media/ultrasonic-sensor-working.webp "ultrasonic-sensor-working]")
-
-Cảm biến siêu âm hoạt động dựa trên nguyên lý sóng siêu âm. 
-
-Khi phát ra xung siêu âm qua chân Trig, cảm biến đo thời gian từ lúc phát tín hiệu đến lúc nhận được tín hiệu phản hồi qua chân Echo. 
-
-Dựa vào thời gian này, ta có thể tính toán khoảng cách từ cảm biến đến vật cản.
-
-### LED
-
-![led-schematic](../../../_media/led-schematic.png "led-schematic")
-
-LED (Light Emitting Diode) là một loại diode phát sáng. Khi có dòng điện chạy qua (từ cực Anode (+) sang cực Cathode (-)), nó phát ra ánh sáng.
-
-Để bảo vệ LED, cần mắc nối tiếp một điện trở để giảm dòng điện.
+?> Khi có vật ở gần, nhiều LED sáng hơn, và khi vật ở xa, ít LED sáng hơn.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
-### Toàn Mạch
-
-Khi có vật ở gần, nhiều LED sáng hơn, và khi vật ở xa, ít LED sáng hơn.
-
-## Các chân kết nối
+## Sơ Đồ Kết Nối
 
 ![ultrasonic-zerboase-pins](../../../_media/ultrasonic-zerobase-pins.png "ultrasonic-zerboase-pins")
 
@@ -91,8 +71,6 @@ Sử dụng chân A0 (D14), A1 (D15), A2 (D16), A3 (D17), SDA (D18) và D3 để
 Chân Trig của cảm biến siêu âm kết nối với chân MO (D11), chân Echo kết nối với chân SS (D10).
 
 Sử dụng chân GND và 5V để cấp nguồn cho cảm biến siêu âm.
-
-## Sơ Đồ Kết Nối
 
 ![ultrasonic-sensor-zerobase-schematic](../../../_media/ultrasonic-sensor-zerobase-schematic.png "ultrasonic-sensor-zerobase-schematic")
 
@@ -182,7 +160,7 @@ Nếu muốn thay đổi ngưỡng khoảng cách để bật LED, bạn chỉ c
 const int distanceThreshold = 20;  // Thay đổi ngưỡng khoảng cách để bật LED
 ```
 
-## Giải Thích Code
+### Giải Thích Code
 
 Khai báo mảng `ledPins` chứa các chân kết nối LED.
 
