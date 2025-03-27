@@ -4,7 +4,7 @@
 
 # Điều khiển đèn LED bằng nút nhấn
 
-![btn-zerboase](../../../_media/btn-zerobase.png "btn-zerboase")
+![btn-zerboase](https://cdn.chipstack.vn/zerobase/button/btn-zerobase.png "btn-zerboase")
 
 ## Tổng quan
 
@@ -19,6 +19,7 @@
 | Dây nối | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
 | Điện trở 330Ω | [Mua ngay](https://chipstack.vn/san-pham/dien-tro-1-4w-1/) |
 | LED | [Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
+| Breadboard | [Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
 
 <br>
 
@@ -30,7 +31,7 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/push-button.png" alt="push-button">
+    <img src="https://cdn.chipstack.vn/zerobase/button/push-button.png" alt="push-button">
     <p><em>Nút nhấn</em></p>
 </div>
 
@@ -55,9 +56,17 @@
     <p><em>LED</em></p>
 </div>
 
+<div align="center">
+    <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="breadboard-830-lo">
+    <p><em>Breadboard</em></p>
+</div>
+
+
 ## Nguyên Lý Hoạt Động
 
-?> Khi nút nhấn được nhấn, đèn LED sẽ bật. Khi nút được thả ra, đèn LED sẽ tắt.
+![push-button-schematic](https://cdn.chipstack.vn/zerobase/button/push-button-schematic.png "push-button-schematic")
+
+?> Nút nhấn hoạt động như một công tắc, khi nhấn sẽ đóng mạch và khi thả sẽ mở mạch. Vi điều khiển liên tục kiểm tra trạng thái của nút. Để đảm bảo tín hiệu ổn định, ta sử dụng điện trở kéo lên (pull-up). Khi nút chưa nhấn, tín hiệu ở mức cao (HIGH), vi điều khiển sẽ đọc được mức cao và tắt đèn. Khi nhấn, vi điều khiển đọc được tín hiệu xuống mức thấp (LOW) và sẽ bật đèn.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
@@ -69,9 +78,9 @@ Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp v
 
 Sử dụng chân A0 (D14) để kết nối với nút nhấn và GND để kết nối với chân còn lại của nút nhấn.
 
-![btn-zerboase-schmatic](../../../_media/btn-zerboase-schmatic.png "btn-zerboase-schmatic")
+![btn-zerboase-schmatic](https://cdn.chipstack.vn/zerobase/button/btn-zerboase-schmatic.png "btn-zerboase-schmatic")
 
-![btn-zerboase](../../../_media/btn-zerobase.png "btn-zerboase")
+![btn-zerboase](https://cdn.chipstack.vn/zerobase/button/btn-zerobase.png "btn-zerboase")
 
 ## Code
 
@@ -106,13 +115,13 @@ void loop() {
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
-![btn-zerobase-code](../../../_media/btn-zerobase-code.png "btn-zerobase-code]")
+![btn-zerobase-code](https://cdn.chipstack.vn/zerobase/button/btn-zerobase-code.png "btn-zerobase-code]")
 
 ### Biên dịch
 
 Nhấn vào biểu tượng Verify để biên dịch code.
 
-![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
+![verify-code](https://cdn.chipstack.vn/default/verify-code.png "verify-code]")
 
 ### Thực hiện nạp code
 
@@ -168,7 +177,7 @@ Nếu nút được nhấn (mức LOW), đèn LED sẽ bật.
 ?> Khi nút nhấn được nhấn, đèn LED sẽ bật. Khi nút nhấn được thả ra, đèn LED sẽ tắt.
 
 <p align="center">
-  <img src="../../../_media/btn-zerobase-result.gif" alt="btn-zerobase-result.gif">
+  <img src="https://cdn.chipstack.vn/zerobase/button/btn-zerobase-result.gif" alt="btn-zerobase-result">
 </p>
 
 ## Kết luận và hướng phát triển

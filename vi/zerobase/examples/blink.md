@@ -4,7 +4,7 @@
 
 # Nháy LED
 
-![blink-zerobase-image](../../../_media/blink-led-external-zerobase.png "blink-zerobase-image]")
+![blink-zerobase-image](https://cdn.chipstack.vn/zerobase/blink/blink-led-external-zerobase.png "blink-zerobase-image]")
 
 ## Tổng quan
 
@@ -31,7 +31,7 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/breadboard.png" alt="breadboard">
+    <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="breadboard">
     <p><em>Breadboard</em></p>
 </div>
 
@@ -63,15 +63,15 @@
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
 ## Sơ đồ kết nối
-![zerobase-pins-blink](../../../_media/zerobase-pins-blink.png "zerobase-pins-blink]")
+![zerobase-pins-blink](https://cdn.chipstack.vn/zerobase/blink/zerobase-pins-blink.png "zerobase-pins-blink]")
 
 Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp với chân anode **(chân dài hơn là +)** của LED và GND để kết nối với chân cathode **( chân ngắn hơn là -)** của LED.
 
 Sử dụng chân D2 để thực hiện nháy LED có sẵn trên board.
 
-![blink-zerobase-schematic](../../../_media/blink-zerobase-schematic.png "blink-zerobase-schematic]")
+![blink-zerobase-schematic](https://cdn.chipstack.vn/zerobase/blink/blink-zerobase-schematic.png "blink-zerobase-schematic]")
 
-![blink-zerobase-image](../../../_media/blink-led-external-zerobase.png "blink-zerobase-image]")
+![blink-zerobase-image](https://cdn.chipstack.vn/zerobase/blink/blink-zerobase-image.png "blink-zerobase-image]")
 
 ## Code
 
@@ -100,13 +100,13 @@ void loop() {
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
-![blink-zerobase-code](../../../_media/blink-zerobase-code.png "blink-zerobase-code]")
+![blink-zerobase-code](https://cdn.chipstack.vn/zerobase/blink/blink-zerobase-code.png "blink-zerobase-code]")
 
 ### Biên dịch
 
 Nhấn vào biểu tượng Verify để biên dịch code.
 
-![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
+![verify-code](https://cdn.chipstack.vn/default/verify-code.png "verify-code]")
 
 ### Thực hiện nạp code
 Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
@@ -171,7 +171,7 @@ delay(500); // thay đổi giá trị 500 thành giá trị khác
 ?> Nếu bạn đã thực hiện đúng các bước, bạn sẽ thấy LED nháy theo chu kỳ 500ms.
 
 <p align="center">
-  <img src="../../../_media/result-led-blink-external-zerobase.gif" alt="result-led-blink-external-zerobase">
+  <img src="https://cdn.chipstack.vn/zerobase/blink/result-led-blink-external-zerobase.gif" alt="result-led-blink-external-zerobase">
 </p>
 
 ## Kết luận và Hướng phát triển

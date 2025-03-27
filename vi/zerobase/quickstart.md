@@ -53,6 +53,22 @@ Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zer
 
 ## Hàn chân
 
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/quickstart/truoc-khi-han-zerobase.png" alt="han-chan-zerobase">
+    <p>Trước khi hàn chân</p>
+</div>
+<br>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/quickstart/truoc-khi-han-zerobase-1.png" alt="han-chan-zerobase">
+    <p>Trước khi hàn chân</p>
+</div>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/quickstart/sau-khi-han-zerobase.png" alt="han-chan-zerobase">
+    <p>Sau khi hàn chân</p>
+</div>
+
 
 ## Cài đặt Arduino IDE và board Zerobase
 Để có thể lập trình cho Zerobase, đầu tiên bạn cần tải và cài đặt Arduino IDE phiên bản mới nhất theo đường link sau: [Arduino IDE](https://www.arduino.cc/en/software).
@@ -61,11 +77,11 @@ Sau khi cài đặt xong, bạn cần cài đặt board Zerobase trên Arduino I
 
 Mở **Arduino IDE**. Sau đó vào **File > Preferences**.
 
-![preferences](https://cdn.chipstack.vn/quickstart/preferences.png "preferences]")
+![preferences](https://cdn.chipstack.vn/zerobase/quickstart/preferences.png "preferences]")
 
 Một hộp thoại sẽ xuất hiện giống như hình dưới đây.
 
-![preferences](https://cdn.chipstack.vn/quickstart/preferences2.png "preferences]")
+![preferences](https://cdn.chipstack.vn/zerobase/quickstart/preferences2.png "preferences]")
 
 Trong mục **Additional Board Manager URLs**, thêm đường dẫn sau:
 
@@ -75,23 +91,23 @@ https://raw.githubusercontent.com/ChipstackLTD/zerobase-board-manager/refs/heads
 
 Sau khi dán đường dẫn, nhấn **OK** để lưu lại.
 
-![preferences](https://cdn.chipstack.vn/quickstart/preferences3.png "preferences]")
+![preferences](https://cdn.chipstack.vn/zerobase/quickstart/preferences3.png "preferences]")
 
 Sau khi nhấn **OK**, ở góc dưới cùng bên trái sẽ hiển thị quá trình tải board Zerobase, chờ cho quá trình tải hoàn tất.
 
-![download-index](https://cdn.chipstack.vn/quickstart/download-index-zerobase.png "download-index]")
+![download-index](https://cdn.chipstack.vn/zerobase/quickstart/download-index-zerobase.png "download-index]")
 
 Khi quá trình tải hoàn tất, bạn vào **Tools > Board > Boards Manager**.
 
-![boards-manager](https://cdn.chipstack.vn/quickstart/boards-manager.png "boards-manager]")
+![boards-manager](https://cdn.chipstack.vn/zerobase/quickstart/boards-manager.png "boards-manager]")
 
 Tìm kiếm tên board: `ZB`, chọn version mới nhất và nhấn **Install**.
 
-![install-board](https://cdn.chipstack.vn/quickstart/install-board-zb-boards-manager.png "install-board]")
+![install-board](https://cdn.chipstack.vn/zerobase/quickstart/install-board-zb-boards-manager.png "install-board]")
 
 Sau khi nhấn **Install**, quá trình cài đặt board Zerobase sẽ bắt đầu. Chờ cho quá trình cài đặt hoàn tất. Sau khi cài đặt hoàn tất, kết quả sẽ hiển thị như hình dưới đây.
 
-![install-success](https://cdn.chipstack.vn/quickstart/install-success.png "install-success]")
+![install-success](https://cdn.chipstack.vn/zerobase/quickstart/install-success.png "install-success]")
 
 Thoát khỏi Arduino IDE và mở lại để sử dụng board Zerobase.
 
@@ -101,15 +117,15 @@ Thoát khỏi Arduino IDE và mở lại để sử dụng board Zerobase.
 
 Để chọn board Zerobase, bạn vào **Tools > Board**, chọn Zerobase.
 
-![select-board](https://cdn.chipstack.vn/quickstart/select-board-zerobase.png "select-board]")
+![select-board](https://cdn.chipstack.vn/zerobase/quickstart/select-board-zerobase.png "select-board]")
 
 Bạn có thể sử dụng code mẫu để nháy LED trên Zerobase bằng cách vào **File > Examples > DigitalIO > Blink**.
 
-![blink-zerobase](https://cdn.chipstack.vn/quickstart/blink-zerobase.png "blink-zerobase]")
+![blink-zerobase](https://cdn.chipstack.vn/zerobase/quickstart/blink-zerobase.png "blink-zerobase]")
 
 Arduino IDE sẽ mở ra một cửa sổ mới chứa code mẫu nháy LED.
 
-![blink-example](https://cdn.chipstack.vn/quickstart/blink-example.png "blink-example]")
+![blink-example](https://cdn.chipstack.vn/zerobase/quickstart/blink-example.png "blink-example]")
 
 Nếu không thể mở code mẫu, bạn có thể sử dụng đoạn code sau:
 
@@ -141,11 +157,11 @@ Bạn kết nối board Zerobase với máy tính bằng cáp USB.
 
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
 
-![upload-code](https://cdn.chipstack.vn/quickstart/upload-code.png "upload-code]")
+![upload-code](https://cdn.chipstack.vn/zerobase/quickstart/upload-code.png "upload-code]")
 
 Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình dưới đây.
 
-![upload-success-zerobase](https://cdn.chipstack.vn/quickstart/upload-success-zerobase.png "upload-success-zerobase]")
+![upload-success-zerobase](https://cdn.chipstack.vn/zerobase/quickstart/upload-success-zerobase.png "upload-success-zerobase]")
 
 Nhấn nút **RESET** để Zenobase chạy đoạn code bạn vừa nạp.
 

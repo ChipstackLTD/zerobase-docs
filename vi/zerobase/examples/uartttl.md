@@ -47,7 +47,7 @@
 </div>
 
 <div align="center">
-    <img src="../../../_media/breadboard.png" alt="breadboard">
+    <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="breadboard">
     <p><em>Breadboard</em></p>
 </div>
 
@@ -63,7 +63,7 @@ Sử dụng chân GND của Zerobase kết nối với chân GND (màu đen) c�
 
 Sử dụng chân 5V của Zerobase kết nối với chân VCC (màu đỏ) của USB UART TTL.
 
-![uartttl-zerobase-connection](https://cdn.chipstack.vn/uart/uart-ttl/uartttl-connection-zerobase.png "uartttl-zerobase-connection")
+![uartttl-zerobase-connection](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-connection-zerobase.png "uartttl-zerobase-connection")
 
 ## Cài đặt driver
 
@@ -71,60 +71,60 @@ Nếu bạn sử dụng PL2303, hãy cài đặt driver cho nó trước khi s�
 
 Bạn vào link sau để tải driver: [PL2303 Driver](https://drive.google.com/drive/folders/133aIUo-5l22TIXZL1MJhJfVzBwmQy_dI)
 
-![download-pl2303-driver](https://cdn.chipstack.vn/uart/uart-ttl/download-pl2303-driver.png "download-pl2303-driver")
+![download-pl2303-driver](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/download-pl2303-driver.png "download-pl2303-driver")
 
 Sau khi tải xong, bạn giải nén file ra.
 
 Sau đó mở Device Manager.
 
-![device-manager](https://cdn.chipstack.vn/uart/uart-ttl/device-manager.png "device-manager")
+![device-manager](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/device-manager.png "device-manager")
 
 Chọn Port (COM & LPT) thì sẽ thấy hiển thị "PL2303XHA PHASED OUT SINCE 2012. PLEASE CONTACT YOUR SUPPLIER".
 
-![port-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/port-pl2303.png "port-pl2303")
+![port-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/port-pl2303.png "port-pl2303")
 
-![pl2303-phase-out](https://cdn.chipstack.vn/uart/uart-ttl/pl2303-phase-out.png "pl2303-phase-out")
+![pl2303-phase-out](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/pl2303-phase-out.png "pl2303-phase-out")
 
 
 Nhấn chuột phải vào "PL2303XHA PHASED OUT SINCE 2012. PLEASE CONTACT YOUR SUPPLIER" và chọn Update driver.
 
-![update-driver-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/update-driver-pl2303.png "update-driver-pl2303")
+![update-driver-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/update-driver-pl2303.png "update-driver-pl2303")
 
 Chọn "Browse my computer for drivers".
 
-![browse-computer-drivers-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/browse-computer-drivers-pl2303.png "browse-computer-drivers-pl2303")
+![browse-computer-drivers-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/browse-computer-drivers-pl2303.png "browse-computer-drivers-pl2303")
 
 Chọn "Let me pick from a list of available drivers on my computer".
 
-![pick-driver-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/pick-driver-pl2303.png "pick-driver-pl2303")
+![pick-driver-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/pick-driver-pl2303.png "pick-driver-pl2303")
 
 Chọn "Have Disk...".
 
-![have-disk-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/have-disk-pl2303.png "have-disk-pl2303")
+![have-disk-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/have-disk-pl2303.png "have-disk-pl2303")
 
 Chọn "Browse...".
 
-![browse-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/browse-pl2303.png "browse-pl2303")
+![browse-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/browse-pl2303.png "browse-pl2303")
 
 Chọn đến thư mục chứa driver vừa giải nén, chọn file "ser2pl.inf" và nhấn Open.
 
-![ser2pl-inf-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/ser2pl-inf-pl2303.png "ser2pl-inf-pl2303")
+![ser2pl-inf-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/ser2pl-inf-pl2303.png "ser2pl-inf-pl2303")
 
 Chọn OK.
 
-![ok-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/ok-pl2303.png "ok-pl2303")
+![ok-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/ok-pl2303.png "ok-pl2303")
 
 Chọn "Prolific USB-to-Serial Comm Port" và nhấn Next.
 
-![prolific-usb-to-serial-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/prolific-usb-to-serial-pl2303.png "prolific-usb-to-serial-pl2303")
+![prolific-usb-to-serial-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/prolific-usb-to-serial-pl2303.png "prolific-usb-to-serial-pl2303")
 
 Sau đó driver sẽ được cài đặt, sau khi cài đặt xong, bạn nhấn Close.
 
-![close-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/close-pl2303.png "close-pl2303")
+![close-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/close-pl2303.png "close-pl2303")
 
 Bạn sẽ thấy hiển thị "Prolific USB-to-Serial Comm Port (COMX)" trong Device Manager, ở ví dụ này sẽ là "Prolific USB-to-Serial Comm Port (COM14)".
 
-![com-pl2303](https://cdn.chipstack.vn/uart/uart-ttl/com-pl2303.png "com-pl2303")
+![com-pl2303](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/com-pl2303.png "com-pl2303")
 
 Như vậy, bạn đã cài đặt driver cho PL2303 thành công.
 
@@ -152,13 +152,13 @@ void loop() {
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
-![uartttl-zerobase-code](https://cdn.chipstack.vn/uart/uart-ttl/uartttl-zerobase-code.png "uartttl-zerobase-code")
+![uartttl-zerobase-code](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-zerobase-code.png "uartttl-zerobase-code")
 
 ### Biên dịch
 
 Nhấn vào biểu tượng Verify để biên dịch code.
 
-![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
+![verify-code](https://cdn.chipstack.vn/default/verify-code.png "verify-code]")
 
 ### Thực hiện Nạp Code
 
@@ -166,19 +166,19 @@ Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa bi�
 
 Sau khi nạp code thành công, chọn **Tools > Port > COMX (ở ví dụ này sẽ là COM14)** để chọn cổng COM tương ứng với USB UART TTL.
 
-![select-com-port](https://cdn.chipstack.vn/uart/uart-ttl/select-com-port.png "select-com-port")
+![select-com-port](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/select-com-port.png "select-com-port")
 
 Sau đó, để mở Serial Monitor, chọn **Tools > Serial Monitor** hoặc nhấn tổ hợp phím `Ctrl + Shift + M`.
 
-![open-serial-monitor](https://cdn.chipstack.vn/uart/uart-ttl/open-serial-monitor.png "open-serial-monitor")
+![open-serial-monitor](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/open-serial-monitor.png "open-serial-monitor")
 
 Quan sát dữ liệu từ Serial Monitor, nếu bạn thấy hiển thị ký tự lạ như hình bên dưới:
 
-![weird-characters-serial-monitor](https://cdn.chipstack.vn/uart/uart-ttl/weird-characters-serial-monitor.png "weird-characters-serial-monitor")
+![weird-characters-serial-monitor](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/weird-characters-serial-monitor.png "weird-characters-serial-monitor")
 
 Bạn cần kiểm tra lại cài đặt baudrate của Serial Monitor, và chọn lại 9600 theo như trong code.
 
-![uartttl-serial-monitor](https://cdn.chipstack.vn/uart/uart-ttl/uartttl-serial-monitor.png "uartttl-serial-monitor")
+![uartttl-serial-monitor](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-serial-monitor.png "uartttl-serial-monitor")
 
 Nếu muốn thay đổi tốc độ baudrate, bạn chỉ cần sửa giá trị tham số trong hàm `Serial1.begin()` và chọn tốc độ baudrate tương ứng ở Serial Monitor.
 
@@ -240,11 +240,11 @@ Cuối cùng, chờ 1 giây trước khi thực hiện vòng lặp tiếp theo.
 
 Nhập `Hello Zerobase!` từ Serial Monitor.
 
-![uartttl-serial-monitor-result](https://cdn.chipstack.vn/uart/uart-ttl/uartttl-serial-monitor-result.png "uartttl-serial-monitor-result")
+![uartttl-serial-monitor-result](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-serial-monitor-result.png "uartttl-serial-monitor-result")
 
 Bạn sẽ thấy dữ liệu `Received: Hello Zerobase!` được phản hồi lại từ Zerobase.
 
-![uartttl-serial-monitor-result-2](https://cdn.chipstack.vn/uart/uart-ttl/uartttl-serial-monitor-result-2.png "uartttl-serial-monitor-result-2")
+![uartttl-serial-monitor-result-2](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-serial-monitor-result-2.png "uartttl-serial-monitor-result-2")
 
 ## Kết luận và Hướng phát triển
 

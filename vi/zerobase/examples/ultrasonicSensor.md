@@ -4,7 +4,7 @@
 
 # Sử Dụng Cảm Biến Siêu Âm Với Zerobase
 
-![ultrasonic-sensor-zerobase](../../../_media/ultrasonic-sensor-zerobase.jpg "ultrasonic-sensor-zerobase")
+![ultrasonic-sensor-zerobase](https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-sensor-zerobase.jpg "ultrasonic-sensor-zerobase")
 
 ## Tổng quan
 
@@ -19,6 +19,7 @@
 | Điện trở 330Ω | [Mua ngay](https://chipstack.vn/san-pham/dien-tro-1-4w-1/) |
 | LED | [Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
 | Dây nối | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
+| Breadboard | [Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
 
 <br>
 
@@ -30,7 +31,7 @@
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/ultrasonic-sensor/ultrasonic-sensor.png" alt="ultrasonic-sensor">
+    <img src="https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-sensor.png" alt="ultrasonic-sensor">
     <p><em>Cảm biến siêu âm</em></p>
 </div>
 
@@ -55,10 +56,18 @@
     <p><em>Dây nối</em></p>
 </div>
 
+<br>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="breadboard">
+    <p><em>Breadboard</em></p>
+</div>
+
+
 
 ## Nguyên Lý Hoạt Động
 
-![ultrasonic-sensor-working-principle](https://cdn.chipstack.vn/ultrasonic-sensor/ultrasonic-sensor-working-principle.png "ultrasonic-sensor-working-principle")
+![ultrasonic-sensor-working-principle](https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-sensor-working-principle.png "ultrasonic-sensor-working-principle")
 
 ?> Cảm biến siêu âm hoạt động bằng cách phát ra một xung siêu âm từ chân Trig (TX) trong 10 micro giây. Sau khi phát xung, chân Echo (RX) được kéo lên mức cao và giữ nguyên cho đến khi nhận được tín hiệu phản xạ từ vật cản. Thời gian chân Echo giữ mức cao chính là thời gian sóng siêu âm di chuyển đến vật và quay về. Dựa vào đó, vi điều khiển tính toán khoảng cách bằng công thức: `Khoảng cách = (Thời gian Echo × 0.034) / 2`. 
 
@@ -76,13 +85,13 @@ Chân Trig của cảm biến siêu âm kết nối với chân MO (D11), chân 
 
 Sử dụng chân GND và 5V để cấp nguồn cho cảm biến siêu âm.
 
-![ultrasonic-sensor-zerobase-schematic](../../../_media/ultrasonic-sensor-zerobase-schematic.png "ultrasonic-sensor-zerobase-schematic")
+![ultrasonic-sensor-zerobase-schematic](https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-sensor-zerobase-schematic.png "ultrasonic-sensor-zerobase-schematic")
 
-![ultrasonic-sensor-zerobase](../../../_media/ultrasonic-sensor-zerobase.jpg "ultrasonic-sensor-zerobase")
+![ultrasonic-sensor-zerobase](https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-sensor-zerobase.jpg "ultrasonic-sensor-zerobase")
 
-![ultrasonic-sensor-zerobase-mat-sau](../../../_media/ultrasonic-sensor-zerobase-mat-sau.jpg "ultrasonic-sensor-zerobase-mat-sau")
+![ultrasonic-sensor-zerobase-mat-sau](https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-sensor-zerobase-mat-sau.jpg "ultrasonic-sensor-zerobase-mat-sau")
 
-![ultrasonic-sensor-zerobase-mat-tren](../../../_media/ultrasonic-sensor-zerobase-mat-tren.jpg "ultrasonic-sensor-zerobase-mat-tren")
+![ultrasonic-sensor-zerobase-mat-tren](https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-sensor-zerobase-mat-tren.jpg "ultrasonic-sensor-zerobase-mat-tren")
 
 ## Code
 
@@ -138,13 +147,13 @@ void loop() {
 ```
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
-![ultrasonic-zerobase-code](../../../_media/ultrasonic-zerobase-code.png "ultrasonic-zerobase-code]")
+![ultrasonic-zerobase-code](https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-zerobase-code.png "ultrasonic-zerobase-code]")
 
 ### Biên dịch
 
 Nhấn vào biểu tượng Verify để biên dịch code.
 
-![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
+![verify-code](https://cdn.chipstack.vn/default/verify-code.png "verify-code]")
 
 ### Thực Hiện Nạp Code
 
@@ -259,7 +268,7 @@ Tắt tất cả LED khi không có vật trong phạm vi 20 cm.
 ?> Khi có vật ở gần, nhiều LED sáng hơn, và khi vật ở xa, ít LED sáng hơn. Khi không có vật trong phạm vi 20 cm, tất cả LED sẽ tắt.
 
 <p align="center">
-  <img src="../../../_media/ultrasonic-sensor-zerobase-result.gif" alt="ultrasonic-sensor-zerobase-result">
+  <img src="https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-sensor-zerobase-result.gif" alt="ultrasonic-sensor-zerobase-result">
 </p>
 
 ## Kết Luận và Hướng Phát Triển

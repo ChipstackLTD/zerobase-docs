@@ -4,7 +4,7 @@
 
 # Sử Dụng Cảm Biến PIR Với Zerobase
 
-![pir](../../../_media/pir.png "pir")
+![pir](https://cdn.chipstack.vn/zerobase/pir/pir.png "pir")
 
 ## Tổng quan
 
@@ -19,6 +19,7 @@
 | Điện trở 330Ω | [Mua ngay](https://chipstack.vn/san-pham/dien-tro-1-4w-1/) |
 | LED | [Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
 | Dây nối | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
+| Breadboard | [Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
 
 <br>
 
@@ -30,7 +31,7 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/pir-image.png" alt="pir-image">
+    <img src="https://cdn.chipstack.vn/zerobase/pir/pir-image.png" alt="pir-image">
     <p><em>Cảm biến PIR</em></p>
 </div>
 
@@ -55,10 +56,35 @@
     <p><em>Dây nối</em></p>
 </div>
 
+<br>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="breadboard">
+    <p><em>Breadboard</em></p>
+</div>
+
 
 ## Nguyên Lý Hoạt Động
 
-?> Hướng dẫn này kết nối jumper của cảm biến PIR để tín hiệu ở mức cao khi có chuyển động. Khi có chuyển động, cảm biến sẽ phát ra tín hiệu ở mức cao (1), điều này sẽ bật LED. Nếu không có chuyển động, cảm biến sẽ phát ra tín hiệu ở mức thấp (0), LED sẽ tắt.
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/pir/pir-pinout.png" alt="pir-pinout">
+    <p><em>Sơ đồ chân PIR</em></p>
+</div>
+<br>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/pir/pir-jumper-low.jpg" alt="pir-jumper-low">
+    <p><em>Kiểu kết nối jumper để xuất tín hiệu mức thấp</em></p>
+</div>
+<br>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/pir/pir-jumper-high.jpg" alt="pir-jumper-high">
+    <p><em>Kiểu kết nối jumper để xuất tín hiệu mức cao</em></p>
+</div>
+<br>
+
+?> Khi phát hiện chuyển động, PIR có thể xuất tín hiệu mức cao hoặc mức thấp tuỳ vào kiểu kết nối jumper. Hướng dẫn này kết nối jumper của cảm biến PIR để tín hiệu ở mức cao khi có chuyển động. Khi có chuyển động, cảm biến sẽ phát ra tín hiệu ở mức cao (1), điều này sẽ bật LED. Nếu không có chuyển động, cảm biến sẽ phát ra tín hiệu ở mức thấp (0), LED sẽ tắt.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
@@ -70,11 +96,11 @@ Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp v
 
 Sử dụng chân 5V để kết nối với chân VCC cảm biến PIR, GND để kết nối với chân GND của cảm biến, chân A0 (D14) để kết nối với chân OUT cảm biến PIR
 
-![pir-sensor-zerobase-schematic](../../../_media/pir-sensor-zerobase-schematic.png "pir-sensor-zerobase-schematic")
+![pir-sensor-zerobase-schematic](https://cdn.chipstack.vn/zerobase/pir/pir-sensor-zerobase-schematic.png "pir-sensor-zerobase-schematic")
 
-![pir-mat-truoc](../../../_media/pir-mat-truoc.png "pir-mat-truoc")
+![pir-mat-truoc](https://cdn.chipstack.vn/zerobase/pir/pir-mat-truoc.png "pir-mat-truoc")
 
-![pir](../../../_media/pir.png "pir")
+![pir](https://cdn.chipstack.vn/zerobase/pir/pir.png "pir")
 
 
 ## Code
@@ -107,13 +133,13 @@ void loop() {
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
-![pir-zerobase-code](../../../_media/pir-zerobase-code.png "pir-zerobase-code]")
+![pir-zerobase-code](https://cdn.chipstack.vn/zerobase/pir/pir-zerobase-code.png "pir-zerobase-code]")
 
 ### Biên dịch
 
 Nhấn vào biểu tượng **Verify** để biên dịch code.
 
-![verify-code](https://cdn.chipstack.vn/verify-code.png "verify-code]")
+![verify-code](https://cdn.chipstack.vn/default/verify-code.png "verify-code]")
 
 ### Thực hiện nạp code
 
@@ -162,7 +188,7 @@ Ngay lập tức tắt LED, khiến LED nháy nhanh thay vì duy trì sáng ch�
 ?> Khi có chuyển động, đèn LED sẽ bật. Nếu không có chuyển động, đèn LED sẽ tắt.
 
 <p align="center">
-  <img src="../../../_media/pir-zerobase-result.gif" alt="pir-zerobase-result">
+  <img src="https://cdn.chipstack.vn/zerobase/pir/pir-zerobase-result.gif" alt="pir-zerobase-result">
 </p>
 
 ## Kết luận và Hướng phát triển
