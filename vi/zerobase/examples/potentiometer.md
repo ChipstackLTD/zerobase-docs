@@ -4,7 +4,7 @@
 
 # Sử Dụng Biến Trở Điều Chỉnh Độ Sáng LED Với Zerobase
 
-![potentiometer-zerobase-mat-truoc](../../../_media/potentiometer-zerobase-mat-truoc.jpg "potentiometer-zerobase-mat-truoc")
+![potentiometer-zerobase-mat-truoc](https://cdn.chipstack.vn/potentiometer/potentiometer-zerobase-mat-truoc.jpg "potentiometer-zerobase-mat-truoc")
 
 ## Tổng quan
 
@@ -30,28 +30,28 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/potentiometer.jpg" alt="potentiometer">
+    <img src="https://cdn.chipstack.vn/potentiometer/potentiometer.jpg" alt="potentiometer">
     <p><em>Biến trở 10kΩ</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
+    <img src="https://cdn.chipstack.vn/default/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
     <p><em>Điện trở 330Ω</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/led-do.png" alt="led-do">
+    <img src="https://cdn.chipstack.vn/default/led-do.png" alt="led-do">
     <p><em>LED</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/jumper-wire.png" alt="jumper-wire">
+    <img src="https://cdn.chipstack.vn/default/jumper-wire.png" alt="jumper-wire">
     <p><em>Dây nối</em></p>
 </div>
 
@@ -72,13 +72,13 @@ Sử dụng chân A1 của Zerobase để kết nối với chân 2 của biến
 
 Sử dụng chân D3 của Zerobase để kết nối với cực anode (+) của LED. Cực cathode (-) của LED được nối với GND của Zerobase.
 
-![potentiometer-zerobase-schematic](../../../_media/potentiometer-zerobase-schematic.png "potentiometer-zerobase-schematic")
+![potentiometer-zerobase-schematic](https://cdn.chipstack.vn/potentiometer/potentiometer-zerobase-schematic.png "potentiometer-zerobase-schematic")
 
-![potentiometer-zerobase-mat-truoc](../../../_media/potentiometer-zerobase-mat-truoc.jpg "potentiometer-zerobase-mat-truoc")
+![potentiometer-zerobase-mat-truoc](https://cdn.chipstack.vn/potentiometer/potentiometer-zerobase-mat-truoc.jpg "potentiometer-zerobase-mat-truoc")
 
-![potentiometer-zerobase-mat-sau](../../../_media/potentiometer-zerobase-mat-sau.jpg "potentiometer-zerobase-mat-sau")
+![potentiometer-zerobase-mat-sau](https://cdn.chipstack.vn/potentiometer/potentiometer-zerobase-mat-sau.jpg "potentiometer-zerobase-mat-sau")
 
-![potentiometer-zerobase-mat-tren](../../../_media/potentiometer-zerobase-mat-tren.jpg "potentiometer-zerobase-mat-tren")
+![potentiometer-zerobase-mat-tren](https://cdn.chipstack.vn/potentiometer/potentiometer-zerobase-mat-tren.jpg "potentiometer-zerobase-mat-tren")
 
 ## Code
 
@@ -114,7 +114,7 @@ void loop() {
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
-![potentiometer-zerobase-code](../../../_media/potentiometer-zerobase-code.png "potentiometer-zerobase-code]")
+![potentiometer-zerobase-code](https://cdn.chipstack.vn/potentiometer/potentiometer-zerobase-code.png "potentiometer-zerobase-code]")
 
 ### Biên dịch
 
@@ -172,7 +172,7 @@ analogWrite(led, sensorValue);
 ?> Sau khi nạp code thành công, bạn sẽ thấy LED sáng lên và độ sáng của LED sẽ thay đổi tùy theo vị trí của trục xoay của biến trở.
 
 <p align="center">
-  <img src="../../../_media/potentiometer-zerobase-result.gif" alt="potentiometer-zerobase-result">
+  <img src="https://cdn.chipstack.vn/potentiometer/potentiometer-zerobase-result.gif" alt="potentiometer-zerobase-result">
 </p>
 
 ## Kết luận và hướng phát triển

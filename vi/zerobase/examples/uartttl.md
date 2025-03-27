@@ -37,7 +37,7 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/jumper-wire.png" alt="jumper-wire">
+    <img src="https://cdn.chipstack.vn/default/jumper-wire.png" alt="jumper-wire">
     <p><em>Dây nối</em></p>
 </div>
 

@@ -38,21 +38,21 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
+    <img src="https://cdn.chipstack.vn/default/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
     <p><em>Điện trở 330Ω</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/led-do.png" alt="led-do">
+    <img src="https://cdn.chipstack.vn/default/led-do.png" alt="led-do">
     <p><em>LED</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/jumper-wire.png" alt="jumper-wire">
+    <img src="https://cdn.chipstack.vn/default/jumper-wire.png" alt="jumper-wire">
     <p><em>Dây nối</em></p>
 </div>
 

@@ -30,35 +30,39 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/ultrasonic-sensor.png" alt="ultrasonic-sensor">
+    <img src="https://cdn.chipstack.vn/ultrasonic-sensor/ultrasonic-sensor.png" alt="ultrasonic-sensor">
     <p><em>Cảm biến siêu âm</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
+    <img src="https://cdn.chipstack.vn/default/dien-tro-330-ohm.png" alt="dien-tro-330-ohm">
     <p><em>Điện trở 330Ω</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/led-do.png" alt="led-do">
+    <img src="https://cdn.chipstack.vn/default/led-do.png" alt="led-do">
     <p><em>LED</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/jumper-wire.png" alt="jumper-wire">
+    <img src="https://cdn.chipstack.vn/default/jumper-wire.png" alt="jumper-wire">
     <p><em>Dây nối</em></p>
 </div>
 
 
 ## Nguyên Lý Hoạt Động
 
-?> Khi có vật ở gần, nhiều LED sáng hơn, và khi vật ở xa, ít LED sáng hơn.
+![ultrasonic-sensor-working-principle](https://cdn.chipstack.vn/ultrasonic-sensor/ultrasonic-sensor-working-principle.png "ultrasonic-sensor-working-principle")
+
+?> Cảm biến siêu âm hoạt động bằng cách phát ra một xung siêu âm từ chân Trig (TX) trong 10 micro giây. Sau khi phát xung, chân Echo (RX) được kéo lên mức cao và giữ nguyên cho đến khi nhận được tín hiệu phản xạ từ vật cản. Thời gian chân Echo giữ mức cao chính là thời gian sóng siêu âm di chuyển đến vật và quay về. Dựa vào đó, vi điều khiển tính toán khoảng cách bằng công thức: `Khoảng cách = (Thời gian Echo × 0.034) / 2`. 
+
+?> Sau khi đo khoảng cách, hệ thống sẽ bật số lượng đèn LED tương ứng: Nếu vật ở gần, nhiều đèn sáng lên; nếu vật ở xa, ít đèn sáng hơn; nếu không có vật trong phạm vi đo, tất cả đèn sẽ tắt.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
