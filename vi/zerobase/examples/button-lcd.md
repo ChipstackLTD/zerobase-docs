@@ -4,7 +4,7 @@
 
 # Đếm số lần nhấn nút và hiển thị lên LCD
 
-![button-lcd](https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-zerobase.png)
+![button-lcd](https://cdn.chipstack.vn/zerobase/lcd-module-zerobase.png)
 
 ## Tổng quan
 
@@ -15,7 +15,7 @@
 | Linh kiện |  Link mua |
 | --- | --- |
 | Board Zerobase | [Mua ngay](https://chipstack.vn/san-pham/zerobase/) |
-| LCD Character 1602A nền xanh dương | [Mua ngay](https://chipstack.vn/san-pham/lcd-character-1602a-nen-xanh-duong/) |
+| LCD Character 1602A nền xanh dương | [Mua ngay](https://chipstack.vn/san-pham/lcd-module-character-1602a-nen-xanh-duong/) |
 | Module I2C LCD 1602 | [Mua ngay](https://chipstack.vn/san-pham/module-chuyen-doi-i2c-cho-lcd/) |
 | Dây nối | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
 | Dây USB Type C | [Mua ngay](https://chipstack.vn/san-pham/day-usb-type-c-1m/) |
@@ -25,43 +25,43 @@
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-zerobase.png" alt="button-lcd-zerobase">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-zerobase.png" alt="button-lcd-zerobase">
     <p><em>Board Zerobase</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-lcd-1602a.jpg" alt="button-lcd-lcd-1602a">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-lcd-1602a.jpg" alt="button-lcd-lcd-1602a">
     <p><em>LCD Character 1602A nền xanh dương</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-i2c-lcd-1602.jpg" alt="button-lcd-i2c-lcd-1602">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-i2c-lcd-1602.jpg" alt="button-lcd-i2c-lcd-1602">
     <p><em>Module I2C LCD 1602</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-jumper-wire.png" alt="button-lcd-jumper-wire">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-jumper-wire.png" alt="button-lcd-jumper-wire">
     <p><em>Dây nối</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-usb-type-c.jpg" alt="button-lcd-usb-type-c">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-usb-type-c.jpg" alt="button-lcd-usb-type-c">
     <p><em>Dây USB Type C</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-breadboard.png" alt="button-lcd-breadboard">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-breadboard.png" alt="button-lcd-breadboard">
     <p><em>Breadboard</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-button.jpg" alt="button-lcd-button">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-button.jpg" alt="button-lcd-button">
     <p><em>Nút nhấn</em></p>
 </div>
 
@@ -73,7 +73,7 @@
 
 ## Sơ đồ kết nối
 
-![button-lcd-zerobase-pins](https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-zerobase-pins.png)
+![button-lcd-zerobase-pins](https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-zerobase-pins.png)
 
 Sử dụng chân SDA (D18) và SCL (D19) để kết nối với chân SDA và SCL của LCD I2C. Sử dụng chân 5V để kết nối với chân VCC của LCD I2C. Sử dụng chân GND để kết nối với chân GND của LCD I2C. 
 
@@ -81,10 +81,9 @@ Sử dụng D1 để kết nối với với một chân với nút đếm, châ
 
 Sử dụng D0 để kết nối với một chân của nút reset và chân còn lại cũng nối với GND của Zerobase.
 
-![button-lcd-schematic](https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-schematic.png)
+![button-lcd-schematic](https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-schematic.png)
 
-
-![button-lcd](https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-zerobase.png)
+![button-lcd](https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-zerobase.png)
 
 ## Code
 
@@ -171,7 +170,7 @@ void updateLCD() {
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
-![button-lcd-zerobase-code](https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-zerobase-code.png)
+![button-lcd-zerobase-code](https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-zerobase-code.png)
 
 ### Biên dịch
 
@@ -386,7 +385,7 @@ lastBtnResetState = btnResetState;  // Cập nhật trạng thái nút
 ?> Khi nút đếm được nhấn giá trị đếm sẽ tăng lên 1 đơn vị. Khi nút reset được nhấn giá trị đếm sẽ được đặt lại về 0.
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd/button-lcd/button-lcd-result.gif" alt="button-lcd-result">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-result.gif" alt="button-lcd-result">
 </div>
 
 ## Kết luận và hướng phát triển
