@@ -20,6 +20,7 @@
 | Điện trở 330Ω | [Mua ngay](https://chipstack.vn/san-pham/dien-tro-1-4w-1/) |
 | LED | [Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
 | Breadboard | [Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
+| Dây USB Type C | [Mua ngay](https://chipstack.vn/san-pham/day-usb-type-c-1m/) |
 
 <br>
 
@@ -59,6 +60,13 @@
 <div align="center">
     <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="breadboard-830-lo">
     <p><em>Breadboard</em></p>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/default/usb-type-c.jpg" alt="usb-type-c">
+    <p><em>Dây USB Type C</em></p>
 </div>
 
 

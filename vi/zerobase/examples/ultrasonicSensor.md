@@ -20,6 +20,7 @@
 | LED | [Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
 | Dây nối | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
 | Breadboard | [Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
+| Dây USB Type C | [Mua ngay](https://chipstack.vn/san-pham/day-usb-type-c-1m/) |
 
 <br>
 
@@ -63,7 +64,12 @@
     <p><em>Breadboard</em></p>
 </div>
 
+<br>
 
+<div align="center">
+    <img src="https://cdn.chipstack.vn/default/usb-type-c.jpg" alt="usb-type-c">
+    <p><em>Dây USB Type C</em></p>
+</div>
 
 ## Nguyên Lý Hoạt Động
 

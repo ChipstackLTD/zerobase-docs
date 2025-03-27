@@ -12,6 +12,7 @@
 | [Nháy LED](vi/zerobase/examples/blink.md) | GPIO |
 | [Bật/tắt LED bằng nút nhấn](vi/zerobase/examples/button.md) | GPIO |
 | [Bật tắt LED bằng cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md) | GPIO |
+| [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
 | [Đo khoảng cách bằng cảm biến siêu âm hiển thị trên LCD](vi/zerobase/examples/ultrasonicSensor.md) | GPIO, I2C |
 | [Điều chỉnh độ sáng LED bằng biến trở ](vi/zerobase/examples/potentiometer.md) | ADC |
 | [Giao tiếp Serial Monitor bằng dây USB UART TTL](vi/zerobase/examples/uartttl.md) | UART |

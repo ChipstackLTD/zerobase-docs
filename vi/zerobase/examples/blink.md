@@ -58,7 +58,7 @@
 
 ## Nguyên lý hoạt động
 
-?> Zerobase sẽ bật LED bằng cách cho chân GPIO nối với cực + của LED lên mức cao và tắt LED bằng cách cho chân đấy xuống mức thấp.
+?> Zerobase sẽ bật LED bằng cách cho chân GPIO nối với cực (+) của LED lên mức cao và tắt LED bằng cách cho chân đấy xuống mức thấp.
 
 > Xem thêm về LED [tại đây](https://chipstack.vn/uncategorized/diot-phat-quang-la-gi-nguyen-ly-hoat-dong-va-ung-dung-tiet-kiem-nang-luong/).
 
