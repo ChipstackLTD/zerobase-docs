@@ -4,7 +4,8 @@
 
 # Giao tiếp Serial Monitor bằng dây USB UART TTL PL2303HX
 
-![uartttl-zerobase](../../../_media/uartttl-zerobase.jpg "uartttl-zerobase")
+![uartttl-zerobase-connection](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-connection-zerobase-2.png "uartttl-zerobase-connection")
+
 
 ## Tổng quan
 
@@ -23,14 +24,14 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/zerobase-image.png" alt="zerobase">
+    <img src="https://cdn.chipstack.vn/default/zerobase-overview.png" alt="zerobase">
     <p><em>Board Zerobase</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="../../../_media/usb-uart-PL2303HX.jpg" alt="usb-uart-PL2303HX">
+    <img src="https://cdn.chipstack.vn/zerobase/uart/uart-ttl/PL2303HX.png" alt="usb-uart-ttl">
     <p><em>Dây USB UART TTL PL2303HX</em></p>
 </div>
 
@@ -42,7 +43,7 @@
 </div>
 
 <div align="center">
-    <img src="../../../_media/usb-type-c.jpg" alt="usb-type-c">
+    <img src="https://cdn.chipstack.vn/default/usb-type-c.jpg">
     <p><em>Dây USB Type C</em></p>
 </div>
 
@@ -57,6 +58,11 @@
 
 ## Sơ đồ kết nối
 
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/uart/uart-ttl/PL2303HX-pinout.png" alt="breadboard">
+    <p><em>Sơ đồ chân của PL2303HX</em></p>
+</div>
+
 Sử dụng chân D1 (TX) kết nối với chân RX (màu trắng) của USB UART TTL và chân D0 (RX) kết nối với chân TX (màu xanh lá) của USB UART TTL.
 
 Sử dụng chân GND của Zerobase kết nối với chân GND (màu đen) của USB UART TTL.
@@ -64,6 +70,10 @@ Sử dụng chân GND của Zerobase kết nối với chân GND (màu đen) c�
 Sử dụng chân 5V của Zerobase kết nối với chân VCC (màu đỏ) của USB UART TTL.
 
 ![uartttl-zerobase-connection](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-connection-zerobase.png "uartttl-zerobase-connection")
+
+![uartttl-zerobase-connection](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-connection-zerobase-2.png "uartttl-zerobase-connection")
+
+![uartttl-zerobase-connection](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-connection-zerobase-3.png "uartttl-zerobase-connection")
 
 ## Cài đặt driver
 

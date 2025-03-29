@@ -6,7 +6,7 @@
 
 ## Tổng quan
 
-![zerobase](https://cdn.chipstack.vn/zerobase-overview-sau-khi-han.png "zerobase]")
+![zerobase](https://cdn.chipstack.vn/default/zerobase-overview.png "zerobase]")
 
 Zerobase là một board phát triển dựa trên vi điều khiển CH32. Board hỗ trợ nhiều giao tiếp như I2C, SPI, UART, GPIO, ADC, PWM, và nhiều chức năng khác. 
 <br>
@@ -28,18 +28,18 @@ Một số lưu ý khi sử dụng Zerobase:
 Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zerobase.chipstack.vn/#/vi/zerobase/pinout).
 
 ## Nguồn cấp
-![chan-cap-nguon-zerobase](https://cdn.chipstack.vn/chan-cap-nguon-zerobase.png "chan-cap-nguon-zerobase.png]")
+![chan-cap-nguon-zerobase](https://cdn.chipstack.vn/zerobase/quickstart/chan-cap-nguon-zerobase.png "chan-cap-nguon-zerobase.png]")
 - **5V**: Chân này có thể nhận nguồn 5VDC (input) hoặc cấp nguồn cho thiết bị khác (output).
 - **USB**: Zerobase hỗ trợ cấp nguồn qua cổng USB.
 
 ## Nút nhấn
 <div align="center">
-    <img src="https://cdn.chipstack.vn/boot-zerobase.png" alt="chan-boot-zerobase">
+    <img src="https://cdn.chipstack.vn/zerobase/quickstart/boot-zerobase.png" alt="chan-boot-zerobase">
     <p><strong>BOOT</strong>: Chân này dùng để đưa vi điều khiển vào chế độ nạp code.
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/reset-zerobase.png" alt="chan-reset-zerobase">
+    <img src="https://cdn.chipstack.vn/zerobase/quickstart/reset-zerobase.png" alt="chan-reset-zerobase">
     <p><strong>RESET</strong>: Chân này dùng để khởi động lại vi điều khiển.</p>
 </div>
 
@@ -65,7 +65,7 @@ Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zer
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/quickstart/sau-khi-han-zerobase.png" alt="han-chan-zerobase">
+    <img src="https://cdn.chipstack.vn/zerobase/quickstart/sau-khi-han-zerobase.jpg" alt="han-chan-zerobase">
     <p>Sau khi hàn chân</p>
 </div>
 
@@ -113,8 +113,6 @@ Thoát khỏi Arduino IDE và mở lại để sử dụng board Zerobase.
 
 ## Nạp Code và nháy LED
 
-####################### NẾU BAN ĐẦU NẠP CODE, NHẤN GIỮ BOOT TRƯỚC RỒI CẮM DÂY USB TYPE C
-
 Để chọn board Zerobase, bạn vào **Tools > Board**, chọn Zerobase.
 
 ![select-board](https://cdn.chipstack.vn/zerobase/quickstart/select-board-zerobase.png "select-board]")
@@ -145,14 +143,16 @@ void loop() {
 }
 ```
 
-Bạn kết nối board Zerobase với máy tính bằng cáp USB.
-
-![connect-usb-zerobase](../../_media/connect-usb-zerobase.png "connect-usb-zerobase]")
-
-Để nạp code bạn nhấn giữ nút **BOOT**. Sau đó nhấn nút **RESET** rồi thả nút **RESET** này ra. Cuối cùng, thả nút **BOOT**. Board Zerobase sẽ vào chế độ nạp code.
+**Nếu ban đầu nạp code cho Zerobase**, bạn nhấn giữ nút **BOOT** sau đó cắm USB vào máy tính. Khi đã cắm USB vào máy tính, bạn thả nút **BOOT** ra. Board Zerobase sẽ tự động vào chế độ nạp code.
 
 <p align="center">
-  <img src="../../_media/boot-mode-zerobase.gif" alt="boot-mode-zerobase">
+  <img src="https://cdn.chipstack.vn/zerobase/quickstart/zb-boot.gif" alt="boot-usb-zerobase">
+</p>
+
+Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách trên hoặc bạn cắm USB vào máy tính, nhấn giữ nút **BOOT**. Sau đó nhấn nút **RESET** rồi thả nút **RESET** này ra. Cuối cùng, thả nút **BOOT**. Board Zerobase sẽ vào chế độ nạp code.
+
+<p align="center">
+  <img src="https://cdn.chipstack.vn/zerobase/quickstart/zb-boot-2.gif" alt="boot-usb-zerobase">
 </p>
 
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
@@ -164,14 +164,12 @@ Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình d�
 ![upload-success-zerobase](https://cdn.chipstack.vn/zerobase/quickstart/upload-success-zerobase.png "upload-success-zerobase]")
 
 Nhấn nút **RESET** để Zenobase chạy đoạn code bạn vừa nạp.
-
-![reset-button-zerobase](../../_media/reset-button-zerobase.png "reset-button-zerobase]")
-
 Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase nháy theo chu kỳ 1 giây.
 
-<p align="center">
-  <img src="../../_media/blink-zerobase.gif" alt="blink-zerobase">
-</p>
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/quickstart/led-blink-zerobase.gif" alt="led-blink-zerobase">
+    <p><em>LED nháy theo chu kỳ 1 giây</em></p>
+</div>
 
 ## Kết luận
 

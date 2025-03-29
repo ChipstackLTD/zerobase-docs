@@ -24,7 +24,7 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/zerobase-image.png" alt="zerobase">
+    <img src="https://cdn.chipstack.vn/default/zerobase-overview.png" alt="zerobase">
     <p><em>Board Zerobase</em></p>
 </div>
 
@@ -71,7 +71,7 @@ Sử dụng chân D2 để thực hiện nháy LED có sẵn trên board.
 
 ![blink-zerobase-schematic](https://cdn.chipstack.vn/zerobase/blink/blink-zerobase-schematic.png "blink-zerobase-schematic]")
 
-![blink-zerobase-image](https://cdn.chipstack.vn/zerobase/blink/blink-zerobase-image.png "blink-zerobase-image]")
+![blink-zerobase-image](https://cdn.chipstack.vn/zerobase/blink/blink-led-external-zerobase.png "blink-zerobase-image]")
 
 ## Code
 

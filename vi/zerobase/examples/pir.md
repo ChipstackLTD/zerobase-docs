@@ -25,7 +25,7 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/zerobase-image.png" alt="zerobase">
+    <img src="https://cdn.chipstack.vn/default/zerobase-overview.png" alt="zerobase">
     <p><em>Board Zerobase</em></p>
 </div>
 
@@ -98,7 +98,7 @@
 
 ## Sơ Đồ Kết Nối
 
-![pir-zerboase-pins](../../../_media/pir-zerobase-pins.png "pir-zerboase-pins")
+![pir-zerboase-pins](https://cdn.chipstack.vn/zerobase/pir/pir-zerboase-pins.png "pir-zerboase-pins")
 
 Sử dụng chân D3 để kết nối với điện trở 330ohm nối tiếp với cực Anode (+) của LED và GND để kết nối với cực Cathode (-) của LED.
 

@@ -4,7 +4,7 @@
 
 # Đếm số lần nhấn nút và hiển thị lên LCD
 
-![button-lcd](https://cdn.chipstack.vn/zerobase/lcd-module-zerobase.png)
+![button-lcd](https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-zerobase.png)
 
 ## Tổng quan
 
@@ -25,43 +25,43 @@
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-zerobase.png" alt="button-lcd-zerobase">
+    <img src="https://cdn.chipstack.vn/default/zerobase-overview.png" alt="button-lcd-zerobase">
     <p><em>Board Zerobase</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-lcd-1602a.jpg" alt="button-lcd-lcd-1602a">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/lcd-i2c.png" alt="lcd-i2c">
     <p><em>LCD Character 1602A nền xanh dương</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-i2c-lcd-1602.jpg" alt="button-lcd-i2c-lcd-1602">
+    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/module-i2c.png" alt="module-i2c">
     <p><em>Module I2C LCD 1602</em></p>
 </div>
 
 <br>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-jumper-wire.png" alt="button-lcd-jumper-wire">
+    <img src="https://cdn.chipstack.vn/default/jumper-wire.png" alt="button-lcd-jumper-wire">
     <p><em>Dây nối</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-usb-type-c.jpg" alt="button-lcd-usb-type-c">
+    <img src="https://cdn.chipstack.vn/default/usb-type-c.jpg" alt="button-lcd-usb-type-c">
     <p><em>Dây USB Type C</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-breadboard.png" alt="button-lcd-breadboard">
+    <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="button-lcd-breadboard">
     <p><em>Breadboard</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-button.jpg" alt="button-lcd-button">
+    <img src="https://cdn.chipstack.vn/zerobase/button/push-button.png" alt="button-lcd-button">
     <p><em>Nút nhấn</em></p>
 </div>
 

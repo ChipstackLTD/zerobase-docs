@@ -25,7 +25,7 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/zerobase-image.png" alt="zerobase">
+    <img src="https://cdn.chipstack.vn/default/zerobase-overview.png" alt="zerobase">
     <p><em>Board Zerobase</em></p>
 </div>
 
@@ -87,7 +87,7 @@
 
 ## Sơ đồ kết nối
 
-![potentiometer-zerboase-pins](../../../_media/potentiometer-zerboase-pins.png "potentiometer-zerboase-pins")
+![potentiometer-zerboase-pins](https://cdn.chipstack.vn/zerobase/potentiometer/potentiometer-zerboase-pins.png "potentiometer-zerboase-pins")
 
 Sử dụng chân A1 của Zerobase để kết nối với chân 2 của biến trở. Chân 1 được nối với GND, chân 3 được nối với VCC.
 

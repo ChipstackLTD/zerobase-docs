@@ -25,7 +25,7 @@
 <br>
 
 <div align="center">
-    <img src="../../../_media/zerobase-image.png" alt="zerobase">
+    <img src="https://cdn.chipstack.vn/default/zerobase-overview.png" alt="zerobase">
     <p><em>Board Zerobase</em></p>
 </div>
 
@@ -83,7 +83,7 @@
 
 ## Sơ Đồ Kết Nối
 
-![ultrasonic-zerboase-pins](../../../_media/ultrasonic-zerobase-pins.png "ultrasonic-zerboase-pins")
+![ultrasonic-zerboase-pins](https://cdn.chipstack.vn/zerobase/ultrasonic-sensor/ultrasonic-zerobase-pins.png "ultrasonic-zerboase-pins")
 
 Sử dụng chân A0 (D14), A1 (D15), A2 (D16), A3 (D17), SDA (D18) và D3 để kết nối với các chân anode (+) của LED, chân cathode (-) của LED kết nối với điện trở 330Ω và nối xuống GND của Zerobase.
 
