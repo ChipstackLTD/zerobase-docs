@@ -179,9 +179,9 @@ Bài viết đã hướng dẫn cách nháy LED đơn giản trên board Zerobas
 
 Để phát triển thêm từ bài học này, bạn có thể thử các ý tưởng sau:
 
-- **Điều khiển LED bằng nút nhấn:** Sử dụng nút nhấn để bật/tắt LED hoặc thay đổi tốc độ nháy.
-- **Nháy LED theo tín hiệu cảm biến:** Kết hợp với cảm biến ánh sáng, nhiệt độ hoặc cảm biến chuyển động để điều khiển LED một cách thông minh.
-- **Sử dụng PWM để điều chỉnh độ sáng LED:** Thay vì chỉ bật/tắt LED, bạn có thể sử dụng PWM để thay đổi độ sáng của LED một cách mượt mà.
+- [Điều khiển LED bằng nút nhấn](vi/zerobase/examples/button.md): Sử dụng nút nhấn để bật/tắt LED hoặc thay đổi tốc độ nháy.
+- [Nháy LED theo tín hiệu cảm biến](vi/zerobase/examples/pir.md): Kết hợp với cảm biến ánh sáng, nhiệt độ hoặc cảm biến chuyển động để điều khiển LED một cách thông minh.
+- [Sử dụng PWM để điều chỉnh độ sáng LED](vi/zerobase/examples/potentiometer.md): Thay vì chỉ bật/tắt LED, bạn có thể sử dụng PWM để thay đổi độ sáng của LED một cách mượt mà.
 - **Điều khiển LED từ xa:** Kết hợp với Bluetooth, Wi-Fi hoặc RF để điều khiển LED từ xa bằng điện thoại hoặc máy tính.
 
 Những ý tưởng này sẽ giúp bạn mở rộng hiểu biết về lập trình vi điều khiển và ứng dụng thực tế trong các dự án IoT. Hãy thử nghiệm và sáng tạo với Zerobase!
