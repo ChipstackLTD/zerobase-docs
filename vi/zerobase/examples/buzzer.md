@@ -145,9 +145,9 @@ Sử dụng hàm `delay()` để tắt buzzer trong 1 giây.
 delay(1000); // Giữ trạng thái LOW trong 1 giây
 ```
 
-Kết quả
+## Kết quả
 
-Buzzer sẽ phát ra âm thanh trong 1 giây và tắt trong 1 giây. Quá trình này sẽ lặp lại liên tục.
+?> Buzzer sẽ phát ra âm thanh trong 1 giây và tắt trong 1 giây. Quá trình này sẽ lặp lại liên tục.
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/vi/zerobase/buzzer/buzzer.gif" alt="buzzer-zerobase-gif">
