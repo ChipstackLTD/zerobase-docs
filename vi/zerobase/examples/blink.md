@@ -56,6 +56,11 @@
     <p><em>Dây nối</em></p>
 </div>
 
+<div align="center">
+    <img src="https://cdn.chipstack.vn/default/usb-type-c.jpg" alt="button-lcd-usb-type-c">
+    <p><em>Dây USB Type C</em></p>
+</div>
+
 ## Nguyên lý hoạt động
 
 ?> Zerobase sẽ bật LED bằng cách cho chân GPIO nối với cực (+) của LED lên mức cao và tắt LED bằng cách cho chân đấy xuống mức thấp.
