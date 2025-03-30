@@ -13,7 +13,8 @@
 | [Bật/tắt LED bằng nút nhấn](vi/zerobase/examples/button.md) | GPIO |
 | [Bật tắt LED bằng cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md) | GPIO |
 | [Điều khiển còi buzzer](vi/zerobase/examples/buzzer.md) | GPIO |
-| [Phát nhạc bằng buzzer](vi/zerobase/examples/buzzer-music.md) | GPIO |
+| [Thêm âm thanh cho nút nhấn sử dụng còi buzzer](vi/zerobase/examples/button-buzzer.md) | GPIO |
+| [Phát nhạc bằng còi buzzer](vi/zerobase/examples/buzzer-music.md) | GPIO |
 | [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
 | [Đo khoảng cách bằng cảm biến siêu âm điều khiển đèn LED](vi/zerobase/examples/ultrasonicSensor.md) | GPIO, I2C |
 | [Điều chỉnh độ sáng LED bằng biến trở ](vi/zerobase/examples/potentiometer.md) | ADC |
