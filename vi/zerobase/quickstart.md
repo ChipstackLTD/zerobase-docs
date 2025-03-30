@@ -163,7 +163,7 @@ Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình d�
 
 ![upload-success-zerobase](https://cdn.chipstack.vn/zerobase/quickstart/upload-success-zerobase.png "upload-success-zerobase]")
 
-Nhấn nút **RESET** để Zenobase chạy đoạn code bạn vừa nạp.
+Nhấn nút **RESET** để Zerobase chạy đoạn code bạn vừa nạp.
 Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase nháy theo chu kỳ 1 giây.
 
 <div align="center">

@@ -139,6 +139,9 @@ void loop() {
 }
 ```
 
+Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
+![buzzer-music-code](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-music-code.png "buzzer-music-code")
+
 ### Biên dịch
 
 Nhấn vào biểu tượng Verify để biên dịch code.
