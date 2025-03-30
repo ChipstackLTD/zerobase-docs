@@ -15,6 +15,7 @@
 | [Điều khiển còi buzzer](vi/zerobase/examples/buzzer.md) | GPIO |
 | [Thêm âm thanh cho nút nhấn sử dụng còi buzzer](vi/zerobase/examples/button-buzzer.md) | GPIO |
 | [Phát nhạc bằng còi buzzer](vi/zerobase/examples/buzzer-music.md) | GPIO |
+| [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
 | [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
 | [Đo khoảng cách bằng cảm biến siêu âm điều khiển đèn LED](vi/zerobase/examples/ultrasonicSensor.md) | GPIO, I2C |
 | [Điều chỉnh độ sáng LED bằng biến trở ](vi/zerobase/examples/potentiometer.md) | ADC |
