@@ -102,9 +102,9 @@ Chân GND của board Zerobase được kết nối với chân GND của relay 
 
 ![dc-1-direction-image](https://cdn.chipstack.vn/zerobase/relay/dc-1-direction-image.png "dc-1-direction-image")
 
-!> Ngắt nguồn trước khi nạp code: Trước khi cắm dây USB vào để nạp code vào board Zerobase, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase và chạy code bình thường.
+!> **Ngắt nguồn trước khi nạp code**: Trước khi cắm dây USB vào để nạp code vào board Zerobase, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase và chạy code bình thường.
 
-!> Không dùng nguồn 5V từ Zerobase cho động cơ: Tuyệt đối không nối 5V trực tiếp của board Zerobase vào động cơ DC, vì động cơ DC có thể tiêu tốn dòng điện lớn hơn mức cho phép của board Zerobase, dẫn đến hỏng board.
+!> **Không dùng nguồn 5V từ Zerobase cho động cơ**: Tuyệt đối không nối 5V trực tiếp của board Zerobase vào động cơ DC, vì động cơ DC có thể tiêu tốn dòng điện lớn hơn mức cho phép của board Zerobase, dẫn đến hỏng board.
 
 ## Code
 
