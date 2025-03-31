@@ -4,7 +4,7 @@
 
 # Điều khiển động cơ DC bằng relay và nút nhấn
 
-![relay-dc-motor](https://cdn.chipstack.vn/zerobase/relay/relay-dc-motor.png)
+![dc-1-direction-image](https://cdn.chipstack.vn/zerobase/relay/dc-1-direction-image.jpg "dc-1-direction-image")
 
 ## Tổng quan
 
@@ -17,7 +17,8 @@
 | Board Zerobase |[Mua ngay](https://chipstack.vn/san-pham/zerobase/) |
 | Breadboard |[Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
 | Nút nhấn | [Mua ngay](https://chipstack.vn/san-pham/nut-nhan-12x12x7-3-co-the-gan-chup/) |
-| Động cơ DC | [Mua ngay](https://chipstack.vn/san-pham/dong-co-dc-2-truc-ty-le-1120/) |
+| Động cơ DC 2 trục tỷ lệ 1:120 | [Mua ngay](https://chipstack.vn/san-pham/dong-co-dc-2-truc-ty-le-1120/) |
+| Bánh xe 68mm | [Mua ngay](https://chipstack.vn/san-pham/banh-xe-68mm/) |
 | Dây jumper Đực – Đực | [Mua ngay](https://chipstack.vn/san-pham/day-jumper-duc-duc/) |
 | Dây USB Type C |[Mua ngay](https://chipstack.vn/san-pham/day-usb-type-c-1m/) |
 | Module relay 5V 2 kênh mức thấp |[Mua ngay](https://chipstack.vn/san-pham/module-relay-5v-2-kenh-muc-thap/) |
@@ -40,8 +41,13 @@
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/default/dong-co-dc.png" alt="dong-co-dc">
-    <p><em>Động cơ DC</em></p>
+    <img src="https://cdn.chipstack.vn/default/dong-co-dc.jpg" alt="dong-co-dc">
+    <p><em>Động cơ DC 2 trục tỷ lệ 1:120</em></p>
+</div>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/default/banh-xe-68mm.jpg" alt="banh-xe-68mm">
+    <p><em>Bánh xe 68mm</em></p>
 </div>
 
 <div align="center">
@@ -55,17 +61,17 @@
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/relay/module-relay-5v-2-kenh-muc-thap.png" alt="module-relay-5v-2-kenh-muc-thap">
+    <img src="https://cdn.chipstack.vn/default/module-relay-5v-2-kenh-muc-thap.jpg" alt="module-relay-5v-2-kenh-muc-thap">
     <p><em>Module relay 5V 2 kênh mức thấp</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/default/module-nguon-cho-breadboard-mb102-830.png" alt="module-nguon-cho-breadboard-mb102-830">
+    <img src="https://cdn.chipstack.vn/default/module-nguon-cho-breadboard-mb102-830.jpg" alt="module-nguon-cho-breadboard-mb102-830">
     <p><em>Module nguồn cho Breadboard MB102 830</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/default/nguon-ac-dc-dieu-chinh-dien-ap-3-12v-3a-36w.png" alt="nguon-ac-dc-dieu-chinh-dien-ap-3-12v-3a-36w">
+    <img src="https://cdn.chipstack.vn/default/nguon-ac-dc-dieu-chinh-dien-ap-3-12v-3a-36w.jpg" alt="nguon-ac-dc-dieu-chinh-dien-ap-3-12v-3a-36w">
     <p><em>Nguồn AC-DC điều chỉnh điện áp 3-12V 3A 36W</em></p>
 </div>
 
@@ -100,7 +106,9 @@ Chân GND của board Zerobase được kết nối với chân GND của relay 
 
 ![dc-1-direction-schematic](https://cdn.chipstack.vn/zerobase/relay/dc-1-direction-schematic.png "dc-1-direction-schematic")
 
-![dc-1-direction-image](https://cdn.chipstack.vn/zerobase/relay/dc-1-direction-image.png "dc-1-direction-image")
+![dc-1-direction-image](https://cdn.chipstack.vn/zerobase/relay/dc-1-direction-image.jpg "dc-1-direction-image")
+
+![dc-1-direction-image](https://cdn.chipstack.vn/zerobase/relay/dc-1-direction-image-2.jpg "dc-1-direction-image")
 
 !> **Ngắt nguồn trước khi nạp code**: Trước khi cắm dây USB vào để nạp code vào board Zerobase, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase và chạy code bình thường.
 
