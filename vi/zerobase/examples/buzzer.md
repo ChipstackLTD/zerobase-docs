@@ -4,7 +4,7 @@
 
 # Điều khiển còi buzzer trên board Zerobase
 
-![buzzer-zerobase](https://cdn.chipstack.vn/vi/zerobase/buzzer/buzzer-zerobase.png)
+![buzzer-zerobase-circuit](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-zerobase-circuit.png)
 
 ## Tổng quan
 
@@ -150,8 +150,11 @@ delay(1000); // Giữ trạng thái LOW trong 1 giây
 ?> Buzzer sẽ phát ra âm thanh trong 1 giây và tắt trong 1 giây. Quá trình này sẽ lặp lại liên tục.
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/vi/zerobase/buzzer/buzzer.gif" alt="buzzer-zerobase-gif">
-    <p><em>Âm thanh phát ra từ buzzer</em></p>
+    <video controls style="width: 700px; height: auto;">
+        <source src="https://cdn.chipstack.vn/zerobase/buzzer/zerobase-buzzer-res.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    <p><em>Âm thanh phát ra từ còi Buzzer</em></p>
 </div>
 
 ## Kết luận và hướng phát triển
