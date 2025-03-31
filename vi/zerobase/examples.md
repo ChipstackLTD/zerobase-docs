@@ -35,7 +35,6 @@
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
-| [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
 
 ## LCD
 | **Ví dụ** | **Ngoại vi** |
