@@ -4,7 +4,7 @@
 
 # Phát nhạc Happy Birthday bằng còi buzzer sử dụng board Zerobase
 
-![buzzer-music-image](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-music.png "buzzer-music-image")
+![buzzer-music-circuit](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-music-circuit.jpg "buzzer-music-circuit")
 
 ## Tổng quan
 
@@ -71,7 +71,7 @@ Sử dụng chân D2 làm nút phát nhạc và chân D3 làm nút dừng nhạc
 
 ![buzzer-music-schematic](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-music-schematic.png "buzzer-music-schematic")
 
-![buzzer-music-circuit](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-music-circuit.png "buzzer-music-circuit")
+![buzzer-music-circuit](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-music-circuit.jpg "buzzer-music-circuit")
 
 ## Code
 
@@ -126,15 +126,18 @@ void loop() {
     for (int i = 0; i < sizeof(melody) / sizeof(melody[0]); i++) {
       if (!isPlaying) {      // Kiểm tra nếu nhấn STOP, dừng ngay lập tức
         noTone(BUZZER_PIN);  // Tắt buzzer
-        return;              // Thoát khỏi vòng lặp
+        digitalWrite(BUZZER_PIN, LOW); // Đảm bảo buzzer tắt
+        return;  // Thoát khỏi vòng lặp
       }
       tone(BUZZER_PIN, melody[i], durations[i]);  // Phát nốt nhạc
       delay(durations[i] + 50);                   // Giữ khoảng cách giữa các nốt
     }
     noTone(BUZZER_PIN);  // Dừng phát nhạc sau khi hoàn thành giai điệu
-    isPlaying = false;   // Đặt lại trạng thái
+    digitalWrite(BUZZER_PIN, LOW); // Đảm bảo buzzer tắt
+    isPlaying = false;  // Đặt lại trạng thái
   } else {
     noTone(BUZZER_PIN);  // Nếu không phát nhạc, đảm bảo buzzer tắt
+    digitalWrite(BUZZER_PIN, LOW); // Đảm bảo buzzer tắt
   }
 }
 ```
@@ -250,6 +253,7 @@ Nếu đang phát nhạc trong vòng lặp for loop, nó sẽ kiểm tra xem bi�
 ```cpp
 if (!isPlaying) {      // Kiểm tra nếu nhấn STOP, dừng ngay lập tức
   noTone(BUZZER_PIN);  // Tắt buzzer
+  digitalWrite(BUZZER_PIN, LOW); // Đảm bảo buzzer tắt
   return;              // Thoát khỏi vòng lặp
 }
 ```
@@ -265,6 +269,7 @@ Khi hoàn thành giai điệu, nó sẽ dừng phát nhạc bằng cách gọi h
 
 ```cpp
 noTone(BUZZER_PIN);  // Dừng phát nhạc sau khi hoàn thành giai điệu
+digitalWrite(BUZZER_PIN, LOW); // Đảm bảo buzzer tắt
 isPlaying = false;   // Đặt lại trạng thái
 ```
 
@@ -273,6 +278,7 @@ Nếu không phát nhạc, nó sẽ đảm bảo rằng buzzer tắt bằng các
 ```cpp
 else {
   noTone(BUZZER_PIN);  // Nếu không phát nhạc, đảm bảo buzzer tắt
+  digitalWrite(BUZZER_PIN, LOW); // Đảm bảo buzzer tắt
 }
 ```
 
@@ -281,8 +287,11 @@ else {
 ?> Nếu bạn đã thực hiện đúng các bước, bạn sẽ nghe thấy âm thanh của bài Happy Birthday phát ra từ buzzer khi nhấn nút PLAY và dừng lại khi nhấn nút STOP.
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/buzzer/buzzer-music.gif" alt="buzzer-music-gif">
-    <p><em>Âm thanh phát ra từ buzzer</em></p>
+    <video controls style="width: 700px; height: auto;">
+        <source src="https://cdn.chipstack.vn/zerobase/buzzer/buzzer-music-res.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    <p><em>Phát nhạc bằng còi buzzer</em></p>
 </div>
 
 ## Kết luận và hướng phát triển
