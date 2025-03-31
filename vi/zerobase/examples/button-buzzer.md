@@ -250,12 +250,13 @@ Nếu không có nút nào được nhấn, dừng phát âm thanh sử dụng h
 ?> Nếu bạn đã thực hiện đúng các bước, bạn sẽ nghe thấy âm thanh phát ra từ buzzer tương ứng với nốt nhạc mà bạn đã nhấn.
 
 <div align="center">
-    <video controls width="1000">
+    <video controls style="width: 1000px; height: auto;">
         <source src="https://cdn.chipstack.vn/zerobase/buzzer/zerobase-button-buzzer-res.mp4" type="video/mp4">
         Trình duyệt của bạn không hỗ trợ video.
     </video>
     <p><em>Kết quả khi thêm âm thanh cho các nút nhấn</em></p>
 </div>
+
 
 
 ## Kết luận và Hướng phát triển
