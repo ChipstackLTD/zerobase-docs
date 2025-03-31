@@ -4,8 +4,7 @@
 
 # Thêm âm thanh cho nút nhấn
 
-![Thêm âm thanh cho nút nhấn](https://zerobase.chipstack.vn/#/vi/zerobase/buzzer/button-buzzer.png)
-
+![button-buzzer-circuit](https://cdn.chipstack.vn/zerobase/buzzer/button-buzzer-circuit.jpg)
 ## Tổng quan
 
 ?> Bài viết này hướng dẫn thực hiện thêm âm thanh cho nút nhấn sử dụng board Zerobase trên Arduino IDE.
@@ -59,21 +58,28 @@
 
 > Tìm hiểu thêm về còi buzzer [tại đây](vi/zerobase/examples/buzzer.md).
 
+> Phát nhạc Happy Birthday bằng còi buzzer [tại đây](vi/zerobase/examples/buzzer-music.md).
+
 > Tìm hiểu thêm về nguyên lý của nút nhấn [tại đây](vi/zerobase/examples/button.md).
 
-> Phát nhạc Happy Birthday bằng còi buzzer [tại đây](vi/zerobase/examples/buzzer-music.md).
 
 ## Sơ đồ kết nối
 
-![button-buzzer-pins](https://zerobase.chipstack.vn/#/vi/zerobase/buzzer/button-buzzer-pins.png)
+![button-buzzer-pins](https://cdn.chipstack.vn/zerobase/buzzer/button-buzzer-pins.png)
 
 Sử dụng chân D1 của board Zerobase để điều khiển buzzer. Chân D1 được kết nối với cực (+) của buzzer, còn cực (-) của buzzer được nối với chân GND của board Zerobase.
 
 Sử dụng chân D14 đến D19 của board Zerobase để kết nối với các nút nhấn. Chân D14 được kết nối với một chân của nút nhấn, chân còn lại của nút nhấn được nối với chân GND của board Zerobase. Các chân D15, D16, D17, D18 và D19 cũng được kết nối tương tự.
 
-![button-buzzer-schematic](https://zerobase.chipstack.vn/#/vi/zerobase/buzzer/button-buzzer-schematic.png)
+![button-buzzer-schematic](https://cdn.chipstack.vn/zerobase/buzzer/button-buzzer-schematic.png)
 
-![button-buzzer-circuit](https://zerobase.chipstack.vn/#/vi/zerobase/buzzer/button-buzzer-circuit.png)
+![button-buzzer-circuit](https://cdn.chipstack.vn/zerobase/buzzer/button-buzzer-circuit.jpg)
+
+![button-buzzer-circuit-mat-truoc](https://cdn.chipstack.vn/zerobase/buzzer/button-buzzer-circuit-mat-truoc.jpg)
+
+![button-buzzer-circuit-mat-sau](https://cdn.chipstack.vn/zerobase/buzzer/button-buzzer-circuit-mat-sau.jpg)
+
+
 
 ## Code
 ```cpp
@@ -132,7 +138,7 @@ void loop() {
 ```
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
-![button-buzzer-code](https://zerobase.chipstack.vn/#/vi/zerobase/buzzer/button-buzzer-code.png)
+![button-buzzer-code](https://cdn.chipstack.vn/zerobase/buzzer/button-buzzer-code.png)
 
 ### Biên dịch
 
@@ -244,8 +250,8 @@ Nếu không có nút nào được nhấn, dừng phát âm thanh sử dụng h
 ?> Nếu bạn đã thực hiện đúng các bước, bạn sẽ nghe thấy âm thanh phát ra từ buzzer tương ứng với nốt nhạc mà bạn đã nhấn.
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/buzzer/zerobase-button-buzzer.png" alt="zerobase-button-buzzer">
-    <p><em>Thêm âm thanh cho nút nhấn</em></p>
+    <video src="https://cdn.chipstack.vn/zerobase/buzzer/zerobase-button-buzzer-res.mp4" controls autoplay></video>
+    <p><em>Kết quả khi thêm âm thanh cho các nút nhấn</em></p>
 </div>
 
 ## Kết luận và Hướng phát triển
