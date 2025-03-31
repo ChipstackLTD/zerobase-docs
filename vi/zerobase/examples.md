@@ -6,17 +6,48 @@
 
 ?> Dưới đây là danh sách các ví dụ. Hãy nhấp vào từng tên để xem chi tiết bạn nhé!
 
+## LED
 
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Nháy LED](vi/zerobase/examples/blink.md) | GPIO |
 | [Bật/tắt LED bằng nút nhấn](vi/zerobase/examples/button.md) | GPIO |
 | [Bật tắt LED bằng cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md) | GPIO |
+| [Điều chỉnh độ sáng LED bằng biến trở ](vi/zerobase/examples/potentiometer.md) | ADC |
+
+## Nút nhấn
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Bật/tắt LED bằng nút nhấn](vi/zerobase/examples/button.md) | GPIO |
+| [Thêm âm thanh cho nút nhấn sử dụng còi buzzer](vi/zerobase/examples/button-buzzer.md) | GPIO |
+| [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
+| [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
+
+## Còi Buzzer
+
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
 | [Điều khiển còi buzzer](vi/zerobase/examples/buzzer.md) | GPIO |
 | [Thêm âm thanh cho nút nhấn sử dụng còi buzzer](vi/zerobase/examples/button-buzzer.md) | GPIO |
 | [Phát nhạc bằng còi buzzer](vi/zerobase/examples/buzzer-music.md) | GPIO |
+
+## Relay
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
 | [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
 | [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
-| [Đo khoảng cách bằng cảm biến siêu âm điều khiển đèn LED](vi/zerobase/examples/ultrasonicSensor.md) | GPIO, I2C |
-| [Điều chỉnh độ sáng LED bằng biến trở ](vi/zerobase/examples/potentiometer.md) | ADC |
+
+## LCD
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
+
+## Cảm biến siêu âm (Ultrasonic Sensor)
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Đo khoảng cách bằng cảm biến siêu âm điều khiển đèn LED](vi/zerobase/examples/ultrasonicSensor.md) | GPIO |
+
+## UART
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
 | [Giao tiếp Serial Monitor bằng dây USB UART TTL](vi/zerobase/examples/uartttl.md) | UART |
