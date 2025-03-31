@@ -52,13 +52,13 @@
 
 ## Sơ đồ kết nối
 
-![buzzer-zerobase-pins](https://cdn.chipstack.vn/vi/zerobase/buzzer/buzzer-zerobase-pins.png)
+![buzzer-zerobase-pins](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-zerobase-pins.png)
 
 Sử dụng chân D2 của board Zerobase để điều khiển buzzer. Chân D2 được kết nối với cực (+) của buzzer, còn cực (-) của buzzer được nối với chân GND của board Zerobase.
 
-![buzzer-schematic](https://cdn.chipstack.vn/vi/zerobase/buzzer/buzzer-schematic.png)
+![buzzer-schematic](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-schematic.png)
 
-![buzzer-zerobase-circuit](https://cdn.chipstack.vn/vi/zerobase/buzzer/buzzer-zerobase-circuit.png)
+![buzzer-zerobase-circuit](https://cdn.chipstack.vn/zerobase/buzzer/buzzer-zerobase-circuit.png)
 
 ## Code
 
