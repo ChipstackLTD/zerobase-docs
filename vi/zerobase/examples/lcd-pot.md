@@ -65,7 +65,7 @@ Bài hướng dẫn này sẽ giúp bạn hiển thị giá trị ADC từ biế
 
 ## Sơ đồ kết nối
 
-![zerobase-lcd-pot-pins](https://cdn.chipstack.vn/zerobase/lcd-module/lcd-pot-pins.png)
+![zerobase-lcd-pot-pins](https://cdn.chipstack.vn/zerobase/lcd-module/zerobase-lcd-pot-pins.png)
 
 Sử dụng chân A2 của board Zerobase để nối với chân giữa của biến trở. Chân 5V nối với 1 trong 2 chân ngoài của biến trở, chân GND nối với chân còn lại của biến trở.
 
