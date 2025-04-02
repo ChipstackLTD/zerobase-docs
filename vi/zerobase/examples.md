@@ -40,6 +40,7 @@
 | :-- | :-- |
 | [Điều khiển LCD 16x2](vi/zerobase/examples/lcd.md) | I2C |
 | [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
+| [Hiển thị giá trị ADC từ biến trở lên LCD](vi/zerobase/examples/lcd-pot.md) | ADC, I2C |
 
 ## Cảm biến siêu âm (Ultrasonic Sensor)
 | **Ví dụ** | **Ngoại vi** |
