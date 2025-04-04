@@ -114,6 +114,8 @@ Chân GND của board Zerobase được kết nối với chân GND của relay 
 
 !> **Không dùng nguồn 5V từ Zerobase cho động cơ**: Tuyệt đối không nối 5V trực tiếp của board Zerobase vào động cơ DC, vì động cơ DC có thể tiêu tốn dòng điện lớn hơn mức cho phép của board Zerobase, dẫn đến hỏng board.
 
+!> **Module nguồn MB102 830 ở chế độ 5V**: Bạn cần đảm bảo module nguồn MB102 830 đang ở chế độ 5V bằng cách điều chỉnh công tắc trên module nguồn sang vị trí 5V.
+
 ## Code
 
 Dưới đây là đoạn code để điều khiển động cơ DC bằng relay và nút nhấn:
