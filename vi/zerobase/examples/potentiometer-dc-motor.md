@@ -22,6 +22,7 @@
 | Module nguồn cho Breadboard MB102 830 | [Mua ngay](https://chipstack.vn/san-pham/module-nguon-cho-breadboard-mb102-830/) |
 | Nguồn AC-DC điều chỉnh điện áp 3-12V 3A 36W | [Mua ngay](https://chipstack.vn/san-pham/nguon-ac-dc-dieu-chinh-dien-ap-3-12v-3a-36w/) |
 | Module cầu H điều khiển động cơ DC | [Mua ngay](https://chipstack.vn/san-pham/module-cau-h-dieu-khien-dong-co-dc/) |
+| Biến trở 10kΩ | [Mua ngay](https://chipstack.vn/san-pham/bien-tro-wh148-3-chan-truc-15mm/) |
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/default/zerobase-overview.png" alt="zerobase">
@@ -62,6 +63,12 @@
     <img src="https://cdn.chipstack.vn/zerobase/dc-motor/module-cau-h-dong-co-dc.jpg">
     <p><em>Module cầu H điều khiển động cơ DC</em></p>
 </div>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/potentiometer/potentiometer.jpg" alt="potentiometer">
+    <p><em>Biến trở 10kΩ</em></p>
+</div>
+
 
 ## Nguyên lý hoạt động
 
