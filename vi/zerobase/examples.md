@@ -41,6 +41,12 @@
 | [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
 | [Điều khiển động cơ DC bằng biến trở](vi/zerobase/examples/potentiometer-dc-motor.md) | ADC, PWM |
 
+## Động cơ Servo
+
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Điều khiển động cơ Servo bằng biến trở](vi/zerobase/examples/potentiometer-servo.md) | ADC, PWM |
+
 ## LCD
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
