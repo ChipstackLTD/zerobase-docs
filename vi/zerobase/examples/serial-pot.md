@@ -57,7 +57,7 @@
 
 ## Nguyên lý hoạt động
 
-Khi bạn xoay biến trở, giá trị điện áp đầu ra của biến trở sẽ thay đổi. Giá trị điện áp này sẽ được đọc bởi chân ADC của board Zerobase. Sau đó, giá trị ADC sẽ được gửi đến Serial Monitor thông qua giao thức UART TTL.
+?> Khi bạn xoay biến trở, giá trị điện áp đầu ra của biến trở sẽ thay đổi. Giá trị điện áp này sẽ được đọc bởi chân ADC của board Zerobase. Sau đó, giá trị ADC sẽ được gửi đến Serial Monitor thông qua giao thức UART TTL.
 
 ## Sơ đồ kết nối
 
