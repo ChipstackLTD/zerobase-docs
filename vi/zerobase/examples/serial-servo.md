@@ -85,8 +85,6 @@ Sử dụng chân D1 (TX) kết nối với chân RX (màu trắng) của USB UA
 
 Sử dụng chân GND của Zerobase kết nối với chân GND (màu đen) của USB UART TTL và GND của module nguồn MB102 830.
 
-Sử dụng chân 5V của Zerobase kết nối với chân VCC (màu đỏ) của USB UART TTL.
-
 ![uartttl-servo-schematic](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-servo-schematic.png "uartttl-servo-schematic")
 
 ![zerobase-uartttl-servo-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-servo-circuit.png "zerobase-uartttl-servo-circuit")
