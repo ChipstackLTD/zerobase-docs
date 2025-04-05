@@ -48,13 +48,14 @@
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
-| [Điều khiển động cơ DC bằng biến trở](vi/zerobase/examples/potentiometer-dc-motor.md) | ADC, PWM |
+| [Điều khiển động cơ DC bằng biến trở](vi/zerobase/examples/potentiometer-dc-motor.md) | ADC, PWM 
 
 ## Động cơ Servo
 
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Điều khiển động cơ Servo bằng biến trở](vi/zerobase/examples/potentiometer-servo.md) | ADC, PWM |
+| [Điều khiển động cơ Servo qua Serial Monitor](vi/zerobase/examples/serial-servo.md) | GPIO, UART |
 
 ## LCD
 | **Ví dụ** | **Ngoại vi** |
@@ -74,3 +75,4 @@
 | [Giao tiếp Serial Monitor bằng dây USB UART TTL](vi/zerobase/examples/uartttl.md) | UART |
 | [Hiển thị giá trị ADC từ biến trở lên Serial Monitor](vi/zerobase/examples/serial-pot.md) | ADC, UART |
 | [Điều khiển LED qua Serial Monitor](vi/zerobase/examples/serial-led.md) | GPIO, UART |
+| [Điều khiển động cơ Servo qua Serial Monitor](vi/zerobase/examples/serial-servo.md) | GPIO, UART |
