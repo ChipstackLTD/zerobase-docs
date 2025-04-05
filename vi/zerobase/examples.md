@@ -30,6 +30,15 @@
 | [Thêm âm thanh cho nút nhấn sử dụng còi buzzer](vi/zerobase/examples/button-buzzer.md) | GPIO |
 | [Phát nhạc bằng còi buzzer](vi/zerobase/examples/buzzer-music.md) | GPIO |
 
+## Biến trở
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Điều chỉnh độ sáng LED bằng biến trở ](vi/zerobase/examples/potentiometer.md) | ADC |
+| [Điều khiển động cơ DC bằng biến trở](vi/zerobase/examples/potentiometer-dc-motor.md) | ADC, PWM |
+| [Điều khiển động cơ Servo bằng biến trở](vi/zerobase/examples/potentiometer-servo.md) | ADC, PWM |
+| [Hiển thị giá trị ADC từ biến trở lên LCD](vi/zerobase/examples/lcd-pot.md) | ADC, I2C |
+| [Hiển thị giá trị ADC từ biến trở lên Serial Monitor](vi/zerobase/examples/serial-pot.md) | ADC, UART |
+
 ## Relay
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
@@ -63,3 +72,4 @@
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Giao tiếp Serial Monitor bằng dây USB UART TTL](vi/zerobase/examples/uartttl.md) | UART |
+| [Hiển thị giá trị ADC từ biến trở lên Serial Monitor](vi/zerobase/examples/serial-pot.md) | ADC, UART |
