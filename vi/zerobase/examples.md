@@ -73,3 +73,4 @@
 | :-- | :-- |
 | [Giao tiếp Serial Monitor bằng dây USB UART TTL](vi/zerobase/examples/uartttl.md) | UART |
 | [Hiển thị giá trị ADC từ biến trở lên Serial Monitor](vi/zerobase/examples/serial-pot.md) | ADC, UART |
+| [Điều khiển LED qua Serial Monitor](vi/zerobase/examples/serial-led.md) | GPIO, UART |
