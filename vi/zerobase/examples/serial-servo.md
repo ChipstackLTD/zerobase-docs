@@ -89,6 +89,12 @@ Sử dụng chân GND của Zerobase kết nối với chân GND (màu đen) c�
 
 ![zerobase-uartttl-servo-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-servo-circuit.png "zerobase-uartttl-servo-circuit")
 
+!> **Ngắt nguồn trước khi nạp code**: Trước khi cắm dây USB vào để nạp code vào board Zerobase, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase và chạy code bình thường.
+
+!> **Không dùng nguồn 5V từ Zerobase cho Servo**: Bạn không nên sử dụng nguồn 5V từ board Zerobase để cấp cho động cơ Servo, vì dòng điện của động cơ Servo có thể vượt quá dòng điện mà board Zerobase có thể cung cấp. Do đó sử dụng nguồn 5V từ module nguồn MB102 830 để cấp cho động cơ Servo là lựa chọn tốt nhất.
+
+!> **Module nguồn MB102 830 ở chế độ 5V**: Bạn cần đảm bảo module nguồn MB102 830 đang ở chế độ 5V bằng cách điều chỉnh công tắc trên module nguồn sang vị trí 5V.
+
 ## Cài đặt driver USB UART TTL
 
 > Nếu bạn chưa biết cách Giao tiếp Serial Monitor bằng dây USB UART TTL PL2303HX trên board Zerobase và chưa biết cách cài đặt driver, hãy tham khảo bài viết [tại đây](vi/zerobase/examples/uartttl.md).
