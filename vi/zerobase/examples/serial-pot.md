@@ -4,7 +4,7 @@
 
 # Hiển thị giá trị ADC từ biến trở lên Serial Monitor
 
-![uartttl-pot-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uuartttl-pot-circuit.png "uartttl-zerobase-connection")
+![uartttl-pot-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uuartttl-pot-circuit.jpg "uartttl-zerobase-connection")
 
 ## Tổng quan
 
@@ -73,7 +73,7 @@ Sử dụng chân 5V của Zerobase kết nối với chân VCC (màu đỏ) c�
 
 ![uartttl-pot-schematic](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-pot-schematic.png "uartttl-pot-schematic")
 
-![uartttl-pot-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-pot-circuit.png "uartttl-pot-circuit")
+![uartttl-pot-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uuartttl-pot-circuit.jpg "uartttl-zerobase-connection")
 
 ## Cài đặt driver USB UART TTL
 
