@@ -4,7 +4,7 @@
 
 # Điều khiển LED qua Serial Monitor
 
-![uartttl-led-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-led-circuit.png "uartttl-led-circuit")
+![uartttl-led-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-led-circuit.jpg "uartttl-led-circuit")
 
 ## Tổng quan
 
@@ -83,7 +83,7 @@ Sử dụng chân 5V của Zerobase kết nối với chân VCC (màu đỏ) c�
 
 ![uartttl-led-schematic](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-led-schematic.png "uartttl-led-schematic")
 
-![uartttl-led-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-led-circuit.png "uartttl-led-circuit")
+![uartttl-led-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-led-circuit.jpg "uartttl-led-circuit")
 
 ## Cài đặt driver USB UART TTL
 
