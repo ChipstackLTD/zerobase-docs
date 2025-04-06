@@ -43,6 +43,12 @@
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
+| [Điều khiển Relay từ xa bằng remote hồng ngoại](vi/zerobase/examples/ir-remote.md) | GPIO |
+
+## Remote hồng ngoại
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Điều khiển Relay từ xa bằng remote hồng ngoại](vi/zerobase/examples/ir-remote.md) | GPIO |
 
 ## Động cơ DC
 | **Ví dụ** | **Ngoại vi** |
