@@ -57,6 +57,7 @@
 | :-- | :-- |
 | [Điều khiển động cơ Servo bằng biến trở](vi/zerobase/examples/potentiometer-servo.md) | ADC, PWM |
 | [Điều khiển động cơ Servo qua Serial Monitor](vi/zerobase/examples/serial-servo.md) | GPIO, UART |
+| [Điều khiển động cơ Servo bằng nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-servo.md) | GPIO, PWM, I2C |
 
 ## LCD
 | **Ví dụ** | **Ngoại vi** |
@@ -64,6 +65,7 @@
 | [Điều khiển LCD 16x2](vi/zerobase/examples/lcd.md) | I2C |
 | [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
 | [Hiển thị giá trị ADC từ biến trở lên LCD](vi/zerobase/examples/lcd-pot.md) | ADC, I2C |
+| [Điều khiển động cơ Servo bằng nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-servo.md) | GPIO, PWM, I2C |
 
 ## Cảm biến siêu âm (Ultrasonic Sensor)
 | **Ví dụ** | **Ngoại vi** |
