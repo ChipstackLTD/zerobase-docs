@@ -4,7 +4,7 @@
 
 # Điều khiển động cơ Servo qua Serial Monitor
 
-![zerobase-uartttl-servo-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-servo-circuit.png "zerobase-uartttl-servo-circuit")
+![zerobase-uartttl-servo-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-servo-circuit.jpg "zerobase-uartttl-servo-circuit")
 
 ## Tổng quan
 
@@ -79,7 +79,7 @@
 
 ![zerobase-uartttl-led-pins](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-servo-pins.png "zerobase-uartttl-servo-pins")
 
-Sử dụng chân D2 kết nối đến chân màu cam của servo. Chân màu đỏ của servo nối với 5V của module nguồn và chân màu nâu nối với GND của module nguồn MB102 830.
+Sử dụng chân D2 kết nối đến chân màu cam của servo, chân D3 kết nối chân màu cam Servo 2. Chân màu đỏ của servo nối với 5V của module nguồn và chân màu nâu nối với GND của module nguồn MB102 830.
 
 Sử dụng chân D1 (TX) kết nối với chân RX (màu trắng) của USB UART TTL và chân D0 (RX) kết nối với chân TX (màu xanh lá) của USB UART TTL.
 
@@ -87,7 +87,7 @@ Sử dụng chân GND của Zerobase kết nối với chân GND (màu đen) c�
 
 ![uartttl-servo-schematic](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-servo-schematic.png "uartttl-servo-schematic")
 
-![zerobase-uartttl-servo-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-servo-circuit.png "zerobase-uartttl-servo-circuit")
+![zerobase-uartttl-servo-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-servo-circuit.jpg "zerobase-uartttl-servo-circuit")
 
 !> **Ngắt nguồn trước khi nạp code**: Trước khi cắm dây USB vào để nạp code vào board Zerobase, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase và chạy code bình thường.
 
