@@ -4,6 +4,8 @@
 
 # Điều khiển động cơ DC qua Serial Monitor
 
+![zerobase-uartttl-dc-motor-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-dc-motor-circuit.jpg "zerobase-uartttl-dc-motor-circuit")
+
 ## Tổng quan
 
 ?> Bài viết này sẽ hướng dẫn bạn cách điều khiển động cơ DC qua Serial Monitor bằng cách sử dụng UART TTL.
@@ -101,7 +103,7 @@ Chân GND của module cầu H được nối với GND của board Zerobase, US
 
 ![uartttl-dc-motor-schematic](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-dc-motor-schematic.png "uartttl-dc-motor-schematic")
 
-![zerobase-uartttl-dc-motor-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-dc-motor-circuit.png "zerobase-uartttl-dc-motor-circuit")
+![zerobase-uartttl-dc-motor-circuit](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/zerobase-uartttl-dc-motor-circuit.jpg "zerobase-uartttl-dc-motor-circuit")
 
 !> **Ngắt nguồn trước khi nạp code**: Trước khi cắm dây USB vào để nạp code vào board Zerobase, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase và chạy code bình thường.
 
