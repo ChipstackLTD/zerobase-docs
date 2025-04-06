@@ -191,5 +191,4 @@ Bài viết đã hướng dẫn cách sử dụng biến trở để điều ch�
 
 **Chúc bạn thành công!**
 
-
-
+[🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase/examples.md)

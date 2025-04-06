@@ -427,8 +427,4 @@ Bài viết đã hướng dẫn cách điều khiển LCD 16x2 bằng Arduino ID
 
 ***Chúc bạn thành công!**
 
-
-
-
-
-
+[🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase/examples.md)

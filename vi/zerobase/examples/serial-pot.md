@@ -194,6 +194,7 @@ Dừng chương trình trong 500 mili giây trước khi thực hiện vòng l�
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-pot-serial-monitor-result.gif" alt="uartttl-pot-serial-monitor-result">
+</div>
 
 ## Kết luận và hướng phát triển
 

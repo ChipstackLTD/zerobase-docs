@@ -328,3 +328,5 @@ Bài viết này đã hướng dẫn bạn cách điều khiển LED qua Serial 
 - **Điều khiển RGB LED từ Serial Monitor:** Nhập giá trị từ Serial Monitor để thay đổi màu sắc của RGB LED.
 
 **Chúc bạn thành công!**
+
+[🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase/examples.md)

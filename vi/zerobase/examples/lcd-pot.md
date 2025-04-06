@@ -186,3 +186,5 @@ Bài viết đã hướng dẫn cách sử dụng biến trở để điều ch�
 - Kết hợp với các cảm biến khác để hiển thị nhiều thông tin hơn trên LCD.
 
 **Chúc bạn thành công!**
+
+[🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase/examples.md)
