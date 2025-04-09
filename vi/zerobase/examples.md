@@ -82,6 +82,11 @@
 | :-- | :-- |
 | [Đo khoảng cách bằng cảm biến siêu âm điều khiển đèn LED](vi/zerobase/examples/ultrasonicSensor.md) | GPIO |
 
+# Module thời gian thực RTC
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Sử Dụng Module Thời GIan Thực RTC DS3231 Với Zerobase](vi/zerobase/examples/rtc.md) | I2C |
+
 ## UART
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
