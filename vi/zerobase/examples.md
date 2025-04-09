@@ -21,6 +21,7 @@
 | [Bật/tắt LED bằng nút nhấn](vi/zerobase/examples/button.md) | GPIO |
 | [Thêm âm thanh cho nút nhấn sử dụng còi buzzer](vi/zerobase/examples/button-buzzer.md) | GPIO |
 | [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
+| [Các hiệu ứng nút nhấn](vi/zerobase/examples/button-effect.md) | GPIO |
 
 ## Còi Buzzer
 
