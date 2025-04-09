@@ -22,6 +22,7 @@
 | [Thêm âm thanh cho nút nhấn sử dụng còi buzzer](vi/zerobase/examples/button-buzzer.md) | GPIO |
 | [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
 | [Các hiệu ứng nút nhấn](vi/zerobase/examples/button-effect.md) | GPIO |
+| [Tạo menu trên LCD với nút nhấn](vi/zerobase/examples/lcd-menu.md) | GPIO, I2C |
 
 ## Còi Buzzer
 
@@ -73,6 +74,7 @@
 | [Đếm số lần nhấn nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-lcd.md) | GPIO, I2C |
 | [Hiển thị giá trị ADC từ biến trở lên LCD](vi/zerobase/examples/lcd-pot.md) | ADC, I2C |
 | [Điều khiển động cơ Servo bằng nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-servo.md) | GPIO, PWM, I2C |
+| [Tạo menu trên LCD với nút nhấn](vi/zerobase/examples/lcd-menu.md) | GPIO, I2C |
 
 ## Cảm biến siêu âm (Ultrasonic Sensor)
 | **Ví dụ** | **Ngoại vi** |

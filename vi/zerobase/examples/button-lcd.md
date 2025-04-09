@@ -404,14 +404,3 @@ Với những gợi ý trên, bạn có thể tiếp tục mở rộng dự án 
 **Chúc bạn thành công!**
 
 [🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase/examples.md)
-
-
-
-
-
-
-
-
-
-
-
