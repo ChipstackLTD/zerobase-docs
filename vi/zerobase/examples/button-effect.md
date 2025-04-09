@@ -189,7 +189,7 @@ void loop() {
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
 
-![button-lcd-zerobase-code](https://cdn.chipstack.vn/zerobase/lcd-module/button-lcd-zerobase-code.png)
+![button effect-code](https://cdn.chipstack.vn/zerobase/button/button-effect-code.png)
 
 ### Biên dịch
 
@@ -394,3 +394,5 @@ Bài viết đã hướng dẫn chi tiết cách tạo ra các hiệu ứng nút
 - Thêm hiệu ứng tripple press (nhấn 3 lần) để mở rộng khả năng điều khiển.
 
 **Chúc bạn thành công!**
+
+[🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase/examples.md)
