@@ -4,12 +4,6 @@
 
 # Nháy LED với thời gian không đều
 
-<br>
-<br>
-<br>
-
-# Nháy LED
-
 ![blink-zerobase-image](https://cdn.chipstack.vn/zerobase/blink/blink-led-external-zerobase.png "blink-zerobase-image]")
 
 ## Tổng quan
