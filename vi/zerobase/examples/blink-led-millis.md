@@ -8,7 +8,7 @@
 
 ## Tổng quan
 
-?>  Bài viết này hướng dẫn thực hiện nháy LED với thời gian không đều sử dụng board Zerobase trên Arduino IDE.
+?>  Bài viết này hướng dẫn thực hiện nháy LED với theo chu kỳ 500ms sử dụng hàm millis() sử dụng board Zerobase trên Arduino IDE.
 
 ## Chuẩn bị
 
