@@ -68,13 +68,23 @@
 
 
 ## Cài Đặt Thư Viện
+Truy cập [GitHub DS3231 Library](https://github.com/NorthernWidget/DS3231).
 
-Để sử dụng RTC DS3231, bạn cần cài đặt thư viện hỗ trợ. 
+Tải thư viện về máy tính dưới dạng file .zip bằng cách nhấn vào nút **Code** và chọn **Download ZIP**.
 
-1. Truy cập [GitHub DS3231 Library](https://github.com/NorthernWidget/DS3231).
-2. Tải về và giải nén thư viện.
-3. Mở Arduino IDE, vào Sketch > Include Library > Add .ZIP Library....
-4. Chọn file .zip vừa tải về để cài đặt thư viện.
+![down-zip.png](https://cdn.chipstack.vn/zerobase/rtc/down-zip.png)
+
+Mở Arduino IDE, vào Sketch > Include Library > Add .ZIP Library....
+
+![add-zip-lib](https://cdn.chipstack.vn/zerobase/rtc/add-zip-lib.png)
+
+Chọn file .zip vừa tải về để cài đặt thư viện.
+
+![open-zip](https://cdn.chipstack.vn/zerobase/rtc/open-zip.png)
+
+Bạn chờ một chút để Arduino IDE cài đặt thư viện. Sau khi cài xong, bạn sẽ thấy thư viện thông báo **library installed**.
+
+![lib-installed](https://cdn.chipstack.vn/zerobase/rtc/lib-installed.png)
 
 ## Sơ đồ kết nối
 
