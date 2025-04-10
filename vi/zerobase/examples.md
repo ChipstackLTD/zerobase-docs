@@ -23,6 +23,7 @@
 | [Điều khiển động cơ DC bằng relay và nút nhấn](vi/zerobase/examples/relay-dc-motor.md) | GPIO |
 | [Các hiệu ứng nút nhấn](vi/zerobase/examples/button-effect.md) | GPIO |
 | [Tạo menu trên LCD với nút nhấn](vi/zerobase/examples/lcd-menu.md) | GPIO, I2C |
+| [Xử lý chống dội nút nhấn (Debounce Button)](vi/zerobase/examples/debounce-button.md) | GPIO |
 
 ## Còi Buzzer
 
