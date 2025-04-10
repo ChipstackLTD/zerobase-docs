@@ -86,6 +86,8 @@ Bạn chờ một chút để Arduino IDE cài đặt thư viện. Sau khi cài 
 
 ![lib-installed](https://cdn.chipstack.vn/zerobase/rtc/lib-installed.png)
 
+> Để cài đặt thư viện LCD I2C, tham khảo bài viết [tại đây](vi/zerobase/examples/lcd.md).
+
 ## Sơ đồ kết nối
 
 ![rtc-pins](https://cdn.chipstack.vn/zerobase/rtc/rtc-pins.png)
