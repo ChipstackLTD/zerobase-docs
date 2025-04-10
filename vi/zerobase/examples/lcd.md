@@ -51,6 +51,25 @@ Bài hướng dẫn này sẽ thực hiện hiển thị chữ thường, chữ 
     <p><em>Dây USB Type C</em></p>
 </div>
 
+## Cài Đặt Thư Viện
+Truy cập [LiquidCrystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C).
+
+Tải thư viện về máy tính dưới dạng file .zip bằng cách nhấn vào nút **Code** và chọn **Download ZIP**.
+
+![down-zip.png](https://cdn.chipstack.vn/zerobase/lcd-module/lcd-i2c-down.png)
+
+Mở Arduino IDE, vào Sketch > Include Library > Add .ZIP Library....
+
+![lcd-i2c-add-zip](https://cdn.chipstack.vn/zerobase/lcd-module/lcd-i2c-add-zip.png)
+
+Chọn file .zip vừa tải về để cài đặt thư viện.
+
+![lcd-i2c-open-zip](https://cdn.chipstack.vn/zerobase/lcd-module/lcd-i2c-open-zip.png)
+
+Bạn chờ một chút để Arduino IDE cài đặt thư viện. Sau khi cài xong, bạn sẽ thấy thư viện thông báo **library installed**.
+
+![lcd-i2c-lib-installed](https://cdn.chipstack.vn/zerobase/lcd-module/lcd-i2c-lib-installed.png)
+
 ## Nguyên lý hoạt động
 
 ?> LCD 16x2 được điều khiển thông qua giao thức I2C, giúp giảm số lượng chân kết nối so với giao tiếp song song. 
