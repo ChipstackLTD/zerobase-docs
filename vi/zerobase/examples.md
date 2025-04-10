@@ -11,6 +11,8 @@
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Nháy LED](vi/zerobase/examples/blink.md) | GPIO |
+| [Nháy LED với thời gian không đều](vi/zerobase/examples/asymmetric-blink.md) | GPIO |
+| 
 | [Bật/tắt LED bằng nút nhấn](vi/zerobase/examples/button.md) | GPIO |
 | [Bật tắt LED bằng cảm biến chuyển động (PIR)](vi/zerobase/examples/pir.md) | GPIO |
 | [Điều chỉnh độ sáng LED bằng biến trở ](vi/zerobase/examples/potentiometer.md) | ADC |
