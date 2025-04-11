@@ -503,6 +503,7 @@ Sử dụng thư viện Bounce2 giúp code ngắn gọn, dễ đọc và quản 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase/button/debounce-button-result.gif" alt="debounce-button">
     <p><em>Đèn LED bật/tắt theo ý muốn khi xử lý chống dội</em></p>
+</div>
 
 ## Kết luận và hướng phát triển
 
