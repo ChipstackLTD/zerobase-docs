@@ -1186,8 +1186,11 @@ void blinkValue(byte col, byte row, byte value, bool leadingZero) {
 ?> Sau khi đã nạp code xong, bạn có thể chỉnh thời gian và cài đặt báo thức.
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase/rtc/alarm-rtc-result.gif" alt="rtc-result">
-    <p><em>Kết quả hiển thị trên LCD</em></p>
+    <video controls style="width: 700px; height: auto;">
+        <source src="https://cdn.chipstack.vn/zerobase/rtc/alarm-rtc-result.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    <p><em>Đồng hồ báo thức sử dụng Zerobase</em></p>
 </div>
 
 ## Kết luận và hướng phát triển
