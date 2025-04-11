@@ -42,12 +42,12 @@
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/stepper/28byj-48.png" alt="28byj-48">
+    <img src="https://cdn.chipstack.vn/zerobase/stepper/28byj-48.png" alt="28byj-48">
     <p><em>Động cơ bước 28BYJ-48</em></p>
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/stepper/uln2003.png" alt="uln2003">
+    <img src="https://cdn.chipstack.vn/zerobase/stepper/uln2003.png" alt="uln2003">
     <p><em>Module điều khiển động cơ bước ULN2003</em></p>
 </div>
 
