@@ -80,11 +80,13 @@
 | [Điều khiển động cơ Servo bằng nút nhấn hiển thị lên LCD](vi/zerobase/examples/button-servo.md) | GPIO, PWM, I2C |
 | [Tạo menu trên LCD với nút nhấn](vi/zerobase/examples/lcd-menu.md) | GPIO, I2C |
 | [Làm đồng hồ đơn giản dùng millis hiển thị lên LCD](vi/zerobase/examples/lcd-clock-millis.md) | GPIO, I2C|
+| [Đo khoảng cách bằng cảm biến siêu âm hiển thị lên LCD](vi/zerobase/examples/Ultrasonic-sensor-lcd.md) | GPIO, I2C |
 
 ## Cảm biến siêu âm (Ultrasonic Sensor)
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Đo khoảng cách bằng cảm biến siêu âm điều khiển đèn LED](vi/zerobase/examples/ultrasonicSensor.md) | GPIO |
+| [Đo khoảng cách bằng cảm biến siêu âm hiển thị lên LCD](vi/zerobase/examples/Ultrasonic-sensor-lcd.md) | GPIO, I2C |
 
 # Module thời gian thực RTC
 | **Ví dụ** | **Ngoại vi** |
