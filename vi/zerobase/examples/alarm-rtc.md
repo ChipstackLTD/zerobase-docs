@@ -64,7 +64,7 @@ Bài hướng dẫn này sẽ giúp bạn làm đồng hồ báo thức đơn gi
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/rtc/rtc-ds3231.jpg" alt="button-lcd-rtc-ds3231">
+    <img src="https://cdn.chipstack.vn/zerobase/rtc/rtc-ds3231.jpg" alt="button-lcd-rtc-ds3231">
     <p><em>Module RTC DS3231</em></p>
 </div>
 
