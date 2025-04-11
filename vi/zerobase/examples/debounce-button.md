@@ -4,7 +4,7 @@
 
 # Xử lý chống dội nút nhấn (Debounce Button)
 
-![debounce-button-circuit](https://cdn.chipstack.vn/zerobase/button/debounce-button-circuit.png)
+![debounce-button-circuit](https://cdn.chipstack.vn/zerobase/button/debounce-button-circuit.jpg)
 
 ## Tổng quan
 
@@ -495,15 +495,14 @@ Sử dụng thư viện Bounce2 giúp code ngắn gọn, dễ đọc và quản 
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase/button/without-debounce-button-result.gif" alt="debounce-button">
-    <p><em>Đèn LED nhấp nháy liên tục khi không có xử lý chống dội</em></p>
+    <p><em>Đèn LED bật/tắt không theo ý muốn</em></p>
 </div>
 
 ?> Khi sử dụng xử lý chống dội nút nhấn, bạn sẽ thấy đèn LED chỉ sáng một lần khi nhấn nút.
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase/button/debounce-button-result.gif" alt="debounce-button">
-    <p><em>Đèn LED chỉ sáng một lần khi nhấn nút</em></p>
-</div>
+    <p><em>Đèn LED bật/tắt theo ý muốn khi xử lý chống dội</em></p>
 
 ## Kết luận và hướng phát triển
 
