@@ -90,7 +90,7 @@
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Sử Dụng Module Thời GIan Thực RTC DS3231 Với Zerobase](vi/zerobase/examples/rtc.md) | I2C |
-| [Làm đồng hồ báo thức với module RTC DS3231](vi/zerobase/examples/rtc-alarm.md) | I2C |
+| [Làm đồng hồ báo thức với module RTC DS3231](vi/zerobase/examples/alarm-rtc.md) | I2C |
 
 # Động cơ bước
 | **Ví dụ** | **Ngoại vi** |
