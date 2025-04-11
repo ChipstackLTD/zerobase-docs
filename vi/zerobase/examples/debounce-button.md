@@ -14,8 +14,6 @@
 
 ?> Bài viết này sẽ hướng dẫn xử lý chống dội nút nhấn.
 
-## Chuẩn bị
-
 ## Chuẩn Bị
 
 | Linh kiện |  Link mua |
