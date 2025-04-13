@@ -184,16 +184,16 @@ Cách này sử dụng `millis()` thay vì `delay()`, cho phép thực hiện th
 </p>
 
 ## Kết luận và Hướng phát triển
-Bài viết đã hướng dẫn cách nháy LED đơn giản trên board Zerobase 2 bằng Arduino IDE. Đây là bước khởi đầu giúp bạn làm quen với lập trình vi điều khiển và cách điều khiển thiết bị ngoại vi.
+Bài viết đã hướng dẫn cách nháy LED đơn giản trên board Zerobase bằng Arduino IDE. Đây là bước khởi đầu giúp bạn làm quen với lập trình vi điều khiển và cách điều khiển thiết bị ngoại vi.
 
 Để phát triển thêm từ bài học này, bạn có thể thử các ý tưởng sau:
 
-- [Điều khiển LED bằng nút nhấn](vi/zerobase-2/examples/button.md): Sử dụng nút nhấn để bật/tắt LED hoặc thay đổi tốc độ nháy.
-- [Nháy LED theo tín hiệu cảm biến](vi/zerobase-2/examples/pir.md): Kết hợp với cảm biến ánh sáng, nhiệt độ hoặc cảm biến chuyển động để điều khiển LED một cách thông minh.
-- [Sử dụng PWM để điều chỉnh độ sáng LED](vi/zerobase-2/examples/potentiometer.md): Thay vì chỉ bật/tắt LED, bạn có thể sử dụng PWM để thay đổi độ sáng của LED một cách mượt mà.
+- [Điều khiển LED bằng nút nhấn](vi/zerobase/examples/button.md): Sử dụng nút nhấn để bật/tắt LED hoặc thay đổi tốc độ nháy.
+- [Nháy LED theo tín hiệu cảm biến](vi/zerobase/examples/pir.md): Kết hợp với cảm biến ánh sáng, nhiệt độ hoặc cảm biến chuyển động để điều khiển LED một cách thông minh.
+- [Sử dụng PWM để điều chỉnh độ sáng LED](vi/zerobase/examples/potentiometer.md): Thay vì chỉ bật/tắt LED, bạn có thể sử dụng PWM để thay đổi độ sáng của LED một cách mượt mà.
 - **Điều khiển LED từ xa:** Kết hợp với Bluetooth, Wi-Fi hoặc RF để điều khiển LED từ xa bằng điện thoại hoặc máy tính.
 
-Những ý tưởng này sẽ giúp bạn mở rộng hiểu biết về lập trình vi điều khiển và ứng dụng thực tế trong các dự án IoT. Hãy thử nghiệm và sáng tạo với Zerobase 2!
+Những ý tưởng này sẽ giúp bạn mở rộng hiểu biết về lập trình vi điều khiển và ứng dụng thực tế trong các dự án IoT. Hãy thử nghiệm và sáng tạo với Zerobase!
 
 **Chúc bạn thành công!**
 
