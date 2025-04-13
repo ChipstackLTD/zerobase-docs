@@ -119,24 +119,22 @@ Nếu muốn nháy LED ở chân khác, bạn có thể thay đổi giá trị c
 
 ### Giải thích code
 
-Khai báo biến hằng số `ledPin` với giá trị là 2, chính là chân D3 trên board Zerobase.
+Khai báo biến hằng số `ledPin` với giá trị là 2, chính là chân D2 trên board Zerobase.
 
 ```cpp
 const int ledPin = 2; // Khai báo biến hằng số cho chân 2
 ```
-Trong hàm `setup()`, chúng ta sẽ thiết lập chân `LED_BUILTIN` và chân `ledPin` làm chân đầu ra.
+Trong hàm `setup()`, chúng ta sẽ thiết lập chân `ledPin` làm chân đầu ra.
 
 
 ```cpp
 void setup() {
-    pinMode(LED_BUILTIN, OUTPUT); // Thiết lập LED của board làm đầu ra
     pinMode(ledPin, OUTPUT);      // Thiết lập chân 2 làm đầu ra
 }
 ```
-Trong hàm loop, sử dụng hàm `digitalWrite()` và HIGH để bật LED trên board Zerobase và LED được kết nối với chân 2.
+Trong hàm loop, sử dụng hàm `digitalWrite()` và HIGH để bật LED được kết nối với chân 2.
 
 ```cpp
-    digitalWrite(LED_BUILTIN, HIGH); // Bật LED trên board ZeroBase
     digitalWrite(ledPin, HIGH);      // Bật LED được kết nối với chân 2
 ```
 Sử dụng hàm `delay()` để bật LED trong 200ms.
@@ -145,10 +143,9 @@ Sử dụng hàm `delay()` để bật LED trong 200ms.
     delay(200);                      // Giữ trạng thái HIGH trong 200ms
 ```
 
-Sử dụng hàm `digitalWrite()` và LOW để tắt LED trên board Zerobase và LED được kết nối với chân 2.
+Sử dụng hàm `digitalWrite()` và LOW để tắt LED được kết nối với chân 2.
 
 ```cpp
-    digitalWrite(LED_BUILTIN, LOW);  // Tắt LED trên board ZeroBase
     digitalWrite(ledPin, LOW);       // Tắt LED được kết nối với chân 2
 ```
 
