@@ -226,4 +226,4 @@ Những ý tưởng này sẽ giúp bạn mở rộng hiểu biết về lập t
 
 **Chúc bạn thành công!**
 
-[🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase/examples.md)
+[🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase-2/examples.md)
