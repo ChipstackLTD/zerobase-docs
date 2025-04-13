@@ -15,7 +15,6 @@
 | [Nháy LED sử dụng hàm millis()](vi/zerobase-2/examples/blink-led-millis.md) | GPIO |
 | [Nháy LED theo thời gian ngẫu nhiên](vi/zerobase-2/examples/blink-random.md) | GPIO |
 | [Bật/tắt LED bằng nút nhấn](vi/zerobase-2/examples/button.md) | GPIO |
-| [Bật tắt LED bằng cảm biến chuyển động (PIR)](vi/zerobase-2/examples/pir.md) | GPIO |
 | [Điều chỉnh độ sáng LED bằng biến trở ](vi/zerobase-2/examples/potentiometer.md) | ADC |
 
 ## Nút nhấn
