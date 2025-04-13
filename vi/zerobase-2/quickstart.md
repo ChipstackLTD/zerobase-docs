@@ -138,17 +138,25 @@ void loop() {
 }
 ```
 
-**Nếu ban đầu nạp code cho Zerobase**, bạn nhấn giữ nút **BOOT** sau đó cắm USB vào máy tính. Khi đã cắm USB vào máy tính, bạn thả nút **BOOT** ra. Board Zerobase sẽ tự động vào chế độ nạp code.
+**Nếu ban đầu nạp code cho Zerobase 2**, bạn nhấn giữ nút **BOOT** sau đó cắm USB vào máy tính. Khi đã cắm USB vào máy tính, bạn thả nút **BOOT** ra. Board Zerobase sẽ tự động vào chế độ nạp code.
 
-<p align="center">
-  <img src="https://cdn.chipstack.vn/zerobase2/quickstart/zb2-boot.gif" alt="boot-usb-zerobase">
-</p>
+<div align="center">
+    <video controls style="width: 700px; height: auto;">
+        <source src="https://cdn.chipstack.vn/zerobase2/quickstart/zb2-boot.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    <p><em>Nếu ban đầu nạp code</em></p>
+</div>
 
 Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách trên hoặc bạn cắm USB vào máy tính, nhấn giữ nút **BOOT**. Sau đó nhấn nút **RESET** rồi thả nút **RESET** này ra. Cuối cùng, thả nút **BOOT**. Board Zerobase sẽ vào chế độ nạp code.
 
-<p align="center">
-  <img src="https://cdn.chipstack.vn/zerobase/quickstart/zb-boot-2.gif" alt="boot-usb-zerobase">
-</p>
+<div align="center">
+    <video controls style="width: 700px; height: auto;">
+        <source src="https://cdn.chipstack.vn/zerobase2/quickstart/zb2-boot-2.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    <p><em>Những lần nạp code tiếp theo</em></p>
+</div>
 
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
 
