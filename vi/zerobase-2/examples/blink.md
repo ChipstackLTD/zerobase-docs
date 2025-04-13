@@ -14,7 +14,7 @@
 
 | Linh kiện |  Link mua |
 | --- | --- |
-| Board Zerobase |[Mua ngay](https://chipstack.vn/san-pham/zerobase/) |
+| Board Zerobase 2 |[Mua ngay](https://chipstack.vn/san-pham/zerobase-2/) |
 | Breadboard |[Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
 | Điện trở 330Ω |[Mua ngay](https://chipstack.vn/san-pham/dien-tro-1-4w-1/) |
 | LED |[Mua ngay](https://chipstack.vn/san-pham/led-5mm-vo-mau/) |
@@ -25,14 +25,14 @@
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/default/zerobase2-overview.png" alt="zerobase">
-    <p><em>Board Zerobase</em></p>
+    <p><em>Board Zerobase 2</em></p>
 </div>
 
 <br>
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="breadboard">
-    <p><em>Breadboard 2</em></p>
+    <p><em>Breadboard</em></p>
 </div>
 
 <br>
@@ -114,7 +114,7 @@ Nhấn vào biểu tượng Verify để biên dịch code.
 ![verify-code](https://cdn.chipstack.vn/default/verify-code.png "verify-code]")
 
 ### Thực hiện nạp code
-Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa biết cách nạp code cho Zerobase, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase-2/quickstart).
+Cuối cùng bạn thực hiện nạp code vào board Zerobase 2. Nếu chưa biết cách nạp code cho Zerobase 2, bạn có thể tham khảo [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase-2/quickstart).
 
 Nếu muốn nháy LED ở chân khác, bạn có thể thay đổi giá trị của biến `ledPin` thành chân bạn muốn nháy sau đó kết nối LED với chân đó.
 
@@ -180,7 +180,7 @@ delay(500); // thay đổi giá trị 500 thành giá trị khác
 </p>
 
 ## Kết luận và Hướng phát triển
-Bài viết đã hướng dẫn cách nháy LED đơn giản trên board Zerobase bằng Arduino IDE. Đây là bước khởi đầu giúp bạn làm quen với lập trình vi điều khiển và cách điều khiển thiết bị ngoại vi.
+Bài viết đã hướng dẫn cách nháy LED đơn giản trên board Zerobase 2 bằng Arduino IDE. Đây là bước khởi đầu giúp bạn làm quen với lập trình vi điều khiển và cách điều khiển thiết bị ngoại vi.
 
 Để phát triển thêm từ bài học này, bạn có thể thử các ý tưởng sau:
 

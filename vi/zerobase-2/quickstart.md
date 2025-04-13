@@ -108,9 +108,9 @@ Thoát khỏi Arduino IDE và mở lại để sử dụng board Zerobase.
 
 ## Nạp Code và nháy LED
 
-Để chọn board Zerobase, bạn vào **Tools > Board**, chọn Zerobase.
+Để chọn board Zerobase, bạn vào **Tools > Board**, chọn Zerobase 2.
 
-![select-board](https://cdn.chipstack.vn/zerobase/quickstart/select-board-zerobase.png "select-board]")
+![select-board](https://cdn.chipstack.vn/zerobase2/quickstart/select-board-zerobase-2.png "select-board]")
 
 Bạn có thể sử dụng code mẫu để nháy LED trên Zerobase bằng cách vào **File > Examples > DigitalIO > Blink**.
 
