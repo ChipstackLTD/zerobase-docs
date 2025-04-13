@@ -2,13 +2,13 @@
 <br>
 <br>
 
-# Nháy LED
+# Nháy LED sử dụng hàm millis() trên Zerobase 2
 
 ![blink-zerobase2-image](https://cdn.chipstack.vn/zerobase2/blink/blink-led-external-zerobase2.jpg "blink-zerobase2-image]")
 
 ## Tổng quan
 
-?>  Bài viết này hướng dẫn thực hiện nháy LED sử dụng board Zerobase 2 trên Arduino IDE.
+?>  Bài viết này hướng dẫn thực hiện nháy LED sử dụng hàm millis() trên Zerobase 2 trên Arduino IDE.
 
 ## Chuẩn bị
 
