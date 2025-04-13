@@ -100,7 +100,9 @@ Sử dụng chân D3 để kết nối với một chân của nút nhấn, châ
 
 Chân D12 được kết nối với chân IN1 của relay.
 
-5V của module nguồn dùng để cấp nguồn cho động cơ DC, chân VCC của relay và cấp nguồn cho board Zerobase 2.
+5V của module nguồn dùng để cấp nguồn cho động cơ DC, chân VCC của relay.
+
+3.3V của module nguồn dùng để cấp nguồn cho board Zerobase 2.
 
 Chân GND của board Zerobase 2 được kết nối với chân GND của relay và của module nguồn.
 
