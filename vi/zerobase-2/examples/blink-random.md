@@ -1,3 +1,7 @@
+<br>
+<br>
+<br>
+
 # Nháy LED với thời gian ngẫu nhiên
 
 ![blink-zerobase2-image](https://cdn.chipstack.vn/zerobase2/blink/blink-led-external-zerobase2.jpg "blink-zerobase2-image]")
