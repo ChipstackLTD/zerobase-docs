@@ -105,11 +105,11 @@ Một chân MOTOR A của module cầu H được nối với cực dương củ
 
 ![potentiometer-dc-motor-circuit](https://cdn.chipstack.vn/zerobase2/dc-motor/potentiometer-dc-motor-circuit.jpg)
 
-!> **Ngắt nguồn trước khi nạp code**: Trước khi cắm dây USB vào để nạp code vào board Zerobase 2, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase và chạy code bình thường.
+!> **Ngắt nguồn trước khi nạp code**: Trước khi cắm dây USB vào để nạp code vào board Zerobase 2, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase 2 và chạy code bình thường.
 
-!> **Không dùng nguồn 5V từ Zerobase cho động cơ**: Tuyệt đối không nối 5V trực tiếp của board Zerobase 2 vào động cơ DC, vì động cơ DC có thể tiêu tốn dòng điện lớn hơn mức cho phép của board Zerobase 2, dẫn đến hỏng board.
+!> **Không dùng nguồn 5V từ Zerobase 2 cho động cơ**: Tuyệt đối không nối 5V trực tiếp của board Zerobase 2 vào động cơ DC, vì động cơ DC có thể tiêu tốn dòng điện lớn hơn mức cho phép của board Zerobase 2, dẫn đến hỏng board.
 
-!> **Cấp nguồn cho Zerobase với 3.3V**: Bạn cần đảm bảo một bên của module nguồn MB102 830 đang ở chế độ 3.3V bằng cách điều chỉnh công tắc trên module nguồn sang vị trí 3.3V.
+!> **Cấp nguồn cho Zerobase 2 với 3.3V**: Bạn cần đảm bảo một bên của module nguồn MB102 830 đang ở chế độ 3.3V bằng cách điều chỉnh công tắc trên module nguồn sang vị trí 3.3V.
 
 !> **Cấp nguồn cho module cầu H với 5V**: Bạn cần đảm bảo bên còn lại của module nguồn MB102 830 đang ở chế độ 5V bằng cách điều chỉnh công tắc trên module nguồn sang vị trí 5V.
 
