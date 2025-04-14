@@ -111,7 +111,7 @@ Một chân MOTOR A của module cầu H được nối với cực dương củ
 
 !> **Cấp nguồn cho Zerobase với 3.3V**: Bạn cần đảm bảo một bên của module nguồn MB102 830 đang ở chế độ 3.3V bằng cách điều chỉnh công tắc trên module nguồn sang vị trí 3.3V.
 
-!> **Cấp nguồn cho Relay với 5V**: Bạn cần đảm bảo bên còn lại của module nguồn MB102 830 đang ở chế độ 5V bằng cách điều chỉnh công tắc trên module nguồn sang vị trí 5V.
+!> **Cấp nguồn cho module cầu H với 5V**: Bạn cần đảm bảo bên còn lại của module nguồn MB102 830 đang ở chế độ 5V bằng cách điều chỉnh công tắc trên module nguồn sang vị trí 5V.
 
 ## Code
 
