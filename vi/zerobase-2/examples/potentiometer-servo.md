@@ -73,7 +73,7 @@
 
 ![zerobase2-potentiometer-servo-pins](https://cdn.chipstack.vn/zerobase2/servo/zerobase2-potentiometer-servo-pins.png)
 
-Sử dụng chân A0 để kết nối với chân giữa của biến trở, một chân của biến trở nối với nguồn 5V và chân còn lại nối với GND của board Zerobase 2.
+Sử dụng chân A0 để kết nối với chân giữa của biến trở, một chân của biến trở nối với nguồn 3.3V và chân còn lại nối với GND của board Zerobase 2.
 
 Chân D19 (SCL) kết nối đến chân màu cam của servo. Chân GND (màu đen) của servo nối với GND của board Zerobase 2 và nguồn. chân VCC (màu đỏ) của servo nối với nguồn 3V3 và nối với 3V3 của board Zerobase 2.
 
