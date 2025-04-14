@@ -254,7 +254,7 @@ Bạn cần kiểm tra lại cài đặt baudrate của Serial Monitor, và ch�
 
 Kết quả cuối cùng, bạn sẽ thấy Serial Monitor in ra dòng chữ "Hello World!" mỗi giây một lần.
 
-![serial-monitor-hello-world](https://cdn.chipstack.vn/zerobase2/quickstart/serial-monitor-hello-world.gif "serial-monitor-hello-world]")
+![serial-monitor-hello-world](https://cdn.chipstack.vn/zerobase2/quickstart/serial-monitor-hello-world.png "serial-monitor-hello-world]")
 
 ## Kết luận
 
