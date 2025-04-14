@@ -199,6 +199,63 @@ Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase nháy theo 
     <p><em>LED nháy theo chu kỳ 1 giây</em></p>
 </div>
 
+## Cách in ra Serial Monitor bằng Zerobase 2
+
+Để in ra Serial Monitor, bạn cần thêm thư viện sau vào code
+
+ ```cpp
+#include <Adafruit_TinyUSB.h>
+```
+
+Sau đó, ở hàm `setup()`, bạn cần khởi tạo Serial Monitor bằng cách thêm dòng sau vào code:
+
+ ```cpp
+Serial.begin(9600);
+```
+
+Cuối cùng, bạn có thể in ra Serial Monitor bằng cách sử dụng hàm `Serial.println()`.
+
+```cpp
+Serial.println("Hello World!");
+```
+
+Dưới đây là code mẫu in ra Serial Monitor:
+
+```cpp
+#include <Adafruit_TinyUSB.h>
+
+void setup() {
+  // Khởi tạo Serial Monitor với tốc độ 9600 bps
+  Serial.begin(9600);
+}
+
+void loop() {
+  // In ra Serial Monitor
+  Serial.println("Hello World!");
+  delay(1000); // Dừng 1 giây (1000ms)
+}
+```
+
+Bạn thực hiện nạp code theo 1 trong 2 cách đã nếu trên. Sau khi nạp code thành công, chọn **Tools > Port > COMX (ở ví dụ này sẽ là COM14)** để chọn cổng COM tương ứng với USB UART TTL.
+
+![select-com-port](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/select-com-port.png "select-com-port")
+
+Sau đó, để mở Serial Monitor, chọn **Tools > Serial Monitor** hoặc nhấn tổ hợp phím `Ctrl + Shift + M`.
+
+![open-serial-monitor](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/open-serial-monitor.png "open-serial-monitor")
+
+Quan sát dữ liệu từ Serial Monitor, nếu bạn thấy hiển thị ký tự lạ như hình bên dưới:
+
+![weird-characters-serial-monitor](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/weird-characters-serial-monitor.png "weird-characters-serial-monitor")
+
+Bạn cần kiểm tra lại cài đặt baudrate của Serial Monitor, và chọn lại 9600 theo như trong code.
+
+![uartttl-serial-monitor](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/uartttl-serial-monitor.png "uartttl-serial-monitor")
+
+Kết quả cuối cùng, bạn sẽ thấy Serial Monitor in ra dòng chữ "Hello World!" mỗi giây một lần.
+
+![serial-monitor-hello-world](https://cdn.chipstack.vn/zerobase2/quickstart/serial-monitor-hello-world.gif "serial-monitor-hello-world]")
+
 ## Kết luận
 
 Như vậy, bạn đã hoàn thành việc cài đặt board Zerobase, nạp code và nháy LED trên Zerobase. Bạn có thể thử nghiệm các chức năng khác của Zerobase bằng cách thay đổi code mẫu hoặc viết code mới.
