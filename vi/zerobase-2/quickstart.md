@@ -192,7 +192,7 @@ Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình d�
 
 ![upload-success-zerobase2](https://cdn.chipstack.vn/zerobase2/quickstart/upload-success-zerobase2.png "upload-success-zerobase2]")
 
-Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase nháy theo chu kỳ 1 giây.
+Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase 2 nháy theo chu kỳ 1 giây.
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase2/quickstart/led-blink-zerobase2.gif" alt="led-blink-zerobase2">
@@ -258,4 +258,4 @@ Kết quả cuối cùng, bạn sẽ thấy Serial Monitor in ra dòng chữ "He
 
 ## Kết luận
 
-Như vậy, bạn đã hoàn thành việc cài đặt board Zerobase, nạp code, nháy LED và in ra Serial Monitor trên Zerobase 2. Bạn có thể thử nghiệm các chức năng khác của Zerobase 2 bằng cách thay đổi code mẫu hoặc viết code mới.
+Như vậy, bạn đã hoàn thành việc cài đặt board Zerobase 2, nạp code, nháy LED và in ra Serial Monitor trên Zerobase 2. Bạn có thể thử nghiệm các chức năng khác của Zerobase 2 bằng cách thay đổi code mẫu hoặc viết code mới.
