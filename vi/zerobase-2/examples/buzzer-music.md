@@ -4,7 +4,7 @@
 
 # Phát nhạc Happy Birthday bằng còi buzzer sử dụng board Zerobase 2
 
-![buzzer-music-circuit](https://cdn.chipstack.vn/zerobas2/buzzer/buzzer-music-circuit.jpg "buzzer-music-circuit")
+![buzzer-music-circuit](https://cdn.chipstack.vn/zerobase2/buzzer/buzzer-music-circuit.jpg "buzzer-music-circuit")
 
 ## Tổng quan
 
