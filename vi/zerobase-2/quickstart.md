@@ -2,11 +2,11 @@
 <br>
 <br>
 
-# Hướng dẫn sử dụng Zerobase
+# Hướng dẫn sử dụng Zerobase 2
 
 ## Tổng quan
 
-![zerobase](https://cdn.chipstack.vn/default/zerobase2-overview.png "zerobase]")
+![zerobase2](https://cdn.chipstack.vn/default/zerobase2-overview.png "zerobase2]")
 
 Zerobase 2 là một board phát triển dựa trên vi điều khiển CH32. Board hỗ trợ nhiều giao tiếp như I2C, SPI, UART, GPIO, ADC, PWM, và nhiều chức năng khác. 
 <br>
@@ -30,7 +30,7 @@ Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zer
 ## Nguồn cấp
 ![chan-cap-nguon-zerobase2](https://cdn.chipstack.vn/zerobase2/quickstart/chan-cap-nguon-zerobase2.png "chan-cap-nguon-zerobase2.png]")
 - **3.3V**: Chân này có thể nhận nguồn 3.3VDC (input) hoặc cấp nguồn cho thiết bị khác (output).
-- **USB**: Zerobase hỗ trợ cấp nguồn qua cổng USB.
+- **USB**: Zerobase 2 hỗ trợ cấp nguồn qua cổng USB.
 
 ## Nút nhấn
 <div align="center">
@@ -65,10 +65,10 @@ Bạn có tham khảo thêm sơ đồ chân trong [bài viết này](https://zer
 </div>
 
 
-## Cài đặt Arduino IDE và board Zerobase
-Để có thể lập trình cho Zerobase, đầu tiên bạn cần tải và cài đặt Arduino IDE phiên bản mới nhất theo đường link sau: [Arduino IDE](https://www.arduino.cc/en/software).
+## Cài đặt Arduino IDE và board Zerobase 2
+Để có thể lập trình cho Zerobase 2, đầu tiên bạn cần tải và cài đặt Arduino IDE phiên bản mới nhất theo đường link sau: [Arduino IDE](https://www.arduino.cc/en/software).
 
-Sau khi cài đặt xong, bạn cần cài đặt board Zerobase trên Arduino IDE theo các bước sau:
+Sau khi cài đặt xong, bạn cần cài đặt board Zerobase 2 trên Arduino IDE theo các bước sau:
 
 Mở **Arduino IDE**. Sau đó vào **File > Preferences**.
 
@@ -108,11 +108,11 @@ Thoát khỏi Arduino IDE và mở lại để sử dụng board Zerobase.
 
 ## Nạp Code và nháy LED
 
-Để chọn board Zerobase, bạn vào **Tools > Board**, chọn Zerobase 2.
+Để chọn board Zerobase 2, bạn vào **Tools > Board**, chọn Zerobase 2.
 
 ![select-board](https://cdn.chipstack.vn/zerobase2/quickstart/select-board-zerobase-2.png "select-board]")
 
-Bạn có thể sử dụng code mẫu để nháy LED trên Zerobase bằng cách vào **File > Examples > DigitalIO > Blink**.
+Bạn có thể sử dụng code mẫu để nháy LED trên Zerobase 2 bằng cách vào **File > Examples > DigitalIO > Blink**.
 
 ![blink-zerobase](https://cdn.chipstack.vn/zerobase/quickstart/blink-zerobase.png "blink-zerobase]")
 
@@ -138,7 +138,7 @@ void loop() {
 }
 ```
 
-**Nếu ban đầu nạp code cho Zerobase 2**, bạn nhấn giữ nút **BOOT** sau đó cắm USB vào máy tính. Khi đã cắm USB vào máy tính, bạn thả nút **BOOT** ra. Board Zerobase sẽ tự động vào chế độ nạp code.
+**Nếu ban đầu nạp code cho Zerobase 2**, bạn nhấn giữ nút **BOOT** sau đó cắm USB vào máy tính. Khi đã cắm USB vào máy tính, bạn thả nút **BOOT** ra. Board Zerobase 2 sẽ tự động vào chế độ nạp code.
 
 <div align="center">
     <video controls style="width: 700px; height: auto;">
@@ -148,7 +148,7 @@ void loop() {
     <p><em>Nếu ban đầu nạp code</em></p>
 </div>
 
-Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách trên hoặc bạn cắm USB vào máy tính, nhấn giữ nút **BOOT**. Sau đó nhấn nút **RESET** rồi thả nút **RESET** này ra. Cuối cùng, thả nút **BOOT**. Board Zerobase sẽ vào chế độ nạp code.
+Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách trên hoặc bạn cắm USB vào máy tính, nhấn giữ nút **BOOT**. Sau đó nhấn nút **RESET** rồi thả nút **RESET** này ra. Cuối cùng, thả nút **BOOT**. Board Zerobase 2 sẽ vào chế độ nạp code.
 
 <div align="center">
     <video controls style="width: 700px; height: auto;">
@@ -160,7 +160,7 @@ Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách
 
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
 
-![upload-code](https://cdn.chipstack.vn/zerobase/quickstart/upload-code.png "upload-code]")
+![upload-code-z2](https://cdn.chipstack.vn/zerobase2/quickstart/upload-code-z2.png "upload-code-z2]")
 
 Nếu upload code xuất hiện lỗi như hình dưới đây:
 
@@ -186,7 +186,7 @@ Nhấn mũi tên lên hoặc xuống để chọn driver **WinUSB**. và nhấn 
 
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
 
-![upload-code](https://cdn.chipstack.vn/zerobase/quickstart/upload-code.png "upload-code]")
+![upload-code-z2](https://cdn.chipstack.vn/zerobase2/quickstart/upload-code-z2.png "upload-code-z2]")
 
 Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình dưới đây.
 
@@ -258,4 +258,4 @@ Kết quả cuối cùng, bạn sẽ thấy Serial Monitor in ra dòng chữ "He
 
 ## Kết luận
 
-Như vậy, bạn đã hoàn thành việc cài đặt board Zerobase, nạp code và nháy LED trên Zerobase. Bạn có thể thử nghiệm các chức năng khác của Zerobase bằng cách thay đổi code mẫu hoặc viết code mới.
+Như vậy, bạn đã hoàn thành việc cài đặt board Zerobase, nạp code, nháy LED và in ra Serial Monitor trên Zerobase 2. Bạn có thể thử nghiệm các chức năng khác của Zerobase 2 bằng cách thay đổi code mẫu hoặc viết code mới.
