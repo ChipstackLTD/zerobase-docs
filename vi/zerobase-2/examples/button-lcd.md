@@ -4,7 +4,7 @@
 
 # Đếm số lần nhấn nút và hiển thị lên LCD
 
-![button-lcd](https://cdn.chipstack.vn/zerobase2/lcd-module/button-lcd-zerobase2.png)
+![button-lcd](https://cdn.chipstack.vn/zerobase2/lcd-module/button-lcd.jpg)
 
 ## Tổng quan
 
@@ -83,7 +83,7 @@ Sử dụng D0 để kết nối với một chân của nút reset và chân c�
 
 ![button-lcd-schematic](https://cdn.chipstack.vn/zerobase2/lcd-module/button-lcd-schematic.png)
 
-![button-lcd](https://cdn.chipstack.vn/zerobase2/lcd-module/button-lcd-zerobase2.png)
+![button-lcd](https://cdn.chipstack.vn/zerobase2/lcd-module/button-lcd.jpg)
 
 ## Code
 
