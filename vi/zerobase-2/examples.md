@@ -98,6 +98,11 @@
 | :-- | :-- |
 | [Sử dụng cảm biến nhiệt độ DS18B20 với Zerobase 2](vi/zerobase-2/examples/ds18b20.md) | GPIO, I2C |
 
+# Cảm biến từ trường 44e
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Sử dụng cảm biến từ trường 44e với Zerobase 2](vi/zerobase-2/examples/44e-hall-sensor.md) | GPIO |
+
 # Động cơ bước
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
