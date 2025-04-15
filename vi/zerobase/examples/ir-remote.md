@@ -109,14 +109,14 @@ LED xanh lá nối tương tự như LED đỏ, nhưng nối với relay 2.
 
 ```cpp
 // Khai báo chân nhận tín hiệu IR
-const int IR_PIN 2  // Chân D2 kết nối với chân OUT của VS1838B
+const int IR_PIN = 2  // Chân D2 kết nối với chân OUT của VS1838B
 
 // Thời gian chờ timeout (10ms) cho từng bước khi chờ trạng thái HIGH hoặc LOW
-const int TIMEOUT_US 10000
+const int TIMEOUT_US = 10000
 
 // Khai báo chân điều khiển relay
-const int RELAY1_PIN 10  // Relay 1 kết nối chân D10
-const int RELAY2_PIN 11  // Relay 2 kết nối chân D11
+const int RELAY1_PIN = 10  // Relay 1 kết nối chân D10
+const int RELAY2_PIN = 11  // Relay 2 kết nối chân D11
 
 void setup() {
   pinMode(IR_PIN, INPUT);  // Đặt chân IR là đầu vào để nhận tín hiệu từ remote
