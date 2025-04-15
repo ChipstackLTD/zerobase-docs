@@ -72,7 +72,7 @@
 
 ## Nguyên Lý Hoạt Động
 
-![push-button-schematic](https://cdn.chipstack.vn/zerobase2/button/push-button-schematic.png "push-button-schematic")
+![push-button-schematic](https://cdn.chipstack.vn/zerobase/button/push-button-schematic.png "push-button-schematic")
 
 ?> Nút nhấn hoạt động như một công tắc, khi nhấn sẽ đóng mạch và khi thả sẽ mở mạch. Vi điều khiển liên tục kiểm tra trạng thái của nút. Để đảm bảo tín hiệu ổn định, ta sử dụng điện trở kéo lên (pull-up). Khi nút chưa nhấn, tín hiệu ở mức cao (HIGH), vi điều khiển sẽ đọc được mức cao và tắt đèn. Khi nhấn, vi điều khiển đọc được tín hiệu xuống mức thấp (LOW) và sẽ bật đèn.
 
