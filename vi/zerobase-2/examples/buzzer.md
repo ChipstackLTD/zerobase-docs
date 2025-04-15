@@ -4,7 +4,7 @@
 
 # Điều khiển còi buzzer trên board Zerobase 2
 
-![buzzer-zerobase2-circuit](https://cdn.chipstack.vn/zerobase2/buzzer/buzzer-zerobase2-circuit.png)
+![buzzer-zerobase2-circuit](https://cdn.chipstack.vn/zerobase2/buzzer/buzzer-zerobase2-circuit.jpg)
 
 ## Tổng quan
 
@@ -58,7 +58,7 @@ Sử dụng chân D2 của board Zerobase để điều khiển buzzer. Chân D2
 
 ![buzzer-schematic](https://cdn.chipstack.vn/zerobase2/buzzer/buzzer-schematic.png)
 
-![buzzer-zerobase2-circuit](https://cdn.chipstack.vn/zerobase2/buzzer/buzzer-zerobase2-circuit.png)
+![buzzer-zerobase2-circuit](https://cdn.chipstack.vn/zerobase2/buzzer/buzzer-zerobase2-circuit.jpg)
 
 ## Code
 
