@@ -4,7 +4,7 @@
 
 # Hiển thị giá trị ADC từ biến trở lên Serial Monitor
 
-![uartttl-pot-circuit](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uuartttl-pot-circuit.jpg "uartttl-zerobase2-connection")
+![uartttl-pot-circuit](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-pot-circuit.jpg "uartttl-zerobase2-connection")
 
 ## Tổng quan
 
@@ -59,7 +59,7 @@ Sử dụng chân A3 để kết nối với chân giữa của biến trở, m�
 
 ![uartttl-pot-schematic](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-pot-schematic.png "uartttl-pot-schematic")
 
-![uartttl-pot-circuit](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uuartttl-pot-circuit.jpg "uartttl-zerobase2-connection")
+![uartttl-pot-circuit](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-pot-circuit.jpg "uartttl-zerobase2-connection")
 
 ## Code
 
