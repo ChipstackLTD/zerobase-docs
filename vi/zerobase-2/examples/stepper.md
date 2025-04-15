@@ -4,7 +4,7 @@
 
 # Điều khiển động cơ bước 28BYJ-48
 
-![stepper-circuit](https://cdn.chipstack.vn/zerobase2/stepper/stepper-circuit.png)
+![stepper-circuit](https://cdn.chipstack.vn/zerobase2/stepper/stepper-circuit.jpg)
 
 ## Tổng quan
 
@@ -69,7 +69,7 @@ Sử dụng chân A0 nối với IN1, A1 nối với IN2, A2 nối với IN3, A3
 
 ![stepper-schematic](https://cdn.chipstack.vn/zerobase2/stepper/stepper-schematic.png)
 
-![stepper-circuit](https://cdn.chipstack.vn/zerobase2/stepper/stepper-circuit.png)
+![stepper-circuit](https://cdn.chipstack.vn/zerobase2/stepper/stepper-circuit.jpg)
 
 ## Code
 
