@@ -36,7 +36,7 @@
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase2/button/push-button.png" alt="push-button">
+    <img src="https://cdn.chipstack.vn/zerobase/button/push-button.png" alt="push-button">
     <p><em>Nút nhấn</em></p>
 </div>
 
@@ -80,11 +80,11 @@
 
 ?> Khi bạn nhấn nút, vi điều khiển sẽ kích hoạt relay. Relay hoạt động như một công tắc điện có ba chân quan trọng: COM (chân chung), NO (Normally Open - Thường hở), và NC (Normally Closed - Thường đóng).
 
-![relay-schematic](https://cdn.chipstack.vn/zerobase2/relay/relay-schematic.png)
+![relay-schematic](https://cdn.chipstack.vn/zerobase/relay/relay-schematic.png)
 
 ?> Khi relay chưa kích hoạt, COM nối với NC, nghĩa là mạch không cấp điện cho động cơ.
 
-![relay-schematic](https://cdn.chipstack.vn/zerobase2/relay/relay-schematic-2.png)
+![relay-schematic](https://cdn.chipstack.vn/zerobase/relay/relay-schematic-2.png)
 
 ?> Khi relay được kích hoạt, COM sẽ nối với NO, giúp cấp nguồn cho động cơ, làm động cơ quay. 
 
