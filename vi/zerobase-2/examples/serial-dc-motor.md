@@ -96,7 +96,7 @@ Chân 3.3V của module nguồn MB102 830 được nối với chân 3.3V của 
 
 ![uartttl-dc-motor-schematic](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-dc-motor-schematic.png "uartttl-dc-motor-schematic")
 
-![zerobase2-uartttl-dc-motor-circuit](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/zerobase-uartttl-dc-motor-circuit.jpg "zerobase2-uartttl-dc-motor-circuit")
+![zerobase2-uartttl-dc-motor-circuit](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/zerobase2-uartttl-dc-motor-circuit.jpg "zerobase2-uartttl-dc-motor-circuit")
 
 !> **Ngắt nguồn trước khi nạp code**: Trước khi cắm dây USB vào để nạp code vào board Zerobase 2, bạn cần ngắt nguồn cấp 5V ra khỏi board để tránh làm hỏng board. Bạn có thể ngắt nguồn bằng cách rút dây nguồn hoặc tháo module nguồn ra khỏi breadboard. Sau khi nạp code xong, bạn có thể cấp nguồn lại cho board Zerobase 2 và chạy code bình thường.
 
