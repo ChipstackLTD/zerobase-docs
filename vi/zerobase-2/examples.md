@@ -90,8 +90,13 @@
 # Module thời gian thực RTC
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
-| [Sử Dụng Module Thời GIan Thực RTC DS3231 Với Zerobase-2](vi/zerobase-2/examples/rtc.md) | I2C |
+| [Sử Dụng Module Thời GIan Thực RTC DS3231 Với Zerobase 2](vi/zerobase-2/examples/rtc.md) | I2C |
 | [Làm đồng hồ báo thức với module RTC DS3231](vi/zerobase-2/examples/alarm-rtc.md) | I2C |
+
+# Cảm biến nhiệt độ DS18B20
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Sử dụng cảm biến nhiệt độ DS18B20 với Zerobase 2](vi/zerobase-2/examples/ds18b20.md) | GPIO, I2C |
 
 # Động cơ bước
 | **Ví dụ** | **Ngoại vi** |
