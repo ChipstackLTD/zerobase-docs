@@ -108,6 +108,12 @@
 | :-- | :-- |
 | [Điều khiển động cơ bước 28BYJ-48](vi/zerobase-2/examples/stepper.md) | GPIO |
 
+# Động cơ rung
+
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Điều khiển động cơ rung](vi/zerobase-2/examples/vibration-motor.md) | GPIO |
+
 ## UART
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
