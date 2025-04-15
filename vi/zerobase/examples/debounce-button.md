@@ -90,7 +90,7 @@ Nhờ vậy, chương trình vẫn tiếp tục chạy mượt mà, không bị 
 
 Sử dụng chân D2 để kết nối với điện trở 330ohm nối tiếp với cực Anode (+) của LED và GND để kết nối với cực Cathode (-) của LED.
 
-Sử dụng chânD3) để kết nối với nút nhấn và GND để kết nối với chân còn lại của nút nhấn.
+Sử dụng chân D3 để kết nối với nút nhấn và GND để kết nối với chân còn lại của nút nhấn.
 
 ![debounce-button-schematic](https://cdn.chipstack.vn/zerobase/button/debounce-button-schematic.png "debounce-button-schematic")
 
