@@ -4,7 +4,7 @@
 
 # Giao tiếp Serial Monitor bằng dây USB UART TTL PL2303HX
 
-![uartttl-zerobase2-connection](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-connection-zerobase2-2.png "uartttl-zerobase2-connection")
+![uartttl-zerobase2-connection](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-connection-zerobase2-2.jpg "uartttl-zerobase2-connection")
 
 
 ## Tổng quan
@@ -63,7 +63,7 @@
     <p><em>Sơ đồ chân của PL2303HX</em></p>
 </div>
 
-![usb-uart-ttl-pins](https://cdn.chipstack.vn/zerobase/uart/uart-ttl/usb-uart-ttl-pins.png "usb-uart-ttl-pins")
+![usb-uart-ttl-pins](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/usb-uart-ttl-pins.png "usb-uart-ttl-pins")
 
 Sử dụng chân D1 (TX) kết nối với chân RX (màu trắng) của USB UART TTL và chân D0 (RX) kết nối với chân TX (màu xanh lá) của USB UART TTL.
 
@@ -71,7 +71,7 @@ Sử dụng chân GND của Zerobase kết nối với chân GND (màu đen) c�
 
 ![uartttl-zerobase2-connection](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-connection-zerobase2.png "uartttl-zerobase2-connection")
 
-![uartttl-zerobase2-connection](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-connection-zerobase2-2.png "uartttl-zerobase2-connection")
+![uartttl-zerobase2-connection](https://cdn.chipstack.vn/zerobase2/uart/uart-ttl/uartttl-connection-zerobase2-2.jpg "uartttl-zerobase2-connection")
 
 ## Cài đặt driver
 
