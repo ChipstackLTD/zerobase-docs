@@ -4,7 +4,7 @@
 
 # Điều khiển động cơ rung
 
-![vibration-motor-circuit](https://cdn.chipstack.vn/zerobase2/vibration-motor/vibration-motor-circuit.png)
+![vibration-motor-circuit](https://cdn.chipstack.vn/zerobase2/vibration-motor/vibration-motor-circuit.jpg)
 
 ## Tổng quan
 
@@ -41,7 +41,7 @@ Bài viết này sẽ hướng dẫn bạn cách điều khiển động cơ run
 </div>
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/vibration-motor/breakout-dong-co-rung.png" alt="breakout-dong-co-rung">
+    <img src="https://cdn.chipstack.vn/zerobase2/vibration-motor/breakout-dong-co-rung.jpg" alt="breakout-dong-co-rung">
     <p><em>Breakout động cơ rung 1030</em></p>
 </div>
 
@@ -152,8 +152,13 @@ Lặp lại các bước trên cho đến khi dừng thêm 5 giây trước khi 
 
 ?> Khi nạp code thành công, động cơ rung sẽ hoạt động theo chu kỳ 2 giây rung và 600ms dừng. Sau đó sẽ dừng thêm 5 giây trước khi lặp lại chu kỳ.
 
+
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase2/vibration-motor/vibration-motor-result.gif" alt="vibration-motor-result">
+    <video controls style="width: 700px; height: auto;">
+        <source src="https://cdn.chipstack.vn/zerobase2/vibration-motor/vibration-motor-result.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    <p><em>Motor sẽ rung khi có tín hiệu từ Zerobase 2</em></p>
 </div>
 
 ## Kết luận và hướng phát triển
