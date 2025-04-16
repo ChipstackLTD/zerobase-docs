@@ -94,10 +94,25 @@
 | [Sử Dụng Module Thời GIan Thực RTC DS3231 Với Zerobase](vi/zerobase/examples/rtc.md) | I2C |
 | [Làm đồng hồ báo thức với module RTC DS3231](vi/zerobase/examples/alarm-rtc.md) | I2C |
 
+# Cảm biến nhiệt độ DS18B20
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Sử dụng cảm biến nhiệt độ DS18B20 với Zerobase 2](vi/zerobase/examples/ds18b20.md) | GPIO, I2C |
+
+# Cảm biến từ trường 44e
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Sử dụng cảm biến từ trường 44e với Zerobase 2](vi/zerobase/examples/44e-hall-sensor.md) | GPIO |
+
 # Động cơ bước
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Điều khiển động cơ bước 28BYJ-48](vi/zerobase/examples/stepper.md) | GPIO |
+
+# Động cơ rung
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Điều khiển động cơ rung](vi/zerobase/examples/vibration-motor.md) | GPIO |
 
 ## UART
 | **Ví dụ** | **Ngoại vi** |
