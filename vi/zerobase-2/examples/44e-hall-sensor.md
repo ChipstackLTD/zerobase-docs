@@ -126,13 +126,13 @@ Cuối cùng bạn thực hiện nạp code vào board Zerobase 2. Nếu chưa b
 
 ### Giải thích code
 
-Khai báo biến hằng số `hallPin` với giá trị là 2, chính là chân D2 trên board Zerobase.
+Khai báo biến hằng số `hallPin` với giá trị là 2, chính là chân D2 trên board Zerobase 2.
 
 ```cpp
 const int hallPin = 2; // Chân D2 đọc tín hiệu từ cảm biến Hall
 ```
 
-Khai báo biến hằng số `ledPin` với giá trị là 3, chính là chân D3 trên board Zerobase.
+Khai báo biến hằng số `ledPin` với giá trị là 3, chính là chân D3 trên board Zerobase 2.
 
 ```cpp
 const int ledPin = 3;   // Chân D3 điều khiển LED
