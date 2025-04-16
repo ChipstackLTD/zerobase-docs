@@ -21,7 +21,7 @@ Bài viết này sẽ hướng dẫn bạn cách điều khiển động cơ run
 | Breakout động cơ rung 1030 | [Mua ngay](https://chipstack.vn/san-pham/breakout-dong-co-rung/) |
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/default/zerobase2-overview.png" alt="zerobase">
+    <img src="https://cdn.chipstack.vn/default/zerobase2-overview.png" alt="zerobase2">
     <p><em>Board Zerobase 2</em></p>
 </div>
 
@@ -47,7 +47,7 @@ Bài viết này sẽ hướng dẫn bạn cách điều khiển động cơ run
 
 ## Nguyên lý hoạt động
 
-?> Zerobase sẽ bật động cơ rung bằng cách cho chân GPIO nối với chân IN của động cơ rung lên mức cao và tắt động cơ rung bằng cách cho chân đấy xuống mức thấp.
+?> Zerobase 2 sẽ bật động cơ rung bằng cách cho chân GPIO nối với chân IN của động cơ rung lên mức cao và tắt động cơ rung bằng cách cho chân đấy xuống mức thấp.
 
 ## Sơ đồ kết nối
 
@@ -106,7 +106,7 @@ Cuối cùng bạn thực hiện nạp code vào board Zerobase 2. Nếu chưa b
 
 ## Giải thích code
 
-Khai báo biến hằng số `vibOutPin` với giá trị là 2, chính là chân D2 trên board Zerobase.
+Khai báo biến hằng số `vibOutPin` với giá trị là 2, chính là chân D2 trên board Zerobase 2.
 
 ```cpp
 const int vibOutPin = 2; // Khai báo chân số 2 là chân xuất tín hiệu (cho motor rung)
