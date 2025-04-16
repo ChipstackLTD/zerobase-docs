@@ -83,7 +83,7 @@ Sử dụng chân D2 của Zerobase để kết nối với chân OUT của cả
 
 Chân D3 của Zerobase được kết nối với điện trở 330ohm nối tiếp với chân anode **(chân dài hơn là +)** của LED và GND để kết nối với chân cathode **( chân ngắn hơn là -)** của LED.
 
-![44e-schemtatic](https://cdn.chipstack.vn/zerobase/44e-hall-sensor/44e-schemtatic.png)
+![44e-schematic](https://cdn.chipstack.vn/zerobase/44e-hall-sensor/44e-schematic.png)
 
 ![44e-circuit](https://cdn.chipstack.vn/zerobase/44e-hall-sensor/44e-circuit.jpg)
 
