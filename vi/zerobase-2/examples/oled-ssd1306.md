@@ -45,7 +45,7 @@ Bạn vào menu Tools > Manage Libraries.
 
 ![manage-lib](https://cdn.chipstack.vn/zerobase2/oled-ssd1306/manage-lib.png)
 
-Tim kiếm thư viện `Adafruit_SSD1306`, chọn version mới nhất và nhấn Install.
+Tìm kiếm thư viện `Adafruit_SSD1306`, chọn version mới nhất và nhấn Install.
 
 ![adafruit-ssd1306](https://cdn.chipstack.vn/zerobase2/oled-ssd1306/adafruit-ssd1306.png)
 
