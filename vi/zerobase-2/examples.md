@@ -81,6 +81,12 @@
 | [Làm đồng hồ đơn giản dùng millis hiển thị lên LCD](vi/zerobase-2/examples/lcd-clock-millis.md) | GPIO, I2C|
 | [Đo khoảng cách bằng cảm biến siêu âm hiển thị lên LCD](vi/zerobase-2/examples/ultrasonic-sensor-lcd.md) | GPIO, I2C |
 
+# Màn hình OLED SSD1306
+
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Hiển thị chữ và hình ảnh lên màn hình OLED](vi/zerobase-2/examples/oled-ssd1306.md) | I2C |
+
 ## Cảm biến siêu âm (Ultrasonic Sensor)
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
