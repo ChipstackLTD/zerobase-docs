@@ -157,11 +157,23 @@ Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách
 
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
 
-![upload-code](https://cdn.chipstack.vn/zerobase/quickstart/upload-code.png "upload-code]")
+<div align="center">
+    <video controls style="width: 700px; height: auto;">
+        <source src="https://cdn.chipstack.vn/zerobase/quickstart/zb-boot.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    <p><em>Nếu ban đầu nạp code</em></p>
+</div>
 
 Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình dưới đây.
 
-![upload-success-zerobase](https://cdn.chipstack.vn/zerobase/quickstart/upload-success-zerobase.png "upload-success-zerobase]")
+<div align="center">
+    <video controls style="width: 700px; height: auto;">
+        <source src="https://cdn.chipstack.vn/zerobase/quickstart/zb-boot-reset.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    <p><em>Những lần nạp code tiếp theo</em></p>
+</div>
 
 Nhấn nút **RESET** để Zerobase chạy đoạn code bạn vừa nạp.
 Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase nháy theo chu kỳ 1 giây.
