@@ -22,7 +22,7 @@ Board Zerobase chỉ có dung lượng bộ nhớ Flash là 16kB, nên một s�
 
 ![overflowed-flash](https://cdn.chipstack.vn/zerobase/notes/overflowed-flash.png)
 
-## Lưu ý khi sử dụng Serial
+## UART
 
 ### Serial (USB)
 
@@ -30,17 +30,17 @@ Board Zerobase chỉ có dung lượng bộ nhớ Flash là 16kB, nên một s�
 
 Tuy nhiên, Serial hiện tại đang không hoạt động trên firmware của Zerobase — do đó bạn không thể sử dụng Serial Monitor qua cổng USB bằng Serial trong thời điểm này.
 
-### Serial1 (TX-D1, RX-D0)
+### Các chân UART
 
-Đây là UART phần cứng sử dụng hai chân:
-- TX - D1
-- RX - D0
+| Tên cổng sử dụng trong thư viện | Chân TX | Chân RX |
+|:--|:--| :--|
+| Serial1 |D1 | D0 |
 
 Bạn có thể sử dụng Serial1 để:
 - Giao tiếp UART với các module hoặc thiết bị ngoại vi như GPS, cảm biến, ESP, v.v.
 - In thông tin ra Serial Monitor bằng cách kết nối TX và RX với một bộ chuyển đổi USB-UART (TTL) rồi cắm vào máy tính. Bạn có thể tham khảo thêm cách sử dụng Serial Monitor với board Zerobase trong [bài viết này](vi/zerobase/examples/uartttl.md).
 
-## I2C (SDA-D18, SCL-D19)
+## I2C
 
 ### Điện trở kéo lên (Pull-up resistor)
 
@@ -49,6 +49,20 @@ Hiện tại MCU chưa có điện trở kéo (pull-up) cho hai chân I2C (SCL, 
 Thông thường, các cảm biến I2C đã có sẵn trở kéo bên trong, nên không cần thêm ngoài.
 
 !> Tuy nhiên, nếu dùng hai board Zerobase giao tiếp I2C với nhau, bạn cần gắn thêm trở kéo ngoài cho ít nhất một board, nếu không sẽ không hoạt động.
+
+### Các chân I2C
+
+| Tên cổng sử dụng trong thư viện | Chân SDA | Chân SCL |
+|:--|:--| :--|
+| Wire |D18 | D19 |
+
+## SPI
+
+### Các chân SPI
+
+| Tên cổng sử dụng trong thư viện | Chân MOSI | Chân MISO | Chân SCK | Chân SS |
+|:--|:--| :--|:--| :--|
+| SPI |D11 | D12 | D13 | D10 |
 
 ### Chế độ slave cho Zerobase
 
@@ -68,18 +82,18 @@ Dưới đây là bảng chân PWM và các chân không thể sử dụng đồ
 |:--|:--|:--|:--|
 | D13 | Timer 2 | Channel 1 | D3, D10 |
 | D19 | Timer 2 | Channel 2 | |
-| A3 - D17 | Timer 2 | Channel 3 | D3, D10 |
-| D10 | Timer 2 | Channel 3 | D3, D13 , A3 - D17, D18, D19|
-| D3 | Timer 2 | Channel 3 | D10, D13 , A3 - D17, D18, D19| 
+| A3/D17 | Timer 2 | Channel 3 | D3, D10 |
+| D10 | Timer 2 | Channel 3 | D3, D13 , A3/D17, D18, D19|
+| D3 | Timer 2 | Channel 3 | D10, D13 , A3/D17, D18, D19| 
 | D18 | Timer 2 | Channel 4 | D3, D10 |
-| D11 | Timer 1 | Channel 1 | A3 - D17, A1 - D15, D2, A2 - D16, D1, A0 - D14, D0 |
-| D12 | Timer 1 | Channel 2 | A3 - D17, A1 - D15, D2, A2 - D16, D1, A0 - D14, D0 |
-| A3 - D17 | Timer 1 | Channel 1 | D11, D1 |
-| A1 - D15 | Timer 1 | Channel 2 | D12, A0 - D14 |
+| D11 | Timer 1 | Channel 1 | A3/D17, A1/D15, D2, A2/D16, D1, A0/D14, D0 |
+| D12 | Timer 1 | Channel 2 | A3/D17, A1/D15, D2, A2/D16, D1, A0/D14, D0 |
+| A3/D17 | Timer 1 | Channel 1 | D11, D1 |
+| A1/D15 | Timer 1 | Channel 2 | D12, A0/D14 |
 | D2 | Timer 1 | Channel 3 | D0 |
-| A2 - D16 | Timer 1 | Channel 4 | |
-| D1 | Timer 1 | Channel 1N | A3 - D17, D11 |
-| A0 - D14 | Timer 1 | Channel 2N | A1 - D15, D12 |
+| A2/D16 | Timer 1 | Channel 4 | |
+| D1 | Timer 1 | Channel 1N | A3/D17, D11 |
+| A0/D14 | Timer 1 | Channel 2N | A1/D15, D12 |
 | D0 | Timer 1 | Channel 3N | D2 |
 
 
