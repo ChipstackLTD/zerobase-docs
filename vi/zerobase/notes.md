@@ -50,6 +50,12 @@ Thông thường, các cảm biến I2C đã có sẵn trở kéo bên trong, n�
 
 !> Tuy nhiên, nếu dùng hai board Zerobase giao tiếp I2C với nhau, bạn cần gắn thêm trở kéo ngoài cho ít nhất một board, nếu không sẽ không hoạt động.
 
+### Chế độ slave cho Zerobase
+
+Mặc định, chế độ hoạt động của Zerobase là chế độ master. Nếu bạn muốn sử dụng Zerobase như một thiết bị slave, vào tool > I2C Slave support > I2C Slave Enabled.
+
+![i2c-slave-enabled](https://cdn.chipstack.vn/zerobase/notes/i2c-slave-enabled.png)
+
 ### Các chân I2C
 
 | Tên cổng sử dụng trong thư viện | Chân SDA | Chân SCL |
@@ -63,12 +69,6 @@ Thông thường, các cảm biến I2C đã có sẵn trở kéo bên trong, n�
 | Tên cổng sử dụng trong thư viện | Chân MOSI | Chân MISO | Chân SCK | Chân SS |
 |:--|:--| :--|:--| :--|
 | SPI |D11 | D12 | D13 | D10 |
-
-### Chế độ slave cho Zerobase
-
-Mặc định, chế độ hoạt động của Zerobase là chế độ master. Nếu bạn muốn sử dụng Zerobase như một thiết bị slave, vào tool > I2C Slave support > I2C Slave Enabled.
-
-![i2c-slave-enabled](https://cdn.chipstack.vn/zerobase/notes/i2c-slave-enabled.png)
 
 ## Timer (analogWrite)
 
