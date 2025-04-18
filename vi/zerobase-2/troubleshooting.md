@@ -74,5 +74,4 @@ Sau đó bạn thực hiện biên dịch lại code.
 
 ![verify-code](https://cdn.chipstack.vn/default/verify-code.png "verify-code]")
 
-
-
+> Tìm hiểu thêm cách sử dụng thư viện OLED [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase-2/examples/oled-ssd1306).
