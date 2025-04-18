@@ -41,8 +41,7 @@ Board Zerobase 2 có ba cổng UART:
 | Serial3 | USART3 | D19 | D18 |||
 
 
-## I2C (SDA-D18, SCL-D19)
-
+## I2C
 ### Điện trở kéo lên (Pull-up resistor)
 
 Hiện tại MCU chưa có điện trở kéo (pull-up) cho hai chân I2C (SCL, SDA). Vì ở chế độ output open-drain không có sẵn trở kéo nội, nên cần thêm 2 điện trở 4.7kΩ nối SCL và SDA lên 3V3 để giao tiếp I2C hoạt động ổn định.
