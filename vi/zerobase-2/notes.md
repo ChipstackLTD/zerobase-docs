@@ -32,7 +32,7 @@ Vì board Zerobase 2 sử dụng vi điều khiển CH32V203, nên một số th
 
 ### Các chân Serial
 
-Board Zerobase 2 có ba cổng UART:
+Board Zerobase 2 có ba cổng UART: Serial1, Serial2, Serial3.
 
 | Tên cổng sử dụng trong thư viện | UART |Chân TX | Chân RX | Chân CTS | Chân RTS |
 |:--|:--|:--| :--| :--| :--|
