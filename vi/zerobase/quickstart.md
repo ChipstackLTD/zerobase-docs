@@ -163,7 +163,7 @@ Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách
     <p><em>Những lần nạp code tiếp theo</em></p>
 </div>
 
-!> Lưu ý: Không cần chọn cổng COM cho board Zerobase 2 khi nạp code. Board Zerobase 2 sẽ tự động nhận cổng COM khi được chuyển sang chế độ nạp code.
+!> Lưu ý: Không cần chọn cổng COM cho board Zerobase khi nạp code. Board Zerobase sẽ tự động nhận cổng COM khi được chuyển sang chế độ nạp code.
 
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
 
