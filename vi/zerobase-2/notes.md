@@ -18,7 +18,7 @@ Bạn có thể cấp nguồn qua chân 3V3 hoặc qua cổng USB.
 
 Vì board Zerobase 2 sử dụng vi điều khiển CH32V203, nên một số thư viện bên ngoài có thể không tương thích với vi điều khiển này.
 
-## Lưu ý khi sử dụng Serial
+## UART
 
 ### Serial (USB)
 
@@ -64,6 +64,7 @@ Zerobase 2 có hai cổng I2C: Wire và Wire1.
 ### Các chân SPI
 
 Zerobase 2 có hai cổng SPI: SPI và SPI1.
+
 | Tên cổng sử dụng trong thư viện | SPI | Chân MOSI | Chân MISO | Chân SCK | Chân CS |
 | :--|:--|:--| :--| :--| :--|
 | SPI | SPI1 | D11 | D12 | D13 | D10 |
