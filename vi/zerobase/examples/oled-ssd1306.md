@@ -39,6 +39,11 @@
     <p><em>Dây USB Type C</em></p>
 </div>
 
+<div align="center">
+    <img src="https://cdn.chipstack.vn/default/oled-ssd1306.jpg" alt="oled-ssd1306">
+    <p><em>OLED SSD1306</em></p>
+</div>
+
 ## Cài Đặt Thư Viện
 
 Bạn vào menu Tools > Manage Libraries.
