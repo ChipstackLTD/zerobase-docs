@@ -2,7 +2,7 @@
 <br>
 <br>
 
-# Các lỗi thường gặp khi sử dụng Zerobase
+# Các lỗi thường gặp khi sử dụng Zerobase 2
 
 ## Cài đặt driver
 
