@@ -8,7 +8,7 @@
 
 Trước khi nạp code, bạn cần đưa vi điều khiển vào chế độ nạp code - [Hướng dẫn nạp code](https://zerobase.chipstack.vn/#/vi/zerobase/quickstart).
 
-Nếu không board sẽ báo lỗi sau khi nạp code:
+Nếu không IDE sẽ báo lỗi khi nạp code:
 
 ![error-upload](https://cdn.chipstack.vn/zerobase/troubleshooting/error-upload.png)
 
