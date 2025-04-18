@@ -145,15 +145,9 @@ void loop() {
 
 **Nếu ban đầu nạp code cho Zerobase**, bạn nhấn giữ nút **BOOT** sau đó cắm USB vào máy tính. Khi đã cắm USB vào máy tính, bạn thả nút **BOOT** ra. Board Zerobase sẽ tự động vào chế độ nạp code.
 
-<p align="center">
-  <img src="https://cdn.chipstack.vn/zerobase/quickstart/zb-boot.gif" alt="boot-usb-zerobase">
-</p>
-
 Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách trên hoặc bạn cắm USB vào máy tính, nhấn giữ nút **BOOT**. Sau đó nhấn nút **RESET** rồi thả nút **RESET** này ra. Cuối cùng, thả nút **BOOT**. Board Zerobase sẽ vào chế độ nạp code.
 
-<p align="center">
-  <img src="https://cdn.chipstack.vn/zerobase/quickstart/zb-boot-2.gif" alt="boot-usb-zerobase">
-</p>
+!> Lưu ý: Không cần chọn cổng COM cho board Zerobase 2 khi nạp code. Board Zerobase 2 sẽ tự động nhận cổng COM khi được chuyển sang chế độ nạp code.
 
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
 

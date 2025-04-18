@@ -158,6 +158,8 @@ Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách
     <p><em>Những lần nạp code tiếp theo</em></p>
 </div>
 
+!> Lưu ý: Không cần chọn cổng COM cho board Zerobase 2 khi nạp code. Board Zerobase 2 sẽ tự động nhận cổng COM khi được chuyển sang chế độ nạp code.
+
 Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
 
 ![upload-code-z2](https://cdn.chipstack.vn/zerobase2/quickstart/upload-code-z2.png "upload-code-z2]")
