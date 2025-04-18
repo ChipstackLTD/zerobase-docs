@@ -145,12 +145,6 @@ void loop() {
 
 **Nếu ban đầu nạp code cho Zerobase**, bạn nhấn giữ nút **BOOT** sau đó cắm USB vào máy tính. Khi đã cắm USB vào máy tính, bạn thả nút **BOOT** ra. Board Zerobase sẽ tự động vào chế độ nạp code.
 
-Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách trên hoặc bạn cắm USB vào máy tính, nhấn giữ nút **BOOT**. Sau đó nhấn nút **RESET** rồi thả nút **RESET** này ra. Cuối cùng, thả nút **BOOT**. Board Zerobase sẽ vào chế độ nạp code.
-
-!> Lưu ý: Không cần chọn cổng COM cho board Zerobase 2 khi nạp code. Board Zerobase 2 sẽ tự động nhận cổng COM khi được chuyển sang chế độ nạp code.
-
-Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
-
 <div align="center">
     <video controls style="width: 700px; height: auto;">
         <source src="https://cdn.chipstack.vn/zerobase/quickstart/zb-boot.mp4" type="video/mp4">
@@ -159,7 +153,7 @@ Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
     <p><em>Nếu ban đầu nạp code</em></p>
 </div>
 
-Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình dưới đây.
+Những lần nạp code tiếp theo, bạn chỉ cần thực hiện như cách trên hoặc bạn cắm USB vào máy tính, nhấn giữ nút **BOOT**. Sau đó nhấn nút **RESET** rồi thả nút **RESET** này ra. Cuối cùng, thả nút **BOOT**. Board Zerobase sẽ vào chế độ nạp code.
 
 <div align="center">
     <video controls style="width: 700px; height: auto;">
@@ -168,6 +162,12 @@ Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình d�
     </video>
     <p><em>Những lần nạp code tiếp theo</em></p>
 </div>
+
+!> Lưu ý: Không cần chọn cổng COM cho board Zerobase 2 khi nạp code. Board Zerobase 2 sẽ tự động nhận cổng COM khi được chuyển sang chế độ nạp code.
+
+Bạn nhấn **Upload** hoặc nhấn **Ctrl+U** để nạp code.
+
+Nếu nạp code thành công, bạn sẽ thấy dòng thông báo như hình dưới đây.
 
 Nhấn nút **RESET** để Zerobase chạy đoạn code bạn vừa nạp.
 Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase nháy theo chu kỳ 1 giây.
