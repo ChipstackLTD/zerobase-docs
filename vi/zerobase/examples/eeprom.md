@@ -12,8 +12,6 @@
 
 ## Chuẩn bị 
 
-## Chuẩn bị
-
 | Linh kiện |  Link mua |
 | --- | --- |
 | Board Zerobase| [Mua ngay](https://chipstack.vn/san-pham/zerobase/) |
