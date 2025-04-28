@@ -10,8 +10,6 @@
 
 ?> Bài viết này sẽ hướng dẫn bạn cách sử dụng bộ nhớ EEPROM trên Zerobase 2 để lưu trữ dữ liệu. Bạn có thể sử dụng bộ nhớ EEPROM để lưu trữ các giá trị mà bạn muốn giữ lại ngay cả khi tắt nguồn.
 
-## Chuẩn bị 
-
 ## Chuẩn bị
 
 | Linh kiện |  Link mua |
