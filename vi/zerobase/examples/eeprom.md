@@ -495,13 +495,9 @@ Bài viết này đã hướng dẫn chi tiết cách đếm số lần nhấn n
 Để phát triển thêm từ bài học này, bạn có thể thử các ý tưởng sau:
 
 - **Thêm một nút nhấn khác để giảm giá trị đếm**: Tạo thêm chức năng đếm ngược bằng một nút nhấn thứ ba, với mã tương tự như nút đếm lên.
-
 - **Hiển thị thêm thông tin trên LCD**: Bạn có thể mở rộng giao diện người dùng hiển thị thời gian chạy chương trình, số lần nhấn mỗi nút, hoặc thống kê sử dụng.
-
 - **Lưu thêm thông tin vào EEPROM**: Lưu thời gian hoạt động, số lần khởi động thiết bị, hoặc các thông số cấu hình khác.
-
 - **Thêm chức năng tự động lưu**: Tự động lưu giá trị sau một khoảng thời gian nhất định, không chỉ khi có sự thay đổi.
-
 - **Tích hợp chức năng bảo mật**: Thêm mật khẩu hoặc mã khóa để hạn chế quyền reset bộ đếm.
 
 **Chúc bạn thành công!**
