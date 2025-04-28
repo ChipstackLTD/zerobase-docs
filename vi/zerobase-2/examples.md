@@ -99,6 +99,11 @@
 | [Sử Dụng Module Thời GIan Thực RTC DS3231 Với Zerobase 2](vi/zerobase-2/examples/rtc.md) | I2C |
 | [Làm đồng hồ báo thức với module RTC DS3231](vi/zerobase-2/examples/alarm-rtc.md) | I2C |
 
+# EEPROM
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Lưu trữ dữ liệu vào bộ nhớ EEPROM](vi/zerobase-2/examples/eeprom.md) | EEPROM |
+
 # Cảm biến nhiệt độ DS18B20
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
