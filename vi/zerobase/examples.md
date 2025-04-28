@@ -88,6 +88,11 @@
 | :-- | :-- |
 | [Hiển thị chữ và hình ảnh lên màn hình OLED](vi/zerobase/examples/oled-ssd1306.md) | I2C |
 
+# EEPROM
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Lưu trữ dữ liệu vào bộ nhớ EEPROM](vi/zerobase/examples/eeprom.md) | EEPROM |
+
 ## Cảm biến siêu âm (Ultrasonic Sensor)
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
