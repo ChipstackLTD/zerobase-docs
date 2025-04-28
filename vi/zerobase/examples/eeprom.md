@@ -219,7 +219,7 @@ Cuối cùng bạn thực hiện nạp code vào board Zerobase. Nếu chưa bi�
 
 Thư viện EEPROM trong ứng dụng này là một phiên bản nâng cao cho các board Arduino, hỗ trợ cả Board Zerobase 2 và Board Zerobase. Dưới đây là giải thích các API mà ứng dụng đang sử dụng:
 
-### 1. `EEPROM.begin()`
+#### 1. `EEPROM.begin()`
 
 ```cpp
 EEPROM.begin();
@@ -230,7 +230,7 @@ EEPROM.begin();
 - **Đặc điểm**: Cần gọi trước khi thực hiện bất kỳ thao tác EEPROM nào
 - **Tham số**: Mặc định sẽ sử dụng kích thước 256 bytes cho board Zerobase 2 và 64 bytes cho board Zerobase
 
-### 2. `EEPROM.read()`
+#### 2. `EEPROM.read()`
 
 ```cpp
 counter = EEPROM.read(EEPROM_ADDRESS);
@@ -241,7 +241,7 @@ counter = EEPROM.read(EEPROM_ADDRESS);
 - **Tham số**: idx - Chỉ số/địa chỉ của byte cần đọc (0-255 hoặc 0-63 tùy thuộc vào board)
 - **Giá trị trả về**: uint8_t - Giá trị byte đọc được (0-255)
 
-### 3. `EEPROM.write()`
+#### 3. `EEPROM.write()`
 
 ```cpp
 EEPROM.write(EEPROM_ADDRESS, counter);
@@ -254,7 +254,7 @@ EEPROM.write(EEPROM_ADDRESS, counter);
   - idx - Chỉ số/địa chỉ để ghi dữ liệu vào
   - val - Giá trị byte cần ghi (0-255)
 
-### 4. `EEPROM.commit()`
+#### 4. `EEPROM.commit()`
 
 ```cpp
 bool commitSuccess = EEPROM.commit();
