@@ -244,7 +244,7 @@ Cuối cùng bạn thực hiện nạp code vào board Zerobase 2. Nếu chưa b
 
 ### Sơ lược về thư viện EEPROM.h
 
-Thư viện EEPROM trong ứng dụng này là một phiên bản nâng cao cho vi điều khiển CH32V, hỗ trợ cả CH32V20x (BOARD_ZEROBASE2) và CH32V003 (BOARD_ZEROBASE). Dưới đây là giải thích các API mà ứng dụng đang sử dụng:
+Thư viện EEPROM trong ứng dụng này là một phiên bản nâng cao cho các board Arduino, hỗ trợ cả Board Zerobase 2 và Board Zerobase. Dưới đây là giải thích các API mà ứng dụng đang sử dụng:
 
 ### 1. `EEPROM.begin()`
 
@@ -255,7 +255,7 @@ EEPROM.begin();
 - **Mục đích**: Khởi tạo và chuẩn bị bộ nhớ EEPROM cho việc sử dụng
 - **Chi tiết**: Hàm này cấp phát bộ nhớ đệm trong RAM và đọc dữ liệu từ trang flash được chỉ định vào bộ đệm
 - **Đặc điểm**: Cần gọi trước khi thực hiện bất kỳ thao tác EEPROM nào
-- **Tham số**: Mặc định sẽ sử dụng kích thước EEPROM_SIZE (256 bytes cho BOARD_ZEROBASE2 hoặc 64 bytes cho BOARD_ZEROBASE)
+- **Tham số**: Mặc định sẽ sử dụng kích thước 256 bytes cho board Zerobase 2 và 64 bytes cho board Zerobase
 
 ### 2. `EEPROM.read()`
 
@@ -299,8 +299,8 @@ Thư viện EEPROM này mô phỏng EEPROM bằng cách sử dụng bộ nhớ f
 - Dữ liệu được đọc từ flash vào một bộ đệm RAM khi gọi `begin()`
 - Các hoạt động đọc/ghi được thực hiện trên bộ đệm này
 - Chỉ khi gọi `commit()`, dữ liệu mới thực sự được ghi vào flash
-- CH32V20x (BOARD_ZEROBASE2) sử dụng 256 byte của bộ nhớ flash.
-- CH32V003 (BOARD_ZEROBASE) sử dụng 64 byte của bộ nhớ flash.
+- Board Zerobase 2 sử dụng 256 byte của bộ nhớ flash.
+- Board Zerobase sử dụng 64 byte của bộ nhớ flash.
 
 ### Giải thích code
 
