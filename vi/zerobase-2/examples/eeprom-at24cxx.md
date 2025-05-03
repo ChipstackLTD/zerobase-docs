@@ -126,6 +126,9 @@ void setup() {
   // Khởi tạo EEPROM và giao tiếp I2C
   eeprom.begin();  // Tự động khởi tạo Wire và cấu hình giao tiếp
 
+  // Đối với Wire1
+  // eeprom.begin(Wire1);  // Khởi tạo Wire1 và cấu hình giao tiếp
+
   // Kiểm tra kết nối với EEPROM
   if (!eeprom.isConnected()) {            // Kiểm tra xem EEPROM có phản hồi trên bus I2C không
     Serial.println("EEPROM not found!");  // Thông báo lỗi nếu không tìm thấy EEPROM
@@ -585,6 +588,12 @@ void setup() {
 - Phương thức này sẽ:
   - Khởi tạo đối tượng Wire (I²C) nếu chưa được khởi tạo
   - Tính toán các tham số thiết bị như kích thước trang và kích thước địa chỉ
+
+```cpp
+  // Đối với Wire1
+  // eeprom.begin(Wire1);  // Khởi tạo Wire1 và cấu hình giao tiếp
+```
+- Nếu bạn muốn sử dụng một cổng I²C khác (như Wire1), bạn có thể truyền đối tượng Wire1 vào hàm `begin()`
 
 ```cpp
   // Kiểm tra kết nối với EEPROM
