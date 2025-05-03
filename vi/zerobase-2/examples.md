@@ -102,7 +102,8 @@
 # EEPROM
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
-| [Lưu trữ dữ liệu vào bộ nhớ EEPROM](vi/zerobase-2/examples/eeprom.md) | EEPROM |
+| [Lưu trữ dữ liệu vào bộ nhớ EEPROM nội](vi/zerobase-2/examples/eeprom.md) | EEPROM |
+| [Lưu trữ dữ liệu sử dụng Module EEPROM AT24C256](vi/zerobase-2/examples/eeprom-at24cxx.md) | EEPROM, UART |
 
 # Cảm biến nhiệt độ DS18B20
 | **Ví dụ** | **Ngoại vi** |
