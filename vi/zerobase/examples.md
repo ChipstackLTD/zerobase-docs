@@ -92,6 +92,7 @@
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Lưu trữ dữ liệu vào bộ nhớ EEPROM](vi/zerobase/examples/eeprom.md) | EEPROM |
+| [Lưu trữ dữ liệu sử dụng Module EEPROM AT24C256](vi/zerobase/examples/eeprom-at24cxx.md) | EEPROM, UART |
 
 ## Cảm biến siêu âm (Ultrasonic Sensor)
 | **Ví dụ** | **Ngoại vi** |
