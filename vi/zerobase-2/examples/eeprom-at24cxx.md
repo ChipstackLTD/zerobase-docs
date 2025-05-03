@@ -51,7 +51,7 @@
 
 ## Nguyên lý hoạt động
 
-Module EEPROM AT24C256 là một bộ nhớ không bay hơi, có thể lưu trữ dữ liệu ngay cả khi nguồn điện bị ngắt. Nó sử dụng giao thức I2C để giao tiếp với vi điều khiển. Trong bài hướng dẫn này, chúng ta sẽ sử dụng Zerobase 2 để đọ ghi, xoá dữ liệu trong EEPROM AT24C256.
+Module EEPROM AT24C256 là một bộ nhớ không bay hơi, có thể lưu trữ dữ liệu ngay cả khi nguồn điện bị ngắt. Nó sử dụng giao thức I2C để giao tiếp với vi điều khiển. Trong bài hướng dẫn này, chúng ta sẽ sử dụng Zerobase 2 để đọc ghi, xoá dữ liệu trong EEPROM AT24C256.
 
 ## Sơ đồ kết nối
 
@@ -521,11 +521,9 @@ Thư viện ZBEeprom24Cxx hoạt động theo nguyên tắc sau:
 
 ### Giải thích code
 
-# Giải thích chi tiết code sử dụng ZBEeprom24Cxx
-
 Đoạn code sau đây là một ví dụ hoàn chỉnh về cách sử dụng thư viện ZBEeprom24Cxx để tương tác với IC EEPROM ngoại qua giao tiếp I²C. Chương trình minh họa các thao tác cơ bản như đọc/ghi dữ liệu với nhiều kiểu dữ liệu khác nhau và quản lý bộ nhớ EEPROM.
 
-## Phần khai báo thư viện và cấu hình
+#### Phần khai báo thư viện và cấu hình
 
 ```cpp
 // Nhập các thư viện cần thiết
@@ -559,7 +557,7 @@ ZBEeprom24Cxx eeprom;  // Sử dụng mặc định: AT24C256 (32KB) tại đị
 - Phân tách các vùng nhớ để không ghi đè lên nhau
 - Mỗi loại dữ liệu được lưu ở một vùng nhớ riêng biệt
 
-## Hàm setup()
+#### Hàm setup()
 
 Hàm `setup()` thực hiện các thiết lập ban đầu và kiểm tra các chức năng cơ bản của EEPROM:
 
@@ -610,7 +608,7 @@ void setup() {
 - In ra thông tin về kích thước EEPROM
 - Phương thức `length()` trả về dung lượng của EEPROM tính theo byte
 
-## Thao tác với dữ liệu 1 byte
+#### Thao tác với dữ liệu 1 byte
 
 ```cpp
   // --------------------------
@@ -633,7 +631,7 @@ void setup() {
 - Đọc giá trị từ cùng địa chỉ để kiểm tra quá trình ghi
 - In cả giá trị đã ghi và giá trị đã đọc để so sánh
 
-## Thao tác với dữ liệu 2 byte
+#### Thao tác với dữ liệu 2 byte
 
 ```cpp
   // --------------------------
@@ -657,7 +655,7 @@ void setup() {
 - In cả giá trị đã ghi và giá trị đã đọc dưới dạng hexadecimal để dễ so sánh
 - Lưu ý: Giá trị này chiếm 2 byte liên tiếp trong EEPROM (địa chỉ 10 và 11)
 
-## Thao tác với dữ liệu 4 byte
+#### Thao tác với dữ liệu 4 byte
 
 ```cpp
   // --------------------------
@@ -681,7 +679,7 @@ void setup() {
 - In cả giá trị đã ghi và giá trị đã đọc dưới dạng hexadecimal
 - Lưu ý: Giá trị này chiếm 4 byte liên tiếp trong EEPROM (địa chỉ 20-23)
 
-## Thao tác với chuỗi
+#### Thao tác với chuỗi
 
 ```cpp
   // --------------------------
@@ -714,7 +712,7 @@ void setup() {
 - So sánh chuỗi đã đọc với chuỗi ban đầu để kiểm tra tính toàn vẹn
 - Thông báo kết quả kiểm tra
 
-## Thao tác xóa vùng nhớ
+#### Thao tác xóa vùng nhớ
 
 ```cpp
   // --------------------------
@@ -789,7 +787,7 @@ void setup() {
 
 - Hiển thị thông báo hoàn thành tất cả các bài kiểm tra
 
-## Hàm loop()
+#### Hàm loop()
 
 ```cpp
 void loop() {
@@ -828,6 +826,3 @@ Bài viết này đã hướng dẫn các bạn cách sử dụng thư viện ZB
 **Chúc bạn thành công!**
 
 [🏠 TRỞ VỀ TRANG TỔNG HỢP CÁC VÍ DỤ](vi/zerobase-2/examples.md)
-
-
-- 
