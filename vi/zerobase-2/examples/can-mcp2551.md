@@ -120,8 +120,8 @@
     <p><em>Chân kết nối của Zerobase thứ ba</em></p>
 </div>
 
-?> Lưu ý quan trọng
-* **Phải cấp nguồn 5V cho module CAN MCP2551**, nếu không module sẽ không hoạt động
+!> Lưu ý quan trọng
+* Phải cấp nguồn 5V cho module CAN MCP2551, nếu không module sẽ không hoạt động
 * Cần kết nối chân GND của tất cả các module với nhau để tạo điểm tham chiếu chung
 
 ### Nguồn cung cấp
@@ -254,7 +254,7 @@ void setup() {                           // Hàm thiết lập chạy một lầ
 
  ZBCan1.setTxId(0x2);                   // Đặt ID của node này là 0x2 khi gửi tin nhắn
 
- uint32_t acceptedIds[] = { 0x1, 0x7 }; // Node chính có 2 ID: ID 0x1 sẽ gửi đến cả node đọc nhiệt độ và node đọc thời gian, ID 0x7 chỉ gửi đến node đọc nhiệt độ
+ uint32_t acceptedIds[] = { 0x1, 0x7 }; // Node chính có 2 ID: ID 0x1 sẽ gửi đến cả node xử lý nhiệt độ và node xử lý thời gian, ID 0x7 chỉ gửi đến node xử lý nhiệt độ
  ZBCan1.configureMultipleFilters(acceptedIds, 2); // Cấu hình bộ lọc chỉ nhận tin nhắn từ các ID đã chọn
 
  ZBCan1.onReceive(canMessageReceived);  // Thiết lập hàm callback để xử lý khi có tin nhắn CAN đến.
@@ -619,57 +619,11 @@ uint32_t getRxId();
   - `getRxId`: Lấy ID của node đã gửi tin nhắn cuối
 - **Giá trị trả về**: Tùy thuộc vào kiểu dữ liệu
 
-#### Ví dụ sử dụng cơ bản
-
-```cpp
-#include <ZBCan.h>
-
-void canMessageReceived() {
-  uint32_t rxId = ZBCan1.getRxId();
-  
-  if (ZBCan1.isString()) {
-    String message = ZBCan1.getLastStringMessage();
-    // Xử lý tin nhắn dạng chuỗi
-  } else if (ZBCan1.isInt()) {
-    int value = ZBCan1.getLastIntValue();
-    // Xử lý tin nhắn dạng số nguyên
-  }
-}
-
-void setup() {
-  // Khởi tạo CAN với tốc độ 500kbps
-  ZBCan1.begin();
-  
-  // Hoặc có thể thay đổi tốc độ sau khi khởi tạo
-  ZBCan1.setSpeed(250000);  // Đổi sang 250kbps
-  
-  // Đặt ID của node là 0x123
-  ZBCan1.setTxId(0x123);
-  
-  // Cấu hình bộ lọc chỉ nhận tin nhắn từ các ID cụ thể
-  uint32_t acceptedIds[] = { 0x100, 0x200, 0x300 };
-  ZBCan1.configureMultipleFilters(acceptedIds, 3);
-  
-  // Thiết lập hàm callback để xử lý khi có tin nhắn CAN đến.
-  ZBCan1.onReceive(canMessageReceived);
-}
-
-void loop() {
-  // Gửi tin nhắn
-  ZBCan1.send("Hello CAN");
-  
-  // Gửi tin nhắn với ID cụ thể
-  ZBCan1.send(123, 0x200);
-  
-  delay(1000);
-}
-```
-
 ### Giải thích code
 
 Hệ thống gồm 3 node Zerobase 2 giao tiếp qua mạng CAN để hiển thị nhiệt độ và thời gian. Mỗi node có ID và vai trò riêng trong mạng.
 
-#### Node chính (Zerobase 2 thứ ba) - Hiển thị dữ liệu
+#### 1. Node chính (Zerobase 2 thứ ba) - Hiển thị dữ liệu
 
 Node chính điều khiển hệ thống, gửi yêu cầu và hiển thị dữ liệu lên màn hình LCD.
 
@@ -731,7 +685,7 @@ void loop() {
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase2/can/can-mcp2551-main-node-send.png" alt="module-i2c">
-        <p><em>Kết quả khi node chính gửi tin nhắn đến node đọc nhiệt độ và node đọc thời gian</em></p>
+        <p><em>Kết quả khi node chính gửi tin nhắn đến node xử lý nhiệt độ và node xử lý thời gian</em></p>
 </div>
 
 ##### Nhận tin nhắn (hàm callback)
@@ -768,7 +722,7 @@ void canMessageReceived() {
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase2/can/can-mcp2551-main-node-receive.png" alt="module-i2c">
-        <p><em>Kết quả khi node chính nhận được tin nhắn trả về từ node đọc nhiệt độ và node đọc thời gian</em></p>
+        <p><em>Kết quả khi node chính nhận được tin nhắn trả về từ node xử lý nhiệt độ và node xử lý thời gian</em></p>
 </div>
 
 ##### Hiển thị dữ liệu (hàm updateDisplay)
@@ -795,7 +749,7 @@ void updateDisplay() {
 - `lcd.print(temperature)`: Hiển thị giá trị nhiệt độ, tự động chuyển đổi số nguyên thành chuỗi
 - `lcd.print(" C")`: Hiển thị đơn vị độ C sau giá trị nhiệt độ
 
-#### Node đọc nhiệt độ (Zerobase 2 thứ nhất)
+#### 2. node xử lý nhiệt độ (Zerobase 2 thứ nhất)
 
 Node này đọc nhiệt độ từ cảm biến DS18B20 và gửi về node chính khi có yêu cầu.
 
@@ -874,7 +828,7 @@ void canMessageReceived() {
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase2/can/can-mcp2551-temperature-node-receive.png" alt="can-mcp2551-temperature-node-receive">
-        <p><em>Kết quả khi node đọc nhiệt độ nhận được tin nhắn yêu cầu gửi nhiệt độ từ node chính</em></p>
+        <p><em>Kết quả khi node xử lý nhiệt độ nhận được tin nhắn yêu cầu gửi nhiệt độ từ node chính</em></p>
 </div>
 
 ##### Gửi tin nhắn
@@ -903,10 +857,10 @@ void loop() {
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase2/can/can-mcp2551-temperature-node-send.png" alt="can-mcp2551-temperature-node-send">
-        <p><em>Kết quả khi node đọc nhiệt độ gửi tin nhắn về node chính</em></p>
+        <p><em>Kết quả khi node xử lý nhiệt độ gửi tin nhắn về node chính</em></p>
 </div>
 
-#### Node đọc thời gian (Zerobase 2 thứ hai)
+#### 3. Node xử lý thời gian (Zerobase 2 thứ hai)
 
 Node này đọc thời gian từ module RTC DS3231 và gửi về node chính khi có yêu cầu.
 
@@ -1009,7 +963,7 @@ void canMessageReceived() {
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase2/can/can-mcp2551-rtc-node-receive-msg.png" alt="can-mcp2551-rtc-node-receive">
-        <p><em>Kết quả khi node đọc thời gian nhận được tin nhắn yêu cầu gửi thời gian từ node chính</em></p>
+        <p><em>Kết quả khi node xử lý thời gian nhận được tin nhắn yêu cầu gửi thời gian từ node chính</em></p>
 </div>
 
 ##### Gửi tin nhắn
@@ -1036,7 +990,7 @@ void loop() {
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase2/can/can-mcp2551-rtc-node-send-msg.png" alt="can-mcp2551-rtc-node-send">
-        <p><em>Kết quả khi node đọc thời gian gửi tin nhắn về node chính</em></p>
+        <p><em>Kết quả khi node xử lý thời gian gửi tin nhắn về node chính</em></p>
 </div>
 
 #### Tổng quan hệ thống CAN Bus
