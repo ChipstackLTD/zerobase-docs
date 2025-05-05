@@ -498,9 +498,8 @@ Cuối cùng bạn thực hiện nạp code vào board Zerobase 2. Nếu chưa b
 
 #### Lưu ý khi sử dụng ZBCan
 
-1. Sử dụng thư viện Wire để giao tiếp I²C
-2. Mỗi node trên mạng CAN cần có một ID duy nhất
-3. Tất cả node phải thiết lập cùng một tốc độ truyền (baudrate)
+1. Mỗi node trên mạng CAN cần có một ID duy nhất
+2. Tất cả node phải thiết lập cùng một tốc độ truyền (baudrate)
 
 #### 1. Khởi tạo giao tiếp CAN
 
