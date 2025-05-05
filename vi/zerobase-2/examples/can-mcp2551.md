@@ -749,7 +749,7 @@ void updateDisplay() {
 - `lcd.print(temperature)`: Hiển thị giá trị nhiệt độ, tự động chuyển đổi số nguyên thành chuỗi
 - `lcd.print(" C")`: Hiển thị đơn vị độ C sau giá trị nhiệt độ
 
-#### 2. node xử lý nhiệt độ (Zerobase 2 thứ nhất)
+#### 2. Node xử lý nhiệt độ (Zerobase 2 thứ nhất)
 
 Node này đọc nhiệt độ từ cảm biến DS18B20 và gửi về node chính khi có yêu cầu.
 
