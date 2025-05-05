@@ -126,10 +126,14 @@
 | [Điều khiển động cơ bước 28BYJ-48](vi/zerobase-2/examples/stepper.md) | GPIO |
 
 # Động cơ rung
-
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
 | [Điều khiển động cơ rung](vi/zerobase-2/examples/vibration-motor.md) | GPIO |
+
+# CAN
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Giao tiếp CAN sử dụng module MCP2551](vi/zerobase-2/examples/can-mcp2551.md) | CAN, ONEWWIRE, I2C, UART |
 
 ## UART
 | **Ví dụ** | **Ngoại vi** |
