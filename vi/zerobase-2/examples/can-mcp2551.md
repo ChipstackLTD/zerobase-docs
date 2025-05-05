@@ -637,7 +637,14 @@ void setup() {
  lcd.begin(16, 2);             // Khởi tạo LCD 16x2
  lcd.backlight();              // Bật đèn nền LCD
  lcd.clear();                  // Xóa màn hình
- lcd.print("Initializing..."); // Hiển thị thông báo khởi động
+ // Hiển thị thông điệp khởi động
+  lcd.setCursor(2, 0);       // Cột 2, dòng 0
+  lcd.print("Zerobase 2!!!");  // Dòng chữ đầu
+  lcd.setCursor(2, 1);       // Cột 2, dòng 1
+  lcd.print("Starting...");  // Dòng chữ thứ hai
+  delay(2000);               // Dừng lại 2 giây để người dùng đọc
+
+  lcd.clear();  // Xóa màn hình sau khi hiển thị
 
  ZBCan1.begin();               // Khởi tạo CAN
  ZBCan1.setTxId(0x1);          // Đặt ID gửi tin nhắn là 0x1
