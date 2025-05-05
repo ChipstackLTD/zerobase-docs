@@ -240,6 +240,11 @@ void loop() {
 }
 ```
 
+Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
+
+![rfid-code](https://cdn.chipstack.vn/zerobase2/rfid/rfid-rc522-code.png)
+
+
 ### Biên dịch
 
 Nhấn vào biểu tượng Verify để biên dịch code.
