@@ -1,6 +1,6 @@
 # Điều khiển LED bằng thẻ RFID với Zerobase 2
 
-![rfid-circuit](https://cdn.chipstack.vn/zerobase2/rfid/rfid-circuit.jpg)
+![rfid-circuit-mat-truoc](https://cdn.chipstack.vn/zerobase2/rfid/rfid-circuit-mat-truoc.jpg)
 
 ## Tổng quan
 
@@ -116,8 +116,9 @@ Module RFID RC522 sử dụng công nghệ RFID (Radio-Frequency Identification)
 
 ![rfid-schematic](https://cdn.chipstack.vn/zerobase2/rfid/rfid-schematic.png)
 
-![rfid-circuit](https://cdn.chipstack.vn/zerobase2/rfid/rfid-circuit.jpg)
+![rfid-circuit-mat-sau](https://cdn.chipstack.vn/zerobase2/rfid/rfid-circuit-mat-sau.jpg)
 
+![rfid-circuit-mat-truoc](https://cdn.chipstack.vn/zerobase2/rfid/rfid-circuit-mat-truoc.jpg)
 
 ## Code
 
@@ -126,6 +127,8 @@ Module RFID RC522 sử dụng công nghệ RFID (Radio-Frequency Identification)
 #include <SPI.h>
 // Thêm thư viện MFRC522 để điều khiển module đọc thẻ RFID RC522
 #include <MFRC522.h>
+// Thêm thư viện ZBPrint để in ra Serial Monitor
+#include <ZBPrint.h>
 
 // Định nghĩa chân Reset cho module RFID RC522
 #define RST_PIN A0
@@ -262,10 +265,12 @@ Cuối cùng bạn thực hiện nạp code vào board Zerobase 2. Nếu chưa b
 ```cpp
 #include <SPI.h>
 #include <MFRC522.h>
+#include <ZBPrint.h>
 ```
 
 - **Thư viện SPI**: Cung cấp giao tiếp SPI (Serial Peripheral Interface) để kết nối với module RFID
 - **Thư viện MFRC522**: Chứa các hàm để điều khiển module đọc thẻ RFID RC522
+- **Thư viện ZBPrint**: sử dụng để in ra Serial Monitor, giúp hiển thị thông tin trong quá trình hoạt động của chương trình
 
 ### 2. Định nghĩa chân kết nối
 
@@ -456,7 +461,7 @@ Khi bạn mới sử dụng thẻ RFID, bạn cần biết UID của thẻ để
 ```cpp
 #include <SPI.h>
 #include <MFRC522.h>
-
+#include <ZBPrint.h>
 #define RST_PIN A0
 #define SS_PIN 10
 
