@@ -68,6 +68,8 @@ Khi cài đặt xong, bạn sẽ thấy dòng thông báo như hình dưới đ�
 
 Sử dụng chân 5V cấp nguồn cho Oled, chân GND nối với GND của board Zerobase 2. Chân SDA và SCL của Oled được kết nối với chân SDA (D18) và SCL (D19) của board Zerobase 2.
 
+!> Chú ý kết nối đúng chân VCC và GND của OLED SSD1306, một số module có chân VCC và GND ngược với ví dụ của bài viết này.
+
 ![oled-ssd1306-schematic](https://cdn.chipstack.vn/zerobase2/oled-ssd1306/oled-ssd1306-schematic.png)
 
 ![oled-ssd1306-circuit](https://cdn.chipstack.vn/zerobase2/oled-ssd1306/oled-ssd1306-circuit.jpg)
