@@ -96,8 +96,8 @@ Sử dụng D0 để kết nối với một chân của nút reset và chân c�
 #include <Adafruit_TinyUSB.h>   // Thư viện cho bộ vi điều khiển sử dụng TinyUSB
 
 // Định nghĩa các chân kết nối
-const int COUNT_BUTTON_PIN = 2;  // Chân kết nối nút đếm lên
-const int RESET_BUTTON_PIN = 3;  // Chân kết nối nút reset bộ đếm
+const int COUNT_BUTTON_PIN = 1;  // Chân kết nối nút đếm lên
+const int RESET_BUTTON_PIN = 0;  // Chân kết nối nút reset bộ đếm
 const int EEPROM_ADDRESS = 0;    // Địa chỉ EEPROM để lưu giá trị bộ đếm
 
 // Khởi tạo màn hình LCD với địa chỉ I2C (thường là 0x27 hoặc 0x3F)
