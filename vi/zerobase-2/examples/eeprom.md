@@ -223,7 +223,6 @@ void updateDisplay() {
   lcd.setCursor(11, 1);  // Đặt con trỏ ở cột 11, dòng 1
   lcd.print(counter);    // Hiển thị giá trị đếm hiện tại
 }
-
 ```
 
 Copy đoạn code trên và dán vào Arduino IDE, kết quả sẽ được như hình bên dưới.
