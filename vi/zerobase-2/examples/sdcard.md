@@ -19,6 +19,7 @@
 | Dây USB Type C |[Mua ngay](https://chipstack.vn/san-pham/day-usb-type-c-1m/) |
 | Breadboard |[Mua ngay](https://chipstack.vn/san-pham/breadboard-830-lo/) |
 | Module thẻ nhớ SD Card |[Mua ngay](https://chipstack.vn/san-pham/breakout-micro-sd/) |
+| Nút nhấn | [Mua ngay](https://chipstack.vn/san-pham/nut-nhan-12x12x7-3-co-the-gan-chup/) |
 | Thẻ nhớ Micro SD ||
 | Đầu đọc thẻ nhớ Micro SD ||
 
@@ -30,6 +31,11 @@
 <div align="center">
     <img src="https://cdn.chipstack.vn/default/breadboard.png" alt="breadboard">
     <p><em>Breadboard</em></p>
+</div>
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/button/push-button.png" alt="push-button">
+    <p><em>Nút nhấn</em></p>
 </div>
 
 <div align="center">
@@ -124,6 +130,12 @@ I2C OLED SSD1306:
 !> Chú ý kết nối đúng chân VCC và GND của OLED SSD1306, một số module có chân VCC và GND ngược với ví dụ của bài viết này.
 
 Module SD Card:
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2/sdcard/sdcard-attach.jpg" alt="sdcard-attach.jpg">
+    <p><em>Gắn thẻ nhớ Micro SD vào Module Micro SD Card</em></p>
+</div>
+
 - 3V3 kết nối với 3V3 của Zerobase 2
 - GND kết nối với GND của Zerobase 2
 - CS kết nối với SS của Zerobase 2
