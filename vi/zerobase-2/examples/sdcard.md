@@ -70,23 +70,38 @@ Bạn có thể sử dụng phần mềm [Rufus](https://rufus.ie/en/) để đ�
 
 Sau khi cài đặt phần mềm, bạn mở phần mềm lên, giao diện sẽ hiển thị như hình dưới.
 
-![rufus](https://cdn.chipstack.vn/zerobase2/sdcard/rufus.png)
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2/sdcard/rufus.png" alt="rufus" width="300px" height="auto">
+    <p><em>Giao diện Rufus</em></p>
+</div>
 
 Bạn cắm thẻ nhớ vào đầu đọc thẻ nhớ, sau đó kết nối với máy tính. Chọn các thông số như sau:
 
-![rufus-settings](https://cdn.chipstack.vn/zerobase2/sdcard/rufus-settings.png)
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2/sdcard/rufus-settings.png" alt="rufus-settings" width="300px" height="auto">
+    <p><em>Chọn các thông số trong Rufus</em></p>
+</div>
 
 Sau đó bạn nhấn nút Start để bắt đầu định dạng thẻ nhớ.
 
-![rufus-start](https://cdn.chipstack.vn/zerobase2/sdcard/rufus-start.png)
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2/sdcard/rufus-start.png" alt="rufus-start" width="300px" height="auto">
+    <p><em>Nhấn nút Start để bắt đầu định dạng thẻ nhớ</em></p>
+</div>
 
 Tiếp theo bạn sẽ thấy một thông báo hỏi bạn có muốn định dạng thẻ nhớ không, bạn chọn OK.
 
-![rufus-ok](https://cdn.chipstack.vn/zerobase2/sdcard/rufus-ok.png)
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2/sdcard/rufus-ok.png" alt="rufus-ok" width="300px" height="auto">
+    <p><em>Nhấn OK để xác nhận định dạng thẻ nhớ</em></p>
+</div>
 
 Đợi cho đến khi quá trình định dạng hoàn tất, bạn sẽ thấy thông báo `Ready` như hình dưới.
 
-![rufus-ready](https://cdn.chipstack.vn/zerobase2/sdcard/rufus-ready.png)
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2/sdcard/rufus-ready.png" alt="rufus-ready" width="300px" height="auto">
+    <p><em>Thông báo Ready</em></p>
+</div>
 
 Như vậy là bạn đã định dạng thẻ nhớ SD Card thành công.
 
