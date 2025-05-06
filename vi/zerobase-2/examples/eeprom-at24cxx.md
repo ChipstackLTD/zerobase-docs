@@ -53,6 +53,10 @@
 
 Module EEPROM AT24C256 là một bộ nhớ không bay hơi, có thể lưu trữ dữ liệu ngay cả khi nguồn điện bị ngắt. Nó sử dụng giao thức I2C để giao tiếp với vi điều khiển. Trong bài hướng dẫn này, chúng ta sẽ sử dụng Zerobase 2 để đọc ghi, xoá dữ liệu trong EEPROM AT24C256.
 
+## Cài đặt driver PL2303
+
+Để cài đặt driver PL2303 cho board Zerobase, bạn có thể tham khảo hướng dẫn [tại đây](https://zerobase.chipstack.vn/#/vi/zerobase/examples/uartttl).
+
 ## Sơ đồ kết nối
 
 ![eeprom-at24c-pins](https://cdn.chipstack.vn/zerobase2/eeprom/eeprom-at24c-pins.png)
