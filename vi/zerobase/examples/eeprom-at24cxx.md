@@ -4,7 +4,7 @@
 
 # Lưu trữ dữ liệu sử dụng Module EEPROM AT24C256
 
-![eeprom-at24c-circuit](https://cdn.chipstack.vn/zerobase2/eeprom/eeprom-at24c-circuit.jpg)
+![eeprom-at24c-circuit](https://cdn.chipstack.vn/zerobase/eeprom/eeprom-at24c-circuit.jpg)
 
 ## Tổng quan
 
