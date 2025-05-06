@@ -131,6 +131,11 @@
 | :-- | :-- |
 | [Bật tắt LED bằng module RFID RC522](vi/zerobase-2/examples/rfid.md) | GPIO, SPI |
 
+## SD Card
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Đọc và hiển thị file từ SD Card lên màn hình OLED SSD1306](vi/zerobase-2/examples/sdcard.md) | SPI, I2C |
+
 ## UART
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
