@@ -307,7 +307,7 @@ Thư viện EEPROM này mô phỏng EEPROM bằng cách sử dụng bộ nhớ f
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <EEPROM.h>
-#include <Adafruit_TinyUSB.h>  // Include if your board uses it
+#include <Adafruit_TinyUSB.h>
 ```
 
 - `Wire.h`: Thư viện giao tiếp I2C, cần thiết cho việc điều khiển màn hình LCD qua giao thức I2C
@@ -318,13 +318,13 @@ Thư viện EEPROM này mô phỏng EEPROM bằng cách sử dụng bộ nhớ f
 #### Khai báo chân và biến
 
 ```cpp
-const int COUNT_BUTTON_PIN = 2;  // Button for counting up
-const int RESET_BUTTON_PIN = 3;  // Button for resetting the counter
-const int EEPROM_ADDRESS = 0;    // EEPROM address to store the counter value
+const int COUNT_BUTTON_PIN = 1;
+const int RESET_BUTTON_PIN = 0;
+const int EEPROM_ADDRESS = 0;  
 ```
 
-- `COUNT_BUTTON_PIN`: Chân kết nối với nút nhấn dùng để đếm lên (chân 2)
-- `RESET_BUTTON_PIN`: Chân kết nối với nút nhấn dùng để reset bộ đếm (chân 3)
+- `COUNT_BUTTON_PIN`: Chân kết nối với nút nhấn dùng để đếm lên (chân 1)
+- `RESET_BUTTON_PIN`: Chân kết nối với nút nhấn dùng để reset bộ đếm (chân 0)
 - `EEPROM_ADDRESS`: Địa chỉ trong bộ nhớ EEPROM để lưu trữ giá trị đếm (địa chỉ 0)
 
 ```cpp
@@ -336,11 +336,11 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 - 2: số hàng của màn hình
 
 ```cpp
-uint8_t counter = 0;               // Counter value (0-255)
-bool countButtonState = HIGH;      // Current state of count button
-bool lastCountButtonState = HIGH;  // Previous state of count button
-bool resetButtonState = HIGH;      // Current state of reset button
-bool lastResetButtonState = HIGH;  // Previous state of reset button
+uint8_t counter = 0;              
+bool countButtonState = HIGH;      
+bool lastCountButtonState = HIGH;  
+bool resetButtonState = HIGH;      
+bool lastResetButtonState = HIGH;  
 ```
 
 - `counter`: Biến lưu giá trị đếm, kiểu uint8_t giới hạn giá trị từ 0-255

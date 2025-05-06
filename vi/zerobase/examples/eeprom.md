@@ -292,8 +292,8 @@ Thư viện EEPROM này mô phỏng EEPROM bằng cách sử dụng bộ nhớ f
 #### Khai báo chân và biến
 
 ```cpp
-const int COUNT_BUTTON_PIN = 2;  // Chân kết nối nút đếm lên
-const int RESET_BUTTON_PIN = 3;  // Chân kết nối nút reset bộ đếm
+const int COUNT_BUTTON_PIN = 1;  // Chân kết nối nút đếm lên
+const int RESET_BUTTON_PIN = 0;  // Chân kết nối nút reset bộ đếm
 const int EEPROM_ADDRESS = 0;    // Địa chỉ EEPROM để lưu giá trị bộ đếm
 ```
 
