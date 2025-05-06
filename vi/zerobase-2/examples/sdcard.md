@@ -1248,7 +1248,7 @@ uint8_t getLastError();
 
 ### Giải thích code
 
-#### Code kiểm tra chức năng 
+#### 1. Code kiểm tra chức năng 
 
 Đoạn code sau đây là một ví dụ hoàn chỉnh về cách sử dụng thư viện ZBSdCard để tương tác với thẻ SD card trên nền tảng vi điều khiển. Chương trình thực hiện kiểm tra đầy đủ các chức năng của thư viện, bao gồm các thao tác cơ bản với tập tin và thư mục, đồng thời báo cáo kết quả kiểm tra.
 
@@ -1888,7 +1888,7 @@ void loop() {
      <p><em>File và folder được tạo ra trên thẻ nhớ</em></p>
 </div>
 
-#### Code đọc và hiển thị file từ SD Card lên OLED SSD1306
+#### 2. Code đọc và hiển thị file từ SD Card lên OLED SSD1306
 
 Đoạn code sau đây là một ứng dụng hoàn chỉnh để duyệt và xem các tập tin trên thẻ SD sử dụng màn hình OLED SSD1306. Chương trình cung cấp giao diện người dùng thông qua nút bấm để điều hướng qua các thư mục, xem nội dung tập tin và cuộn văn bản khi nội dung quá dài.
 
