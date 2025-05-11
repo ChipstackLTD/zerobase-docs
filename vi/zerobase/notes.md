@@ -12,7 +12,7 @@ Nguồn cấp cho board Zerobase là 5V.
 
 Bạn có thể cấp nguồn qua chân 5V hoặc qua cổng USB.
 
-Chân 3V3 trên board Zerobase chỉ được kết nối nội bộ qua connector QWIIC, nên không có khả năng cấp nguồn cho các thiết bị khác hay làm nguồn cấp cho board Zerobase.
+!> Chân 3V3 trên board Zerobase chỉ được kết nối nội bộ qua connector QWIIC, nên không có khả năng cấp nguồn cho các thiết bị khác hay làm nguồn cấp cho board Zerobase.
 
 ## Lưu ý khi sử dụng các thư viện bên ngoài
 
