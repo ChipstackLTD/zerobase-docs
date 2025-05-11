@@ -122,6 +122,11 @@
 | :-- | :-- |
 | [Điều khiển Relay từ xa bằng remote hồng ngoại](vi/zerobase/examples/ir-remote.md) | GPIO |
 
+## SD Card
+| **Ví dụ** | **Ngoại vi** |
+| :-- | :-- |
+| [Sử dụng thẻ nhớ SD Card với Zerobase](vi/zerobase/examples/sd-card.md) | SPI |
+
 ## UART
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
