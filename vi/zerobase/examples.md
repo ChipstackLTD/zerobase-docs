@@ -125,7 +125,7 @@
 ## SD Card
 | **Ví dụ** | **Ngoại vi** |
 | :-- | :-- |
-| [Sử dụng thẻ nhớ SD Card với Zerobase](vi/zerobase/examples/sd-card.md) | SPI |
+| [Sử dụng thẻ nhớ SD Card với Zerobase](vi/zerobase/examples/sdcard.md) | SPI |
 
 ## UART
 | **Ví dụ** | **Ngoại vi** |
