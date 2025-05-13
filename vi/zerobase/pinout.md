@@ -4,4 +4,4 @@
 
 # Sơ đồ chân
 
-![Sơ đồ chân Zerobase](../../_media/zerobase_pinout.png)
+![Sơ đồ chân Zerobase](https://cdn.chipstack.vn/default/zerobase-pinout.png)
