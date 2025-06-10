@@ -34,3 +34,12 @@
   - [Bắt đầu sử dụng](vi/zerobase-2/quickstart.md)
   - [Các ví dụ](vi/zerobase-2/examples.md)
   - [Các lỗi thường gặp](vi/zerobase-2/troubleshooting.md)
+
+- Tài liệu Zerobase 2W
+  - [Thông số kỹ thuật](vi/zerobase-2w/specs.md)
+  - [Sơ đồ chân](vi/zerobase-2w/pinout.md)
+  - [Sơ đồ nguyên lý](vi/zerobase-2w/schematic.md)
+  - [Các lưu ý](vi/zerobase-2w/notes.md)
+  - [Bắt đầu sử dụng](vi/zerobase-2w/quickstart.md)
+  - [Các ví dụ](vi/zerobase-2w/examples.md)
+  - [Các lỗi thường gặp](vi/zerobase-2w/troubleshooting.md)
