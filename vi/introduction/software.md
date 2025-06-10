@@ -15,7 +15,7 @@ Các phần mềm được sử dụng khi lập trình Zerobase bao gồm
 
 - Driver USBSER: là USB driver dành cho Zerobase và Zerobase Core.
 - Các driver UART-to-USB: có thể là các driver PL2303HX/CH340/CP2102/TFDI UART-to-USB converter từ Zerobase đến máy tính.
-- Phần mềm [Zadig](https://zadig.akeo.ie/): để cài USB driver cho Zerobase 2.
+- Phần mềm [Zadig](https://zadig.akeo.ie/): để cài USB driver cho Zerobase 2 và Zerobase 2W.
 
 ## Mã nguồn mở
 
@@ -23,7 +23,7 @@ Các phần mềm được sử dụng khi lập trình Zerobase bao gồm
 - [Arduino Board Manager JSON file](https://github.com/ChipstackLTD/zerobase-board-manager)
 - [Zerobase Documentation](https://github.com/ChipstackLTD/zerobase-docs)
 - [Zerobase Uploader](https://github.com/ChipstackLTD/zerobase-minichlink)
-- [Zerobase 2 Uploader](https://github.com/ChipstackLTD/zerobase-wchisp)
+- [Zerobase 2 & Zerobase 2W Uploader](https://github.com/ChipstackLTD/zerobase-wchisp)
 
 ## Mã nguồn đóng
 
