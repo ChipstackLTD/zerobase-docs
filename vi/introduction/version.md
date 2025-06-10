@@ -38,7 +38,6 @@ Chúng tôi phát hành bốn phiên bản của Zerobase để đáp ứng nhu 
 | USB | 0 | 0 | 2 | 2 |
 | CAN | 0 | 0 | 1 | 1 |
 | WiFi | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: |
-| WiFi Antenna | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: |
 | LDO | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Cổng QWIIC | :fas fa-times-square fa-fw red: | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Arduino IDE | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
