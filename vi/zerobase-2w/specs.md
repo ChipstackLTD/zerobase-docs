@@ -40,4 +40,4 @@
 
 ## Kích thước
 
-Đang cập nhật...
+![Kích thước](https://cdn.chipstack.vn/zerobase2w/size/zerobase-2w-size.png)
