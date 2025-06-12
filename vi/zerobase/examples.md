@@ -2,8 +2,8 @@
 <br>
 <br>
 
-# Danh Sách Các Ví Dụ
+# Danh Sách Các Bài Học
 
-Các ví dụ đã được chuyển sang trang e-learning. Hãy truy cập link dưới đây để xem chi tiết các ví dụ, bài học và nhận chứng chỉ nhé!
+Các bài học đã được chuyển sang trang Academy của Chipstack. Hãy truy cập link dưới đây để xem chi tiết các bài học về GPIO, I2C, SPI, UART... và nhận chứng chỉ nhé!
 
-?> 🔗 [Truy cập các ví dụ tại đây](https://academy.chipstack.vn/course/view.php?id=2)
+?> 🔗 [Truy cập các bài học tại đây](https://academy.chipstack.vn/course/view.php?id=2)
