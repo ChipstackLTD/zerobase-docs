@@ -1,3 +1,7 @@
+<br>
+<br>
+<br>
+
 # Thông số kỹ thuật
 
 |           | Zerobase 2W |
