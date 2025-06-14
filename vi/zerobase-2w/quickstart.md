@@ -486,8 +486,7 @@ String getStatusString(int status) {
 ```
 
 Sau khi nạp code thành công, bạn mở Serial Monitor bằng cách vào **Tools > Serial Monitor** hoặc nhấn tổ hợp phím `Ctrl + Shift + M`.
-Khi kết nối Wi-Fi thành công, bạn sẽ thấy hiển thị `Kết nối WiFi thành công!` cùng các thông tin khác.
-
+Khi kết nối Wi-Fi thành công, bạn sẽ thấy hiển thị `WiFi connected successfully` cùng các thông tin khác.
 
 ## Cách in ra Serial Monitor bằng Zerobase 2W
 
