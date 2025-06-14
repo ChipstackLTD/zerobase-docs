@@ -118,7 +118,7 @@ Bạn có thể sử dụng code mẫu để nháy LED trên Zerobase 2 bằng c
 
 Arduino IDE sẽ mở ra một cửa sổ mới chứa code mẫu nháy LED.
 
-![blink-example](https://cdn.chipstack.vn/zerobase/quickstart/blink-example.png "blink-example]")
+![blink-example](https://cdn.chipstack.vn/zerobase2/quickstart/blink-example-code.png)
 
 Nếu không thể mở code mẫu, bạn có thể sử dụng đoạn code sau:
 
