@@ -231,6 +231,8 @@ Tiếp theo, bạn cần tải về file firmware mới nhất cho chip ESP8285 
 
 ![esp-at-download](https://cdn.chipstack.vn/zerobase2w/download-firmware/esp-at-download.png "esp-at-download]")
 
+!> Nếu không thấy biểu tượng tải xuống, bạn có thể tải xuống trực tiếp [tại đây](https://cdn.chipstack.vn/zerobase2w/download-firmware/ESP8285.bin)
+
 5. Bạn giải nén file ZIP vừa tải về và đồng thời giải nén file ZIP chứa các công cụ nạp firmware mà bạn đã tải về ở bước đầu tiên.
 
 6. Copy 4 file `esptool_zb2w`, `esp8285_merger`, `AT2_esp8266_factory_param_tx1rx3` và `usb-uart-bridge` vào thư mục vừa giải nén ở bước 5. Kết quả sẽ như hình dưới đây:
