@@ -290,132 +290,197 @@ Một số lựa chọn bạn có thể sử dụng:
 
 15. Sau khi nạp firmware thành công, bạn copy đoạn code mẫu sau vào Arduino IDE để kiểm tra firmware đã nạp thành công hay chưa:
 
-!> Lưu ý: ở đoạn code `String connectCmd = "AT+CWJAP=\"Ten Wifi\",\"Mat Khau Wifi\"";`, đổi `Ten Wifi` và `Mat Khau Wifi` thành tên và mật khẩu Wi-Fi của bạn.
-
+Lưu ý: Ở đoạn code `const char* ssid = "Ten Wifi"; const char* password = "Mat khau Wifi";`, Bạn cần thay thế `Ten Wifi` và `Mat khau Wifi` bằng tên và mật khẩu Wi-Fi của bạn.
 
 ```cpp
 #include <ZBPrint.h>
 
-String receiveResponse(unsigned long timeout = 2000) {
-  String response = "";
-  unsigned long startTime = millis();
+// Define WIFIESPAT2 before including the library to enable AT2 mode
+#define WIFIESPAT2
+#include <WiFiEspAT.h>
 
-  while ((millis() - startTime) < timeout) {
-    if (Serial4.available()) {
-      char c = Serial4.read();
-      response += c;
+// WiFi credentials
+const char* ssid = "Ten Wifi";
+const char* password = "Mat khau Wifi";
 
-      // Kiểm tra nếu phản hồi kết thúc với OK hoặc ERROR
-      if (response.endsWith("OK\r\n") || response.endsWith("ERROR\r\n") || response.endsWith("FAIL\r\n")) {
-        break;
-      }
-    }
-  }
-
-  return response;
-}
-
-bool sendCommand(const char* command, String& response, unsigned long timeout = 2000) {
-  Serial.print("Gửi: ");
-  Serial.println(command);
-
-  Serial4.println(command);
-  response = receiveResponse(timeout);
-
-  Serial.print("Nhận: ");
-  Serial.println(response);
-
-  return (response.indexOf("OK") != -1);
-}
+// Pin definitions
 #define ESP_RST_PIN PA6    // RST pin connection
 #define ESP_GPIO0_PIN PA7  // GPIO0 pin connection
 
 void setup() {
-  Serial.begin(9600);     // Debug monitor
-  Serial4.begin(115200);  // ESP8285 giao tiếp UART
-  delay(3000);            // Đợi ESP8285 khởi động hoàn tất
-                          // Reset sequence for normal operation
+  Serial.begin(9600);
+  delay(2000);
+
+  Serial.println("Starting WiFi connection with WiFiEspAT library (AT2 mode manually enabled)...");
+  Serial.println("WIFIESPAT2 defined - AT2 mode should be active");
+
+  // Initialize ESP8285 reset pins
   pinMode(ESP_RST_PIN, OUTPUT);
   pinMode(ESP_GPIO0_PIN, OUTPUT);
 
+  // Reset sequence for normal operation
   digitalWrite(ESP_GPIO0_PIN, HIGH);  // Set GPIO0 high for normal boot
   delay(10);
 
   digitalWrite(ESP_RST_PIN, LOW);  // Assert reset
-  delay(50);                       // Hold in reset
+  delay(50);
 
   digitalWrite(ESP_RST_PIN, HIGH);  // Release reset
-  delay(50);                        // Give ESP time to boot
+  delay(3000);                      // Give ESP time to boot
 
+  // Initialize ESP module on Serial4
+  Serial4.begin(115200);
 
-  Serial.println("Bắt đầu kết nối WiFi...");
+  // Initialize WiFiEspAT library
+  WiFi.init(Serial4);
 
-  String response;
-
-  // Reset ESP8285
-  sendCommand("AT+RST", response, 5000);
-  delay(2000);
-
-  // Kiểm tra kết nối AT
-  if (!sendCommand("AT", response)) {
-    Serial.println("Lỗi: Không thể kết nối với ESP8285");
-    return;
+  // Check for the presence of the shield
+  if (WiFi.status() == WL_NO_MODULE) {
+    Serial.println("Communication with WiFi module failed!");
+    while (true) {
+      delay(1000);
+    }
   }
 
-// Kiểm tra AT
-  sendCommand("AT", response);
+  // Print firmware version
+  String fv = WiFi.firmwareVersion();
+  Serial.print("Firmware version: ");
+  Serial.println(fv);
 
-  // Kiểm tra phiên bản AT
-  sendCommand("AT+GMR", response);
-
-  // Đặt chế độ Station
-  sendCommand("AT+CWMODE=1", response);
-
-  // Ngắt kết nối WiFi hiện tại nếu có
-  sendCommand("AT+CWQAP", response);
-
-  // Kết nối WiFi - Lưu ý cách escape dấu ngoặc kép
-  Serial.println("Đang kết nối WiFi...");
-  String connectCmd = "AT+CWJAP=\"Ten Wifi\",\"Mat Khau Wifi\"";
-  if (sendCommand(connectCmd.c_str(), response, 15000)) {
-    Serial.println("Kết nối WiFi thành công!");
-  } else {
-    Serial.println("Kết nối WiFi thất bại!");
-    return;
-  }
-
-  // Lấy địa chỉ IP sau khi kết nối thành công
+  // For AT2 firmware, enable persistent connections
+  WiFi.setPersistent(true);
   delay(1000);
-  sendCommand("AT+CIFSR", response);
 
-  // Hiển thị thông tin IP
-  int ipIndex = response.indexOf("+CIFSR:STAIP,\"");
-  if (ipIndex != -1) {
-    int endIndex = response.indexOf("\"", ipIndex + 14);
-    String ipAddress = response.substring(ipIndex + 14, endIndex);
-    Serial.print("Địa chỉ IP: ");
-    Serial.println(ipAddress);
+  // First disconnect from any existing connection
+  Serial.println("Disconnecting from any existing WiFi connection...");
+  WiFi.disconnect();
+  delay(3000);  // Give more time for disconnection
+
+  // Verify disconnection
+  int disconnectStatus = WiFi.status();
+  Serial.print("Status after disconnect: ");
+  Serial.println(getStatusString(disconnectStatus));
+
+  if (disconnectStatus == WL_CONNECTED) {
+    Serial.println("Still connected, forcing disconnect...");
+    WiFi.disconnect();
+    delay(2000);
   }
+
+  // Now connect to WiFi network
+  Serial.print("Now connecting to WiFi network: ");
+  Serial.println(ssid);
+
+  int status = WiFi.begin(ssid, password);
+
+  if (status == WL_CONNECTED) {
+    Serial.println("Connected immediately!");
+  } else {
+    Serial.println("Waiting for connection (AT2 needs more time)...");
+
+    // Wait for connection with extended timeout for AT2
+    unsigned long startTime = millis();
+    while (WiFi.status() != WL_CONNECTED && millis() - startTime < 30000) {
+      delay(1000);
+      Serial.print(".");
+
+      // Show status every 5 seconds
+      if ((millis() - startTime) % 5000 == 0) {
+        Serial.print(" [");
+        Serial.print(getStatusString(WiFi.status()));
+        Serial.print("]");
+      }
+    }
+
+    if (WiFi.status() == WL_CONNECTED) {
+      Serial.println("\nWiFi connected successfully!");
+    } else {
+      Serial.println("\nWiFi connection failed!");
+      Serial.print("Final status: ");
+      Serial.println(getStatusString(WiFi.status()));
+      Serial.println("AT2 mode is enabled but connection still failed.");
+      Serial.println("This might indicate a network issue rather than library configuration.");
+      return;
+    }
+  }
+
+  // Print connection information
+  printWifiStatus();
+
+  Serial.println("Setup complete! WiFi is ready for use.");
 }
 
 void loop() {
-  // Đọc và hiển thị dữ liệu đến từ ESP8285
-  while (Serial4.available()) {
-    String data = Serial4.readStringUntil('\n');
-    data.trim();
-    if (data.length() > 0) {
-      Serial.println("ESP: " + data);
+  // Monitor WiFi connection status
+  static unsigned long lastCheck = 0;
+  if (millis() - lastCheck > 30000) {  // Check every 30 seconds
+    lastCheck = millis();
+
+    int status = WiFi.status();
+    if (status == WL_CONNECTED) {
+      Serial.println("WiFi connection is active");
+    } else {
+      Serial.print("WiFi connection lost. Status: ");
+      Serial.println(getStatusString(status));
+
+      // Try to reconnect
+      Serial.println("Attempting to reconnect...");
+      WiFi.begin(ssid, password);
+
+      // Wait for reconnection with AT2 timeout
+      unsigned long startTime = millis();
+      while (WiFi.status() != WL_CONNECTED && millis() - startTime < 15000) {
+        delay(1000);
+      }
+
+      if (WiFi.status() == WL_CONNECTED) {
+        Serial.println("Reconnected successfully!");
+        printWifiStatus();
+      }
     }
   }
 
-  // Kiểm tra dữ liệu từ Serial monitor để gửi lệnh AT
-  if (Serial.available()) {
-    String command = Serial.readStringUntil('\n');
-    command.trim();
-    if (command.length() > 0) {
-      String response;
-      sendCommand(command.c_str(), response);
-    }
+  // Your main application code goes here
+  delay(1000);
+}
+
+void printWifiStatus() {
+  Serial.println("\n=== WiFi Connection Information ===");
+
+  Serial.print("Connected to SSID: ");
+  Serial.println(WiFi.SSID());
+
+  IPAddress ip = WiFi.localIP();
+  Serial.print("IP Address: ");
+  Serial.println(ip);
+
+  long rssi = WiFi.RSSI();
+  Serial.print("Signal strength (RSSI): ");
+  Serial.print(rssi);
+  Serial.println(" dBm");
+
+  Serial.print("Gateway: ");
+  Serial.println(WiFi.gatewayIP());
+
+  Serial.print("Subnet Mask: ");
+  Serial.println(WiFi.subnetMask());
+
+  Serial.print("DNS Server: ");
+  Serial.println(WiFi.dnsIP());
+
+  Serial.println("====================================\n");
+}
+
+String getStatusString(int status) {
+  switch (status) {
+    case WL_IDLE_STATUS: return "Idle";
+    case WL_NO_SSID_AVAIL: return "Network not found";
+    case WL_CONNECTED: return "Connected";
+    case WL_CONNECT_FAILED: return "Connection failed";
+    case WL_CONNECTION_LOST: return "Connection lost";
+    case WL_DISCONNECTED: return "Disconnected";
+    case WL_NO_MODULE: return "No module";
+    default: return "Unknown (" + String(status) + ")";
   }
 }
 ```
