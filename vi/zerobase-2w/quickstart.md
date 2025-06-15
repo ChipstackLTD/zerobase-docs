@@ -116,7 +116,7 @@ Bạn có thể sử dụng code mẫu để nháy LED trên Zerobase 2W bằng 
 
 Arduino IDE sẽ mở ra một cửa sổ mới chứa code mẫu nháy LED.
 
-![blink-example](https://cdn.chipstack.vn/zerobase2/quickstart/blink-example.png "blink-example]")
+![blink-example](https://cdn.chipstack.vn/zerobase2w/download-firmware/blink-example-code.png)
 
 Nếu không thể mở code mẫu, bạn có thể sử dụng đoạn code sau:
 
@@ -235,7 +235,7 @@ Tiếp theo, bạn cần tải về file firmware mới nhất cho chip ESP8285 
 
 5. Bạn giải nén file ZIP vừa tải về và đồng thời giải nén file ZIP chứa các công cụ nạp firmware mà bạn đã tải về ở bước đầu tiên.
 
-6. Copy 4 file `esptool_zb2w`, `esp8285_merger`, `AT2_esp8266_factory_param_tx1rx3` và `usb-uart-bridge` vào thư mục vừa giải nén ở bước 5. Kết quả sẽ như hình dưới đây:
+6. Copy 4 file `esptool_zb2w`, `esp8285_merger`, `AT2_esp8266_factory_param_tx1rx3` và `usb-uart-bridge` vào thư mục chứa firmware đã tải về từ bước 4. Kết quả sẽ như hình dưới đây:
 
 ![esptool-copy](https://cdn.chipstack.vn/zerobase2w/download-firmware/esptool-copy.png "esptool-copy]")
 
@@ -547,5 +547,5 @@ Kết quả cuối cùng, bạn sẽ thấy Serial Monitor in ra dòng chữ "He
 
 ## Kết luận
 
-Như vậy, bạn đã hoàn thành việc cài đặt board Zerobase 2W, nạp code, nháy LED và in ra Serial Monitor trên Zerobase 2W. Bạn có thể thử nghiệm các chức năng khác của Zerobase 2W bằng cách thay đổi code mẫu hoặc viết code mới.
+Như vậy, bạn đã hoàn thành việc cài đặt board Zerobase 2W, nạp code, nháy LED, nạp firmware cho ESP8285 và in ra Serial Monitor trên Zerobase 2W. Bạn có thể thử nghiệm các chức năng khác của Zerobase 2W bằng cách thay đổi code mẫu hoặc viết code mới.
 
