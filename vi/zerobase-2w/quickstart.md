@@ -201,6 +201,16 @@ Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase 2W nháy th
 
 ## Cách cập nhật firmware cho chip Wi-Fi ESP8285
 
+?> Mặc định AT firmware đã được nạp lúc sản xuất Zerobase 2W nên phần này sẽ được dùng khi có bản AT firmware mới hơn
+
+### Danh sách các phiên bản AT firmware
+
+| Phiên bản | Ngày phát hành | Trạng thái |
+|:----------|:---------------|:-----------|
+| 2.2.3.0-dev | 09-05-2025 | Phiên bản đang được sử dụng |
+
+### Cập nhật firmware cho chip Wi-Fi ESP8285
+
 Để cập nhật firmware cho chip Wi-Fi ESP8285 trên Zerobase 2W, bạn cần tải về file bin chứa firmwaretừ nhà sản xuất [tại đây](https://cdn.chipstack.vn/zerobase2w/download-firmware/ESP8285.bin)
 
 Sau đó bạn tải về file ZIP chứa các công cụ cần thiết [tại đây](https://cdn.chipstack.vn/zerobase2w/download-firmware/esptool_zb2w.zip).
