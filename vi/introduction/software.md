@@ -24,6 +24,8 @@ Các phần mềm được sử dụng khi lập trình Zerobase bao gồm
 - [Zerobase Documentation](https://github.com/ChipstackLTD/zerobase-docs)
 - [Zerobase Uploader](https://github.com/ChipstackLTD/zerobase-minichlink)
 - [Zerobase 2 & Zerobase 2W Uploader](https://github.com/ChipstackLTD/zerobase-wchisp)
+- [Esptool ZB2W](https://cdn.chipstack.vn/zerobase2w/download-firmware/esptool_zb2w.zip)
+- [ESP8285.bin](https://cdn.chipstack.vn/zerobase2w/download-firmware/ESP8285.bin)
 
 ## Mã nguồn đóng
 
