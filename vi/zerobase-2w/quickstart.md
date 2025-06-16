@@ -215,7 +215,7 @@ Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase 2W nháy th
 
 Sau đó bạn tải về file ZIP chứa các công cụ cần thiết [tại đây](https://cdn.chipstack.vn/zerobase2w/download-firmware/esptool_zb2w.zip).
 
-!> Bạn chỉ cần sử dụng `esptool_zb2w` và `usb-uart-bridge` trong file ZIP vừa tải về để nạp firmware cho chip ESP8285, nếu muốn tải bản firmware mới nhất của nhà sản xuất và tự build file bin, bạn có thể tham khảo phần [Hướng dẫn build AT firmware cho ESP8285](#tuỳ-chọn-hướng-dẫn-build-at-firmware-cho-esp8285) bên dưới.
+!> Bạn chỉ cần sử dụng `esptool_zb2w` và `usb-uart-bridge` trong file ZIP vừa tải về để nạp firmware cho chip ESP8285, nếu muốn tải bản firmware mới nhất của nhà sản xuất và tự build file bin, bạn có thể tham khảo phần [Hướng dẫn build AT firmware cho ESP8285](#tuỳ-chọn-hướng-dẫn-build-at-firmware-cho-esp8285).
 
 1. Đầu tiên, bạn cần có Git Bash để thực hiện các lệnh nạp firmware hoặc có thể sử dụng Command Prompt. Nếu bạn chưa cài Git Bash, bạn có thể tải về tại [đây](https://git-scm.com/downloads).
 
