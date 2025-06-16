@@ -2,8 +2,8 @@
 <br>
 <br>
 
-# Danh Sách Các Bài Học
+# Học lập trình Zerobase 2 tại Chipstack Academy 
 
-Các bài học đã được chuyển sang trang Academy của Chipstack. Hãy truy cập link dưới đây để xem chi tiết các bài học về GPIO, I2C, SPI, UART... và nhận chứng chỉ nhé!
+Các bài học đã được chuyển sang trang Chipstack Academy (miễn phí). Hãy truy cập link dưới đây để xem chi tiết các bài học về GPIO, I2C, SPI, UART... để hiểu hơn về sản phẩm và ứng dụng nhé!
 
-?> 🔗 [Truy cập các bài học tại đây](https://academy.chipstack.vn/course/view.php?id=3)
+?> 🔗 [Truy cập Chipstack Academy ngay](https://academy.chipstack.vn/course/view.php?id=3)
