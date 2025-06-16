@@ -28,7 +28,7 @@
 | UART | 3 |
 | USB | 2 |
 | CAN | 1 |
-| WiFi | :fas fa-square-check fa-fw blue: |
+| WiFi 2.4GHz | :fas fa-square-check fa-fw blue: |
 | LDO | :fas fa-square-check fa-fw blue: |
 | Cổng QWIIC | :fas fa-square-check fa-fw blue: |
 | Arduino IDE | :fas fa-square-check fa-fw blue: |
