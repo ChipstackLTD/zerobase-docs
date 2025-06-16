@@ -14,7 +14,7 @@
   - [Sơ đồ nguyên lý](vi/zerobase/schematic.md)
   - [Các lưu ý](vi/zerobase/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase/quickstart.md)
-  - [Các bài học](vi/zerobase/examples.md)
+  - [Học và làm](vi/zerobase/examples.md)
   - [Các lỗi thường gặp](vi/zerobase/troubleshooting.md)
 
 - Tài liệu Zerobase Core
@@ -23,7 +23,7 @@
   - [Sơ đồ nguyên lý](vi/zerobase-core/schematic.md)
   - [Các lưu ý](vi/zerobase-core/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase-core/quickstart.md)
-  - [Các bài học](vi/zerobase-core/examples.md)
+  - [Học và làm](vi/zerobase-core/examples.md)
   - [Các lỗi thường gặp](vi/zerobase-core/troubleshooting.md)
 
 - Tài liệu Zerobase 2
@@ -32,7 +32,7 @@
   - [Sơ đồ nguyên lý](vi/zerobase-2/schematic.md)
   - [Các lưu ý](vi/zerobase-2/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase-2/quickstart.md)
-  - [Các bài học](vi/zerobase-2/examples.md)
+  - [Học và làm](vi/zerobase-2/examples.md)
   - [Các lỗi thường gặp](vi/zerobase-2/troubleshooting.md)
 
 - Tài liệu Zerobase 2W
@@ -41,5 +41,5 @@
   - [Sơ đồ nguyên lý](vi/zerobase-2w/schematic.md)
   - [Các lưu ý](vi/zerobase-2w/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase-2w/quickstart.md)
-  - [Các bài học](vi/zerobase-2w/examples.md)
+  - [Học và làm](vi/zerobase-2w/examples.md)
   - [Các lỗi thường gặp](vi/zerobase-2w/troubleshooting.md)
