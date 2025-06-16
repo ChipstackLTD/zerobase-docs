@@ -12,5 +12,5 @@
 - [WCH-Link User Manual](https://cdn.chipstack.vn/reference/WCH_LinkUserManual.pdf)
 - [WCH-LinkUtility](https://cdn.chipstack.vn/reference/wcu-linkuitility.ZIP)
 - [WCHISPTool](https://cdn.chipstack.vn/reference/wchisptool_setup.rar)
-
 - [Zadig - USB driver installation made easy](https://cdn.chipstack.vn/reference/zadig-2.9.exe)
+- [ESP8285 datasheet](https://cdn.chipstack.vn/reference/esp8285-datasheet.pdf)
