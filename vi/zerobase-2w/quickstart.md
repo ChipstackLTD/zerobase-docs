@@ -18,7 +18,7 @@ Một số lưu ý khi sử dụng Zerobase 2W:
 
 !> Mức logic: 3.3V.
 
-!> Trừ các chân D6, A6, A7 thì Toàn bộ chân GPIO đều hỗ trợ PWM.
+!> Trừ các chân D6, A6, A7 thì toàn bộ chân GPIO đều hỗ trợ PWM.
 
 !> Toàn bộ chân GPIO đều hỗ trợ ngắt ngoại vi.
 
@@ -211,7 +211,7 @@ Kết quả cuối cùng, bạn sẽ thấy LED trên board Zerobase 2W nháy th
 
 ### Cập nhật firmware cho chip Wi-Fi ESP8285
 
-Để cập nhật firmware cho chip Wi-Fi ESP8285 trên Zerobase 2W, bạn cần tải về file bin chứa firmwaretừ nhà sản xuất [tại đây](https://cdn.chipstack.vn/zerobase2w/download-firmware/ESP8285.bin)
+Để cập nhật firmware cho chip Wi-Fi ESP8285 trên Zerobase 2W, bạn cần tải về file bin chứa firmware từ nhà sản xuất [tại đây](https://cdn.chipstack.vn/zerobase2w/download-firmware/ESP8285.bin)
 
 Sau đó bạn tải về file ZIP chứa các công cụ cần thiết [tại đây](https://cdn.chipstack.vn/zerobase2w/download-firmware/esptool_zb2w.zip).
 
@@ -223,7 +223,7 @@ Sau đó bạn tải về file ZIP chứa các công cụ cần thiết [tại �
 
 ![esp-at-8285-only](https://cdn.chipstack.vn/zerobase2w/download-firmware/esp-at-8285-only.png)
 
-3. Sử dụng espTool để nạp firmware cho chip ESP8285. Bạn có thể sử dụng Command Prompt hoặc Git Bash.
+3. Sử dụng esptool để nạp firmware cho chip ESP8285. Bạn có thể sử dụng Command Prompt hoặc Git Bash.
 
 - Đối với Command Prompt:
 
@@ -532,7 +532,7 @@ Tiếp theo, bạn cần tải về file firmware mới nhất cho chip ESP8285 
 
 ![esp-at](https://cdn.chipstack.vn/zerobase2w/download-firmware/esp-at-github.png "esp-at]")
 
-2. Bạn chọn vào phần Actions, sau đó nhấn vào Branch và tìm `ESP8266` rồi chọn bản relase mới nhất, ví dụ ở đây là `release/v2.3.0.0_esp8266`.
+2. Bạn chọn vào phần Actions, sau đó nhấn vào Branch và tìm `ESP8266` rồi chọn bản release mới nhất, ví dụ ở đây là `release/v2.3.0.0_esp8266`.
 
 ![esp-at-release](https://cdn.chipstack.vn/zerobase2w/download-firmware/esp-at-actions.png "esp-at-release]")
 
@@ -552,7 +552,7 @@ Tiếp theo, bạn cần tải về file firmware mới nhất cho chip ESP8285 
 
 7. Ở bước này, bạn cần có Git Bash để thực hiện các lệnh nạp firmware. Nếu bạn chưa cài Git Bash, bạn có thể tải về tại [đây](https://git-scm.com/downloads).
 
-8. Sử dụng espTool để nạp firmware cho chip ESP8285. Bạn có thể sử dụng Command Prompt hoặc Git Bash.
+8. Sử dụng esptool để nạp firmware cho chip ESP8285. Bạn có thể sử dụng Command Prompt hoặc Git Bash.
 
 - Đối với Command Prompt:
 
