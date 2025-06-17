@@ -112,9 +112,9 @@ Thoát khỏi Arduino IDE và mở lại để sử dụng board Zerobase.
 
 ![select-board](https://cdn.chipstack.vn/zerobase2/quickstart/select-board-zerobase-2.png "select-board]")
 
-Bạn có thể sử dụng code mẫu để nháy LED trên Zerobase 2 bằng cách vào **File > Examples > DigitalIO > Blink**.
+Bạn có thể sử dụng code mẫu để nháy LED trên Zerobase 2 bằng cách vào **File > Examples > Zerobase 2 Example > Blink > example > Blink**.
 
-![blink-example](https://cdn.chipstack.vn/zerobase2/quickstart/blink-example.png "blink-example]")
+![blink-example](https://cdn.chipstack.vn/zerobase2/quickstart/blink-example.png)
 
 Arduino IDE sẽ mở ra một cửa sổ mới chứa code mẫu nháy LED.
 
