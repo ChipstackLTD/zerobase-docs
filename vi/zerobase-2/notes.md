@@ -27,7 +27,7 @@ Vì board Zerobase 2 sử dụng vi điều khiển CH32V203, nên một số th
 Để có thể sử dụng Serial, bạn cần thêm thư viện sau vào code:
 
  ```cpp
-#include <Adafruit_TinyUSB.h>
+#include <ZBPrint.h>
 ```
 
 ### Các chân Serial
