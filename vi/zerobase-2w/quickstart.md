@@ -642,7 +642,7 @@ Một số lựa chọn bạn có thể sử dụng:
 Để in ra Serial Monitor, bạn cần thêm thư viện sau vào code
 
  ```cpp
-#include <Adafruit_TinyUSB.h>
+#include <ZBPrint.h>
 ```
 
 Sau đó, ở hàm `setup()`, bạn cần khởi tạo Serial Monitor bằng cách thêm dòng sau vào code:
@@ -660,7 +660,7 @@ Serial.println("Hello World!");
 Dưới đây là code mẫu in ra Serial Monitor:
 
 ```cpp
-#include <Adafruit_TinyUSB.h>
+#include <ZBPrint.h>
 
 void setup() {
   // Khởi tạo Serial Monitor với tốc độ 9600 bps
