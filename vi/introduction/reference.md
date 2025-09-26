@@ -4,6 +4,7 @@
 
 # Tài liệu tham khảo
 
+- [Datasheet](https://chipstack.vn/zerobase-datasheet)
 - [CH32V003F4P6 datasheet](https://cdn.chipstack.vn/reference/CH32V003DS0%20datasheet.pdf)
 - [CH32V003 Reference manual](https://cdn.chipstack.vn/reference/CH32V003RM%20Reference%20Manual.pdf)
 - [CH32V203C8T6 datasheet](https://cdn.chipstack.vn/reference/CH32V203DS0%20datasheet.pdf)
