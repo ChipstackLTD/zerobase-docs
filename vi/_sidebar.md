@@ -8,6 +8,12 @@
   - [Dịch vụ đề xuất](vi/introduction/service.md)
   - [Tài liệu tham khảo](vi/introduction/reference.md)
 
+- Hướng dẫn cài đặt Arduino IDE
+  - [Tổng quan](vi/arduinoide/overview.md)
+  - [Windows](vi/arduinoide/windows.md)
+  - [Linux](vi/arduinoide/linux.md)
+  - [MacOSX](vi/arduinoide/macosx.md)
+
 - Tài liệu Zerobase
   - [Thông số kỹ thuật](vi/zerobase/specs.md)
   - [Sơ đồ chân](vi/zerobase/pinout.md)
