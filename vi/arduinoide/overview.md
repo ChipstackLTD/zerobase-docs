@@ -2,6 +2,8 @@
 <br>
 <br>
 
+# Tổng quan cài đặt Arduino IDE
+
 ?> 1. Các OS và kiến trúc host được hỗ trợ
 
 | OS | Zerobase | Zerobase 2 | Zerobase 2W |
