@@ -2,7 +2,7 @@
 <br>
 <br>
 
-?> Các OS và kiến trúc host được hỗ trợ
+?> 1. Các OS và kiến trúc host được hỗ trợ
 
 | OS | Zerobase | Zerobase 2 | Zerobase 2W |
 |---------|---------|-------|-------|
@@ -10,6 +10,11 @@
 | Linux (x64) | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | MacOSX (arm64) | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 
-?> Hướng dẫn cài Arduino IDE chính thức từ hãng [tại đây](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/). Hãy đảm bảo rằng bạn đã có kinh nghiệm dùng các hệ điều hành trên trước khi sử dụng Zerobase
+Hãy đảm bảo rằng bạn đã có kinh nghiệm dùng các hệ điều hành trên trước khi sử dụng Zerobase, đặc biêt là Linux
 
-?> Bạn cần phải có kinh nghiệm dùng Linux trước khi dùng Zerobase trên Linux
+?> 2. Hướng dẫn cài Arduino IDE chính thức từ hãng [tại đây](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/). 
+
+Tuy nhiên để sử dụng được với Zerobase, cần theo chính xác các hướng dẫn sau 
+- [Windows](vi/arduinoide/windows.md)
+- [Linux](vi/arduinoide/linux.md)
+- [MacOSX](vi/arduinoide/macosx.md)
