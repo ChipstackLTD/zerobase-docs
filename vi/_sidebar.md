@@ -17,15 +17,6 @@
   - [Học và làm](vi/zerobase/examples.md)
   - [Các lỗi thường gặp](vi/zerobase/troubleshooting.md)
 
-- Tài liệu Zerobase Core
-  - [Thông số kỹ thuật](vi/zerobase-core/specs.md)
-  - [Sơ đồ chân](vi/zerobase-core/pinout.md)
-  - [Sơ đồ nguyên lý](vi/zerobase-core/schematic.md)
-  - [Các lưu ý](vi/zerobase-core/notes.md)
-  - [Bắt đầu sử dụng](vi/zerobase-core/quickstart.md)
-  - [Học và làm](vi/zerobase-core/examples.md)
-  - [Các lỗi thường gặp](vi/zerobase-core/troubleshooting.md)
-
 - Tài liệu Zerobase 2
   - [Thông số kỹ thuật](vi/zerobase-2/specs.md)
   - [Sơ đồ chân](vi/zerobase-2/pinout.md)

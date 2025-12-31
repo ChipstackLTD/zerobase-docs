@@ -337,8 +337,8 @@ void setup() {                  // Hàm thiết lập chạy một lần khi kh�
 
  if (!timeIsSet) {             // Nếu thời gian chưa được đặt
    // Cài đặt thời gian ban đầu (chỉ cần làm một lần)
-   // 5 tháng 5, 2025, Thứ 2, 17:00:00
-   rtc.setYear(25);            // Đặt năm: 2025 (chỉ 2 số cuối)
+   // 5 tháng 5, 2026, Thứ 2, 17:00:00
+   rtc.setYear(26);            // Đặt năm: 2026 (chỉ 2 số cuối)
    rtc.setMonth(5);            // Đặt tháng: tháng 5
    rtc.setDate(5);             // Đặt ngày: ngày 5
    rtc.setDoW(2);              // Đặt thứ: thứ 2
@@ -881,7 +881,7 @@ void setup() {
 
  if (!timeIsSet) {             // Nếu thời gian chưa được đặt
    // Cài đặt thời gian ban đầu (chỉ làm một lần)
-   rtc.setYear(25);            // Năm 2025
+   rtc.setYear(26);            // Năm 2026
    rtc.setMonth(5);            // Tháng 5
    rtc.setDate(5);             // Ngày 5
    rtc.setDoW(2);              // Thứ 2

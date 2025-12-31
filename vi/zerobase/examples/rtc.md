@@ -117,7 +117,7 @@ DS3231 myRTC;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Các giá trị thời gian cần cài đặt khi bắt đầu chương trình
-const byte setYear = 25;    // Năm 2025 (chỉ 2 chữ số cuối)
+const byte setYear = 26;    // Năm 2026 (chỉ 2 chữ số cuối)
 const byte setMonth = 4;    // Tháng 4
 const byte setDate = 9;     // Ngày 9
 const byte setDOW = 4;      // Thứ 4 (1 = Chủ Nhật, 2 = Thứ 2, ..., 7 = Thứ 7)
@@ -247,7 +247,7 @@ Bạn có thể đổi thứ/ngày/tháng/năm/giờ/phút/giây trong code theo
 
 ```cpp
 // Các giá trị thời gian cần cài đặt khi bắt đầu chương trình
-const byte setYear = 25;    // Năm 2025 (chỉ 2 chữ số cuối)
+const byte setYear = 26;    // Năm 2026 (chỉ 2 chữ số cuối)
 const byte setMonth = 4;    // Tháng 4
 const byte setDate = 9;     // Ngày 9
 const byte setDOW = 4;      // Thứ 4 (1 = Chủ Nhật, 2 = Thứ 2, ..., 7 = Thứ 7)
@@ -274,7 +274,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);             // LCD I2C địa chỉ 0x27, 16
 
 Cài đặt giá trị thời gian sẽ được thiết lập cho DS3231 khi chương trình bắt đầu chạy:
 ```cpp
-const byte setYear = 25;    // Năm 2025
+const byte setYear = 26;    // Năm 2026
 const byte setMonth = 4;    // Tháng 4
 const byte setDate = 9;     // Ngày 9
 const byte setDOW = 4;      // Thứ 4
