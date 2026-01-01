@@ -4,7 +4,6 @@
   - [Phần mềm](vi/introduction/software.md)
   - [Roadmap](vi/introduction/roadmap.md)
   - [Đóng góp vào dự án](vi/introduction/contribution.md)
-  - [Hỗ trợ và thảo luận](vi/introduction/support.md)
   - [Dịch vụ đề xuất](vi/introduction/service.md)
   - [Tài liệu tham khảo](vi/introduction/reference.md)
 

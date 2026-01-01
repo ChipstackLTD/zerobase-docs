@@ -17,7 +17,7 @@
 
 **Bước 3** Cần đảm bảo đã cài đặt libusb
 ```sh
-sudo brew install libusb
+brew install libusb
 ```
 
 **Một số lưu ý khi biên dịch (compile) và nạp (upload)**
