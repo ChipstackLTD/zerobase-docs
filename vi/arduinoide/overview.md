@@ -14,7 +14,13 @@
 
 Hãy đảm bảo rằng bạn đã có kinh nghiệm dùng các hệ điều hành trên trước khi sử dụng Zerobase, đặc biêt là Linux
 
-?> 2. Hướng dẫn cài Arduino IDE chính thức từ hãng [tại đây](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/). 
+?> 2. Yêu cầu
+
+Windows - Win 10 and newer, 64 bits
+Linux - 64 bits
+macOS - Version 10.15: "Catalina" or newer, 64 bits
+
+?> 3. Hướng dẫn cài Arduino IDE chính thức từ hãng [tại đây](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/). 
 
 Tuy nhiên để sử dụng được với Zerobase, cần theo chính xác các hướng dẫn sau 
 - [Windows](vi/arduinoide/windows.md)
