@@ -4,4 +4,4 @@
 
 # Sơ đồ nguyên lý
 
-?> Tải sơ đồ nguyên lý của Zerobase tại [đây](https://raw.githubusercontent.com/ChipstackLTD/zerobase-docs/main/_media/SCH_Zerobase.pdf)
+?> Tải sơ đồ nguyên lý của Zerobase tại [đây](https://cdn.chipstack.vn/zerobase/schematic/SCH_Zerobase.pdf)
