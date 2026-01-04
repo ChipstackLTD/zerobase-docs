@@ -11,7 +11,7 @@
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase-versions/Zerobase-bg-01.png" alt="Zerobase Background">
-Backgroun</div>
+</div>
 
 
 
