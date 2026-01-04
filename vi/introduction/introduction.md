@@ -19,3 +19,5 @@ Các tính năng nổi bật của Zerobase:
 - **Dễ sử dụng cho người mới bắt đầu**: Với thư viện đã tải sẵn, tài liệu trực tuyến phong phú và khả năng tương thích với Arduino IDE, Zerobase giúp bất kỳ ai cũng có thể bắt đầu hành trình maker của mình.
 
 - **Tương thích hoàn hảo**: Làm việc dễ dàng với các dự án Arduino hiện có, các shield và phụ kiện. Chúng tôi đang nỗ lực để đảm bảo rằng bạn có thể sử dụng Zerobase một cách trơn tru với Arduino IDE. Đội ngũ của chúng tôi cam kết tạo ra trải nghiệm mượt mà và không rắc rối cho người dùng khi chuyển sang hoặc bắt đầu sử dụng Zerobase. Dù bạn là người mới hay maker giàu kinh nghiệm, chúng tôi muốn đảm bảo tính tương thích và đơn giản khi làm việc với Arduino IDE. Xem thêm lộ trình phát triển ([roadmap](vi/introduction/roadmap.md)) của Zerobase
+
+- **Sẵn sàng cho IoT với WiFi tích hợp**: Zerobase 2W tích hợp khả năng WiFi được hỗ trợ bởi ESP8285, lý tưởng cho việc khám phá và tìm hiểu về các ứng dụng IoT. Người dùng có thể dễ dàng kết nối và thử nghiệm các dự án IoT bằng cách sử dụng [**FreeMQTT by Chipstack**](https://freemqtt.chipstack.vn), một máy chủ MQTT miễn phí do Chipstack cung cấp.
