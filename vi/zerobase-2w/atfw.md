@@ -2,7 +2,7 @@
 <br>
 <br>
 
-# AT Firmware cho ESP8285 trên Zerobase 2W
+# AT Firmware ESP8285 trên Zerobase 2W
 
 ## Cách cập nhật firmware cho chip Wi-Fi ESP8285
 
