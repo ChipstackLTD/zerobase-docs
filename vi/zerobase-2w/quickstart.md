@@ -265,14 +265,7 @@ Kết quả cuối cùng, bạn sẽ thấy Serial Monitor in ra dòng chữ "He
 
 ## Sử dụng Wifi
 
-Zerobase 2W sử dụng thư viện `WifiEspAT` để giao tiếp giữa CH32V203 và ESP8285. Khi sử dụng bạn cần download phiên bản 2.0.0 [tại đây](https://github.com/ChipstackLTD/WiFiEspAT/releases/download/2.0.0/WiFiEspAT-2.0.0.zip) và import thư viên vào sketch theo hướng dẫn sau
-
-<div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase2w/stuff/import-lib.png" alt="Import Thư viện WifiEspAT">
-    <p>Sketch > Include Library > Add .Zip Library...</p>
-</div>
-
-!> Lưu ý không cài đặt thư viện `WifiEspAT` bằng công tụ **Tools > Manage Libraries** vì nó là phiên bản cũ (1.5.0) và không được chỉnh sửa để chạy được trên Zerobase 2W
+Zerobase 2W sử dụng thư viện `WifiEspAT` để giao tiếp giữa CH32V203 và ESP8285. Thư viện này đã được thêm vào trong các release của Zerobase Arduino Core.
 
 Đoạn code mẫu sau dùng để kết nối vào Wifi. Lưu ý: Ở đoạn code `const char* ssid = "YOUR_WIFI_NAME";const char* password = "YOUR_WIFI_PASSWORD";`, Bạn cần thay thế `YOUR_WIFI_NAME` và `YOUR_WIFI_PASSWORD` bằng tên và mật khẩu Wi-Fi của bạn.
 

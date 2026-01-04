@@ -40,6 +40,4 @@ chmox +x arduino-ide_2.3.7_Linux_64bit.AppImage
 
 !> Đối với Zerobase 2 và Zerobase 2W khi muốn in ra Serial Monitor dùng thư viện **ZBPrint** thì chọn thêm **Tools > USB Support > Adafruit TinyUSB with USBD**. Cổng Serial mà Zerobase 2 và Zerobase 2W tạo ra trên Windows sẽ có dạng `ttyUSBx` hoặc `ttyACMx` (Xem ở **Tools > Port > ttyUSBx hoặc ttyACMx**). Bạn cần bật **Tools > Serial Monitor** để xem dữ liệu từ cổng Serial.
 
-!> Đối với Zerobase 2W khi dùng WiFi thì cài thêm thư viện **WifiEspAT**. Vào **Tools > Manage Libraries** để cài thêm thư viện đó.
-
 
