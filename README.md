@@ -10,7 +10,7 @@
 - [English](en/) **Comming soon** :heart:
 
 <div align="center">
-    <img src="https://cdn.chipstack.vn/zerobase-versions/Zerobase-bg-01.png" alt="Zerobase Background">
+    <img src="https://cdn.chipstack.vn/zerobase-versions/Zerobase-bg-02.png" alt="Zerobase Background">
 </div>
 
 
