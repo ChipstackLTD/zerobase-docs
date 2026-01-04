@@ -265,7 +265,7 @@ Kết quả cuối cùng, bạn sẽ thấy Serial Monitor in ra dòng chữ "He
 
 ## Sử dụng Wifi
 
-Zerobase 2W sử dụng thư viện `WifiEspAT` để giao tiếp giữa CH32V203 và ESP8285. Khi sử dụng bạn cần download phiên bản 2.0.0 tại [**đây**](https://github.com/ChipstackLTD/WiFiEspAT/releases/download/2.0.0/WiFiEspAT-2.0.0.zip) và import thư viên vào sketch theo hướng dẫn sau
+Zerobase 2W sử dụng thư viện `WifiEspAT` để giao tiếp giữa CH32V203 và ESP8285. Khi sử dụng bạn cần download phiên bản 2.0.0 [tại đây](https://github.com/ChipstackLTD/WiFiEspAT/releases/download/2.0.0/WiFiEspAT-2.0.0.zip) và import thư viên vào sketch theo hướng dẫn sau
 
 <div align="center">
     <img src="https://cdn.chipstack.vn/zerobase2w/stuff/import-lib.png" alt="Import Thư viện WifiEspAT">
