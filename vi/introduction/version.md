@@ -4,7 +4,7 @@
 
 # Các phiên bản
 
-Chúng tôi phát hành bốn phiên bản của Zerobase để đáp ứng nhu cầu đa dạng của cộng đồng maker và học viên, với các tính năng phong phú và mức giá linh hoạt. Mỗi phiên bản được thiết kế để phục vụ các mục đích khác nhau, từ người mới bắt đầu cho đến những người đam mê công nghệ chuyên sâu.
+Chúng tôi phát hành ba phiên bản của Zerobase để đáp ứng nhu cầu đa dạng của cộng đồng maker và học viên, với các tính năng phong phú và mức giá linh hoạt. Mỗi phiên bản được thiết kế để phục vụ các mục đích khác nhau, từ người mới bắt đầu cho đến những người đam mê công nghệ chuyên sâu.
 
 - **Zerobase**: Dành cho những người mới bắt đầu, yêu cầu một giải pháp vi điều khiển dễ sử dụng và giá thành thấp. Phiên bản này cung cấp tất cả các tính năng cơ bản của Zerobase, giúp người dùng nhanh chóng làm quen với việc lập trình và thực hiện các dự án đầu tiên.
 
@@ -51,4 +51,4 @@ Chúng tôi phát hành bốn phiên bản của Zerobase để đáp ứng nhu 
 | Chân nối WCH-LinkE | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Giá thành | Siêu rẻ | Rẻ | Hợp lý |
 
-!> Zerobase 2W được dùng cho nghiên cứu và phát triển trong các ứng dụng IoT. Phiên bản này không được thương mại hoá. Cá nhân hay tổ chức muốn sử dụng cho mục đích thử nghiệm xin liên hệ *support@chipstack.vn*
+!> Zerobase 2W được dùng cho nghiên cứu và phát triển trong các ứng dụng IoT. Phiên bản này không được thương mại hoá. Cá nhân hay tổ chức muốn sử dụng cho mục đích thử nghiệm xin liên hệ *support@chipstack.vn* để nhận phần cứng.

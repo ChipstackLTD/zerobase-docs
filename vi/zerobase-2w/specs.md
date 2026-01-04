@@ -4,7 +4,7 @@
 
 # Thông số kỹ thuật
 
-!> Zerobase 2W được dùng cho nghiên cứu và phát triển trong các ứng dụng IoT. Phiên bản này không được thương mại hoá. Cá nhân hay tổ chức muốn sử dụng cho mục đích thử nghiệm xin liên hệ *support@chipstack.vn*
+!> Zerobase 2W được dùng cho nghiên cứu và phát triển trong các ứng dụng IoT. Phiên bản này không được thương mại hoá. Cá nhân hay tổ chức muốn sử dụng cho mục đích thử nghiệm xin liên hệ *support@chipstack.vn* để nhận phần cứng.
 
 |           | Zerobase 2W |
 |-----------|-----------|
