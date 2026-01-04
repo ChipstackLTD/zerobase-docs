@@ -43,9 +43,12 @@ Chúng tôi phát hành bốn phiên bản của Zerobase để đáp ứng nhu 
 | LDO | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Cổng QWIIC | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Arduino IDE | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
+| Serial over USB | :fas fa-times-square fa-fw red: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Bootloader | Soft | Hard | Hard |
 | Nút Boot | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Nút Reset | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | LED On-board | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Chân nối WCH-LinkE | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: | :fas fa-square-check fa-fw blue: |
 | Giá thành | Siêu rẻ | Rẻ | Hợp lý |
+
+!> Zerobase 2W được dùng cho nghiên cứu và phát triển trong các ứng dụng IoT. Phiên bản này không được thương mại hoá. Cá nhân hay tổ chức muốn sử dụng cho mục đích thử nghiệm xin liên hệ *support@chipstack.vn*

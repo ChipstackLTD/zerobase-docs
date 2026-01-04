@@ -30,11 +30,14 @@
 | LDO | :fas fa-times-square fa-fw red: |
 | Cổng QWIIC | :fas fa-times-square fa-fw red: |
 | Arduino IDE | :fas fa-square-check fa-fw blue: |
+| Serial over USB | :fas fa-times-square fa-fw red: |
 | Bootloader | Soft |
 | Nút Boot | :fas fa-square-check fa-fw blue: |
 | Nút Reset | :fas fa-square-check fa-fw blue: |
 | LED On-board | :fas fa-square-check fa-fw blue: |
 | Chân nối WCH-LinkE | :fas fa-square-check fa-fw blue: |
+
+!> Vì Zerobase không hỗ trợ Serial over USB nên phải dùng thêm mạch [USB-to-UART](https://chipstack.vn/san-pham/cap-usb-uart-pl2303hx/) gắn thêm vào Zerobase để hỗ trợ in log qua `Serial1`. Zerobase 2 và Zerobase 2W thì không nhất thiết phải dùng mạch này. 
 
 ## Các thành phần trên board
 

@@ -30,6 +30,7 @@
 | LDO | :fas fa-square-check fa-fw blue: |
 | Cổng QWIIC | :fas fa-square-check fa-fw blue: |
 | Arduino IDE | :fas fa-square-check fa-fw blue: |
+| Serial over USB | :fas fa-square-check fa-fw blue: |
 | Bootloader | Hard |
 | Nút Boot | :fas fa-square-check fa-fw blue: |
 | Nút Reset | :fas fa-square-check fa-fw blue: |

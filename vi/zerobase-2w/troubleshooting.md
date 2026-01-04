@@ -73,3 +73,12 @@ Bạn tìm đến dòng 51 và comment lại toàn bộ như hình dưới đây
 Sau đó bạn thực hiện biên dịch lại code.
 
 ![verify-code](https://cdn.chipstack.vn/default/verify-code.png "verify-code]")
+
+## Thư viện WifiEspAT lỗi
+
+?> Thư viện WifiEspAT bản 1.5.0 mà bạn tải bằng Tools > Manage Libraries sẽ không hoạt động trên Zerobase 2W. Cần phải tải bản 2.0.0 tại [**đây**](https://github.com/ChipstackLTD/WiFiEspAT/releases/download/2.0.0/WiFiEspAT-2.0.0.zip) và import thư viên vào sketch theo hướng dẫn sau
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2w/stuff/import-lib.png" alt="Import Thư viện WifiEspAT">
+    <p>Sketch > Include Library > Add .Zip Library...</p>
+</div>

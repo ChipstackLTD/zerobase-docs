@@ -2,6 +2,8 @@
 <br>
 <br>
 
+!> Zerobase 2W được dùng cho nghiên cứu và phát triển trong các ứng dụng IoT. Phiên bản này không được thương mại hoá. Cá nhân hay tổ chức muốn sử dụng cho mục đích thử nghiệm xin liên hệ *support@chipstack.vn*
+
 # Thông số kỹ thuật
 
 |           | Zerobase 2W |
@@ -32,6 +34,7 @@
 | LDO | :fas fa-square-check fa-fw blue: |
 | Cổng QWIIC | :fas fa-square-check fa-fw blue: |
 | Arduino IDE | :fas fa-square-check fa-fw blue: |
+| Serial over USB | :fas fa-square-check fa-fw blue: |
 | Bootloader | Hard |
 | Nút Boot | :fas fa-square-check fa-fw blue: |
 | Nút Reset | :fas fa-square-check fa-fw blue: |

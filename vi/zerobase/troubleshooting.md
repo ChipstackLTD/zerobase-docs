@@ -18,5 +18,9 @@ Khi nạp code thành công, bạn cần nhấn nút Reset để đưa vi điề
 
 !> Nếu bạn đã cấp nguồn cho board bằng cổng USB, không được cấp nguồn thêm cho board qua chân 5V.
 
+## Lệnh Serial.print() không hoạt động.
+
+!> Vì Zerobase không hỗ trợ Serial over USB nên phải dùng thêm mạch [USB-to-UART](https://chipstack.vn/san-pham/cap-usb-uart-pl2303hx/) gắn thêm vào Zerobase để hỗ trợ in log qua `Serial1`. Zerobase 2 và Zerobase 2W thì không nhất thiết phải dùng mạch này. Xem thêm tại [Chipstack Academy](https://academy.chipstack.vn/course/view.php?id=2)
+
 
 

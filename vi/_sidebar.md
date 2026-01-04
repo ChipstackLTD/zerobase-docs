@@ -37,5 +37,6 @@
   - [Sơ đồ nguyên lý](vi/zerobase-2w/schematic.md)
   - [Các lưu ý](vi/zerobase-2w/notes.md)
   - [Bắt đầu sử dụng](vi/zerobase-2w/quickstart.md)
+  - [AT Firmware cho ESP8285](vi/zerobase-2w/atfw.md)
   - [Học và làm](vi/zerobase-2w/examples.md)
   - [Các lỗi thường gặp](vi/zerobase-2w/troubleshooting.md)

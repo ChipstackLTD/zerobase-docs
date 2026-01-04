@@ -4,6 +4,8 @@
 
 # Các lưu ý khi sử dụng board Zerobase 2W
 
+!> Zerobase 2W được dùng cho nghiên cứu và phát triển trong các ứng dụng IoT. Phiên bản này không được thương mại hoá. Cá nhân hay tổ chức muốn sử dụng cho mục đích thử nghiệm xin liên hệ *support@chipstack.vn*
+
 ## Nguồn cấp
 
 ![chan-cap-nguon-zerobase2](https://cdn.chipstack.vn/zerobase2/quickstart/chan-cap-nguon-zerobase2.png "chan-cap-nguon-zerobase2.png]")
@@ -22,13 +24,20 @@ Vì board Zerobase 2W sử dụng vi điều khiển CH32V203, nên một số t
 
 ### Serial (USB)
 
-Đây là cổng Serial mặc định được sử dụng để in dữ liệu ra Serial Monitor thông qua kết nối USB trực tiếp trên board.
+Đây là cổng Serial mặc định được sử dụng để in dữ liệu ra Serial Monitor thông qua kết nối USB trực tiếp trên board (Serial over USB).
 
 Để có thể sử dụng Serial, bạn cần thêm thư viện sau vào code:
 
  ```cpp
 #include <ZBPrint.h>
 ```
+
+Cần chọn **USBD** cho thư viện **TinyUSB** để có thể biên dịch thành công và sử dụng chức năng Serial over USB
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2w/stuff/select-usbd.png" alt="Chọn USBD">
+    <p>Chọn USBD như hình</p>
+</div>
 
 ### Các chân Serial
 
@@ -105,3 +114,14 @@ Dưới đây là bảng chân PWM và các chân không thể sử dụng đồ
 | D3 | Timer 4 | Channel 2 | |
 | D4 | Timer 4 | Channel 3 | |
 | D5 | Timer 4 | Channel 4 | |
+
+## WiFi
+
+Zerobase 2W sử dụng thư viện `WifiEspAT` để giao tiếp giữa CH32V203 và ESP8285. Khi sử dụng bạn cần download phiên bản 2.0.0 tại [**đây**](https://github.com/ChipstackLTD/WiFiEspAT/releases/download/2.0.0/WiFiEspAT-2.0.0.zip) và import thư viên vào sketch theo hướng dẫn sau
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2w/stuff/import-lib.png" alt="Import Thư viện WifiEspAT">
+    <p>Sketch > Include Library > Add .Zip Library...</p>
+</div>
+
+!> Lưu ý không cài đặt thư viện `WifiEspAT` bằng công tụ **Tools > Manage Libraries** vì nó là phiên bản cũ (1.5.0) và không được chỉnh sửa để chạy được trên Zerobase 2W
