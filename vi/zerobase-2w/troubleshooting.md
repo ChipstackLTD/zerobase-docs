@@ -52,7 +52,7 @@ Khi nạp code thành công, board sẽ tự động chạy đoạn code vừa n
 
 ## Sử dụng thư viện
 
-## Thư viện OLED `Adafruit_SSD1306`
+## Thư viện OLED Adafruit_SSD1306
 
 Nếu bạn sử dụng thư viện `Adafruit_SSD1306` và khi biên dịch IDE báo lỗi như hình dưới đây.
 
