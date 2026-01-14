@@ -112,6 +112,16 @@
           }
       }
     </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.body.addEventListener('click', function (e) {
+          // Kiểm tra nếu là click vào link trong sidebar
+          if (e.target.closest('.sidebar a')) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        });
+      });
+    </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <!-- It affect table in markdown
