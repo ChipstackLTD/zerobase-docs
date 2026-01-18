@@ -30,6 +30,13 @@ Vì board Zerobase 2 sử dụng vi điều khiển CH32V203, nên một số th
 #include <ZBPrint.h>
 ```
 
+Cần chọn **USBD** cho thư viện **TinyUSB** để có thể biên dịch thành công và sử dụng chức năng Serial over USB
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2w/stuff/select-usbd.png" alt="Chọn USBD">
+    <p>Chọn USBD như hình</p>
+</div>
+
 ### Các chân Serial
 
 Board Zerobase 2 có ba cổng UART: Serial1, Serial2, Serial3.
@@ -58,6 +65,16 @@ Zerobase 2 có hai cổng I2C: Wire và Wire1.
 | :--|:--|:--| :--|
 | Wire | I2C2 | D18 | D19 |
 | Wire1 | I2C1 | D3 (D+) | D2 (D-) |
+
+### Giao tiếp với các module QWIIC
+
+Khi nối Zerobase vào các module hỗ trợ QWIIC, cần làm các việc sau:
+- Trên các module QWIIC, có ít nhất 1 module và không quá 2 module bật chế độ điện trở kéo (bằng jumper)
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2/QWIIC-Note-2.png" alt="QWIIC Wiring">
+    <p>Nối dây QWIIC</p>
+</div>
 
 ## SPI
 

@@ -62,6 +62,17 @@ Mặc định, chế độ hoạt động của Zerobase là chế độ master.
 |:--|:--| :--|
 | Wire |D18 | D19 |
 
+### Giao tiếp với các module QWIIC
+
+Khi nối Zerobase vào các module hỗ trợ QWIIC, cần làm các việc sau:
+- Hàn cổng SH 1.0 4 chân. Đây là thao tác khó, không dành cho người mới
+- Trên các module QWIIC, có ít nhất 1 module và không quá 2 module bật chế độ điện trở kéo (bằng jumper)
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase/QWIIC-Note-1.png" alt="QWIIC Wiring">
+    <p>Nối dây QWIIC</p>
+</div>
+
 ## SPI
 
 ### Các chân SPI

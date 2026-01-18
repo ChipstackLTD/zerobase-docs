@@ -68,6 +68,16 @@ Zerobase 2W có hai cổng I2C: Wire và Wire1.
 | Wire | I2C2 | D18 | D19 |
 | Wire1 | I2C1 | D3 (D+) | D2 (D-) |
 
+### Giao tiếp với các module QWIIC
+
+Khi nối Zerobase vào các module hỗ trợ QWIIC, cần làm các việc sau:
+- Trên các module QWIIC, có ít nhất 1 module và không quá 2 module bật chế độ điện trở kéo (bằng jumper)
+
+<div align="center">
+    <img src="https://cdn.chipstack.vn/zerobase2w/QWIIC-Note-3.png" alt="QWIIC Wiring">
+    <p>Nối dây QWIIC</p>
+</div>
+
 ## SPI
 
 ### Các chân SPI
