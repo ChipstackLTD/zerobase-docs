@@ -10,10 +10,13 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
       - name: Sync docs to Open WebUI
         uses: docker://ghcr.io/open-webui/oikb:latest
         with:
-          args: sync github:${{ github.repository }} --kb-id ${{ secrets.KB_ID }}
+          args: sync . --kb-id ${{ secrets.KB_ID }}
         env:
           OPEN_WEBUI_URL: ${{ secrets.AI_URL }}
           OPEN_WEBUI_API_KEY: ${{ secrets.AI_API_KEY }}
