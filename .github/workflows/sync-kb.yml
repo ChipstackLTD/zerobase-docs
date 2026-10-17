@@ -13,7 +13,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Sync docs to Open WebUI
+      - name: Sync docs to AI
         uses: docker://ghcr.io/open-webui/oikb:latest
         with:
           args: sync . --kb-id ${{ secrets.KB_ID }}
